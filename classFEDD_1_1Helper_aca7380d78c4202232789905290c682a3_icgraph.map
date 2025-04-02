@@ -1,0 +1,29 @@
+<map id="FEDD::Helper::phi" name="FEDD::Helper::phi">
+<area shape="rect" id="Node000001" title="Get phi i." alt="" coords="732,266,855,292"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="542,266,684,292"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="717,282,684,282,684,276,717,276"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1AssembleFE__Laplace.html#aaf26b3221339fd015ee90fa2da2802ac" title="Assemble the element right hand side vector." alt="" coords="287,5,475,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="602,252,588,210,565,158,534,106,514,82,492,61,473,49,476,44,496,57,518,78,538,103,570,156,593,208,607,251"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1AssembleFENonLinLaplace.html#a1326743f2955d6790520a9e18c1a03d4" title="Assemble the element right hand side vector." alt="" coords="269,71,492,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="596,253,555,189,526,155,492,127,470,114,473,109,496,122,530,152,559,186,601,251"/>
+<area shape="rect" id="Node000005" href="$classFEDD_1_1FE.html#ab1ff7a8cf8700b25ebb7e58dc327f48a" title=" " alt="" coords="283,160,478,201"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="577,260,537,238,493,216,460,204,461,199,495,211,540,233,580,256"/>
+<area shape="rect" id="Node000006" href="$classFEDD_1_1AssembleFENavierStokes.html#a95445082e9e700036a2aedbd1fc257c4" title="Assembly advection vector field ." alt="" coords="274,225,488,266"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="526,269,488,264,489,258,527,264"/>
+<area shape="rect" id="Node000009" href="$classFEDD_1_1AssembleFENavierStokes.html#a903ab346dc6fe7ae1260c76fa0d4c824" title="Assembly advection vector field in u." alt="" coords="274,291,488,331"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="527,294,489,299,488,294,526,288"/>
+<area shape="rect" id="Node000010" href="$classFEDD_1_1FE.html#a4a8574796edf03d62d51696114482a9f" title=" " alt="" coords="268,380,494,405"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="577,302,495,345,415,381,413,377,493,341,574,297"/>
+<area shape="rect" id="Node000011" href="$classFEDD_1_1AssembleFENavierStokes.html#a68797d16d6e430320f577bd2e3c55448" title="Assembly &#160;/ ." alt="" coords="274,429,488,470"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="599,307,557,364,528,394,495,420,474,431,471,427,493,415,525,390,553,360,594,304"/>
+<area shape="rect" id="Node000012" href="$classFEDD_1_1FE.html#a72b274bce942884dad966bbbad3a5de0" title="Assembling Pressure Integral to determine pressure mean value." alt="" coords="286,519,476,559"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="604,307,564,392,534,440,496,484,469,504,439,520,437,516,466,500,492,480,529,437,560,389,599,305"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="419,147,405,141,381,139,359,141,345,145,340,151,342,159,337,160,335,150,342,141,358,135,381,133,406,136,421,142"/>
+<area shape="rect" id="Node000007" href="$classFEDD_1_1AssembleFENavierStokes.html#a0e179525f5e7a8341fb0304d28bb24a2" title="Assembly of FixedPoint&#45; Matrix (System Matrix K with current u)" alt="" coords="5,360,220,401"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="286,274,269,281,199,321,142,362,139,357,196,317,266,277,284,269"/>
+<area shape="rect" id="Node000008" href="$classFEDD_1_1AssembleFENavierStokes.html#ab3dfe0c3a4f8e3ca9eb9b7414419a982" title="Assemble the element right hand side vector." alt="" coords="5,225,220,266"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="258,248,220,248,220,243,258,243"/>
+<area shape="poly" id="edge11_Node000010_Node000010" title=" " alt="" coords="421,367,408,361,381,358,356,360,343,365,340,370,347,377,342,381,335,371,339,361,355,355,381,353,409,356,424,362"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="284,427,193,404,195,399,285,422"/>
+<area shape="poly" id="edge15_Node000012_Node000012" title=" " alt="" coords="419,506,405,500,381,497,359,499,345,504,340,510,342,517,337,519,335,509,342,500,358,494,381,492,406,494,421,501"/>
+</map>

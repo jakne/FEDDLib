@@ -1,0 +1,16 @@
+<map id="FEDD::AssembleFENonLinLaplace::assembleRHS" name="FEDD::AssembleFENonLinLaplace::assembleRHS">
+<area shape="rect" id="Node000001" title="Assemble the element right hand side vector." alt="" coords="5,78,229,119"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1AssembleFE.html#a35ada89164c74b433340733c01f30f4b" title=" " alt="" coords="277,5,462,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,75,261,58,262,64,199,80"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="294,86,445,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,96,278,96,278,101,229,101"/>
+<area shape="rect" id="Node000006" href="$classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="298,135,440,161"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="225,117,286,129,285,134,224,122"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="510,102,697,143"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,104,495,109,494,114,445,109"/>
+<area shape="rect" id="Node000005" href="$classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="529,52,678,78"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="445,85,514,75,514,81,446,90"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="441,138,494,132,495,137,441,143"/>
+<area shape="rect" id="Node000007" href="$classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="542,167,665,193"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="441,155,527,167,527,172,440,160"/>
+</map>

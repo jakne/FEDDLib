@@ -1,0 +1,21 @@
+<map id="FEDD::AssembleFEGeneralizedNewtonian::assembleRHS" name="FEDD::AssembleFEGeneralizedNewtonian::assembleRHS">
+<area shape="rect" id="Node000001" title="Assemble the element right hand side vector." alt="" coords="5,110,209,150"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1AssembleFENavierStokes.html#a95445082e9e700036a2aedbd1fc257c4" title=" " alt="" coords="257,55,471,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,112,241,107,242,112,210,117"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1AssembleFEGeneralizedNewtonian.html#a9c501ec405d0bd5b8e6364e2561740b0" title="Assembly function for shear stress tensor which includes viscosity function , which is a highly nonli..." alt="" coords="262,150,466,190"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,143,247,149,246,155,209,149"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1Helper.html#a98540dc14b095b21d9adc79ee7fd1809" title="Applying the transformation matriX B to the gradient of phi, as is done in when transforming the grad..." alt="" coords="542,5,711,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="451,147,469,135,480,124,486,112,492,88,498,64,506,52,517,40,526,34,529,39,521,44,510,55,503,66,497,90,491,114,484,127,473,139,454,152"/>
+<area shape="rect" id="Node000005" href="$classFEDD_1_1AssembleFENavierStokes.html#a267514037c5191c0253a5ecc3e84168c" title=" " alt="" coords="519,55,733,126"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="432,147,504,125,505,130,434,152"/>
+<area shape="rect" id="Node000006" href="$classFEDD_1_1AssembleFEGeneralizedNewtonian.html#aada016627843de170307fd27342535f0" title="Computation of shear rate using the current velocity solution at the nodes and the derivative of the ..." alt="" coords="524,150,728,190"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="466,168,509,168,509,173,466,173"/>
+<area shape="rect" id="Node000007" href="$classFEDD_1_1AssembleFE.html#a35ada89164c74b433340733c01f30f4b" title=" " alt="" coords="534,214,719,270"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="441,189,519,210,518,215,440,194"/>
+<area shape="rect" id="Node000008" href="$classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="550,295,702,320"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="389,189,446,235,482,259,520,280,539,287,537,292,518,285,479,264,443,239,386,193"/>
+<area shape="rect" id="Node000009" href="$classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="781,258,969,298"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="702,296,766,288,766,294,703,301"/>
+<area shape="rect" id="Node000010" href="$classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="800,323,950,348"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="703,313,785,323,785,328,702,319"/>
+</map>

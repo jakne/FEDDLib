@@ -1,0 +1,63 @@
+<map id="FEDD::Helper::getQuadratureValues" name="FEDD::Helper::getQuadratureValues">
+<area shape="rect" id="Node000001" title=" " alt="" coords="741,355,929,396"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1FE.html#ab1ff7a8cf8700b25ebb7e58dc327f48a" title=" " alt="" coords="283,870,478,910"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="832,412,820,482,796,573,778,621,755,669,728,714,695,755,646,796,591,829,533,854,478,872,477,867,531,849,588,824,643,792,691,751,724,711,751,666,773,619,790,571,815,481,827,411"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1FE.html#a7ea805b0f5879a5eac203ba6805868f7" title=" " alt="" coords="273,29,489,55"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="811,343,761,270,728,229,692,192,642,149,600,119,554,95,493,69,461,58,462,53,495,64,556,90,602,114,645,145,695,188,732,226,765,267,816,340"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1FE.html#adcf4e213a8f0a986c19e8308b81471cf" title=" " alt="" coords="274,103,488,128"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="799,347,744,300,671,244,585,189,493,143,456,131,457,126,495,138,588,184,674,240,747,296,802,343"/>
+<area shape="rect" id="Node000005" href="$classFEDD_1_1FE.html#a933964a43c17eb6c1de6c8eb62cdbfe5" title="Same as assemblyLinElasXDim except for changing E Module Value." alt="" coords="290,176,472,217"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="776,351,648,293,493,231,459,220,460,215,495,226,650,288,779,346"/>
+<area shape="rect" id="Node000006" href="$classFEDD_1_1FE.html#a72b274bce942884dad966bbbad3a5de0" title="Assembling Pressure Integral to determine pressure mean value." alt="" coords="286,1024,476,1065"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="834,411,823,496,800,610,782,673,759,735,731,796,695,852,669,884,639,913,571,962,503,1000,442,1026,440,1021,500,995,568,957,635,908,665,880,691,849,726,793,754,733,777,671,795,609,818,495,829,411"/>
+<area shape="rect" id="Node000007" href="$classFEDD_1_1FE.html#a27ac1ba294c0c90818d11fdf5d56cf2e" title="(\grad u + (\grad u)^T, \grad v ); symmetrischer Gradient, wenn func = 1.0" alt="" coords="293,265,469,291"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="726,355,444,294,445,289,727,350"/>
+<area shape="rect" id="Node000008" href="$classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="542,388,693,414"/>
+<area shape="poly" id="edge13_Node000001_Node000008" title=" " alt="" coords="726,391,694,395,694,389,725,386"/>
+<area shape="rect" id="Node000019" href="$classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="546,715,689,740"/>
+<area shape="poly" id="edge31_Node000001_Node000019" title=" " alt="" coords="815,411,629,716,625,713,811,408"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="420,857,405,851,381,848,358,850,344,855,339,861,341,869,336,870,334,860,341,851,357,845,381,843,406,846,422,852"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="422,17,408,11,381,8,356,10,342,15,339,20,346,27,342,31,334,21,339,11,355,5,381,3,410,5,424,12"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="422,90,408,84,381,81,356,83,342,88,339,93,346,101,342,104,334,94,339,84,355,78,381,76,410,79,424,85"/>
+<area shape="poly" id="edge8_Node000005_Node000005" title=" " alt="" coords="420,163,405,157,381,155,358,157,344,162,339,168,341,175,336,177,334,167,341,157,357,152,381,150,406,152,422,158"/>
+<area shape="poly" id="edge10_Node000006_Node000006" title=" " alt="" coords="420,1011,405,1005,381,1003,358,1005,344,1010,339,1016,341,1023,336,1025,334,1015,341,1005,357,1000,381,998,406,1000,422,1006"/>
+<area shape="poly" id="edge12_Node000007_Node000007" title=" " alt="" coords="422,253,408,247,381,244,356,246,342,251,339,256,346,263,342,267,334,257,339,247,355,241,381,239,410,241,424,248"/>
+<area shape="poly" id="edge15_Node000008_Node000002" title=" " alt="" coords="612,429,557,654,523,771,508,812,496,836,473,856,447,872,445,867,470,852,492,833,503,810,518,769,551,653,607,428"/>
+<area shape="poly" id="edge22_Node000008_Node000003" title=" " alt="" coords="612,373,604,309,585,226,570,183,549,141,524,102,492,68,477,58,480,53,496,64,528,98,554,138,575,181,590,225,610,308,617,372"/>
+<area shape="poly" id="edge25_Node000008_Node000004" title=" " alt="" coords="609,373,597,323,574,260,540,196,518,168,492,143,473,131,475,126,496,139,522,164,545,194,579,258,602,322,614,372"/>
+<area shape="poly" id="edge26_Node000008_Node000005" title=" " alt="" coords="602,375,585,342,560,303,529,264,492,231,471,219,473,214,496,227,533,260,565,300,589,339,607,373"/>
+<area shape="poly" id="edge29_Node000008_Node000007" title=" " alt="" coords="591,379,548,341,493,306,461,294,463,289,495,301,551,337,595,375"/>
+<area shape="rect" id="Node000009" href="$classFEDD_1_1AssembleFENonLinLaplace.html#a1326743f2955d6790520a9e18c1a03d4" title="Assemble the element right hand side vector." alt="" coords="269,576,492,617"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="605,429,563,497,532,534,496,566,473,578,470,574,492,561,528,530,558,494,601,426"/>
+<area shape="rect" id="Node000010" href="$classFEDD_1_1AssembleFENavierStokes.html#a95445082e9e700036a2aedbd1fc257c4" title="Assembly advection vector field ." alt="" coords="274,642,488,682"/>
+<area shape="poly" id="edge16_Node000008_Node000010" title=" " alt="" coords="612,430,597,474,573,528,540,583,519,609,496,631,476,644,473,639,492,627,515,605,536,580,569,525,592,472,607,428"/>
+<area shape="rect" id="Node000013" href="$classFEDD_1_1AssembleFENavierStokes.html#a903ab346dc6fe7ae1260c76fa0d4c824" title="Assembly advection vector field in u." alt="" coords="274,707,488,748"/>
+<area shape="poly" id="edge19_Node000008_Node000013" title=" " alt="" coords="615,430,604,486,583,557,567,595,548,632,524,666,496,696,478,709,474,705,492,692,520,663,543,629,562,593,578,555,599,484,610,429"/>
+<area shape="rect" id="Node000014" href="$classFEDD_1_1AssembleFENavierStokes.html#a68797d16d6e430320f577bd2e3c55448" title="Assembly &#160;/ ." alt="" coords="274,511,488,552"/>
+<area shape="poly" id="edge20_Node000008_Node000014" title=" " alt="" coords="594,427,550,464,495,501,466,513,464,508,493,496,547,460,591,423"/>
+<area shape="rect" id="Node000015" href="$classFEDD_1_1AssembleFENavierStokes.html#ad6e18c1a1a728f48dd237a7f8a6e99b2" title="Assembly function for vector values laplacian ." alt="" coords="274,446,488,486"/>
+<area shape="poly" id="edge23_Node000008_Node000015" title=" " alt="" coords="555,421,458,448,457,443,553,416"/>
+<area shape="rect" id="Node000016" href="$classFEDD_1_1AssembleFEGeneralizedNewtonian.html#a9c501ec405d0bd5b8e6364e2561740b0" title="Assembly function for shear stress tensor which includes viscosity function , which is a highly nonli..." alt="" coords="279,315,482,356"/>
+<area shape="poly" id="edge27_Node000008_Node000016" title=" " alt="" coords="553,386,457,359,458,354,555,381"/>
+<area shape="rect" id="Node000018" href="$classFEDD_1_1AssembleFEGeneralizedNewtonian.html#abffdc8a11c2919f272044ff6c1bfb5d9" title="Assembly function for directional derivative contribution of shear stress tensor term (see function f..." alt="" coords="278,380,484,421"/>
+<area shape="poly" id="edge30_Node000008_Node000018" title=" " alt="" coords="527,404,484,404,484,398,527,398"/>
+<area shape="rect" id="Node000011" href="$classFEDD_1_1AssembleFENavierStokes.html#a0e179525f5e7a8341fb0304d28bb24a2" title="Assembly of FixedPoint&#45; Matrix (System Matrix K with current u)" alt="" coords="5,511,220,552"/>
+<area shape="poly" id="edge17_Node000010_Node000011" title=" " alt="" coords="284,639,267,631,197,593,140,554,143,550,200,588,269,626,286,634"/>
+<area shape="rect" id="Node000012" href="$classFEDD_1_1AssembleFENavierStokes.html#ab3dfe0c3a4f8e3ca9eb9b7414419a982" title="Assemble the element right hand side vector." alt="" coords="5,642,220,682"/>
+<area shape="poly" id="edge18_Node000010_Node000012" title=" " alt="" coords="258,665,220,665,220,660,258,660"/>
+<area shape="poly" id="edge21_Node000014_Node000011" title=" " alt="" coords="258,534,220,534,220,529,258,529"/>
+<area shape="poly" id="edge24_Node000015_Node000011" title=" " alt="" coords="280,493,200,513,198,508,279,488"/>
+<area shape="rect" id="Node000017" href="$classFEDD_1_1AssembleFEGeneralizedNewtonian.html#a05530e76c5d7995cd52b24110d17413c" title="Assemble the element right hand side vector." alt="" coords="11,315,214,356"/>
+<area shape="poly" id="edge28_Node000016_Node000017" title=" " alt="" coords="264,338,215,338,215,333,264,333"/>
+<area shape="poly" id="edge34_Node000019_Node000002" title=" " alt="" coords="595,753,550,794,495,836,432,872,429,867,493,832,547,790,591,749"/>
+<area shape="poly" id="edge40_Node000019_Node000006" title=" " alt="" coords="612,756,598,805,574,866,540,931,520,962,496,989,470,1010,442,1026,439,1022,467,1006,492,986,515,958,536,928,569,864,593,803,607,755"/>
+<area shape="poly" id="edge33_Node000019_Node000009" title=" " alt="" coords="591,706,547,668,493,633,464,620,466,615,495,628,550,664,594,702"/>
+<area shape="poly" id="edge35_Node000019_Node000010" title=" " alt="" coords="553,713,457,686,458,681,555,708"/>
+<area shape="poly" id="edge36_Node000019_Node000013" title=" " alt="" coords="531,730,488,730,488,725,531,725"/>
+<area shape="poly" id="edge39_Node000019_Node000014" title=" " alt="" coords="601,702,558,634,528,598,492,567,470,555,473,550,496,563,532,594,563,631,605,699"/>
+<area shape="rect" id="Node000020" href="$classFEDD_1_1AssembleFE__Laplace.html#aaf26b3221339fd015ee90fa2da2802ac" title="Assemble the element right hand side vector." alt="" coords="287,935,475,976"/>
+<area shape="poly" id="edge32_Node000019_Node000020" title=" " alt="" coords="609,756,593,794,568,839,536,885,496,924,475,937,472,932,492,920,532,882,564,836,588,791,604,754"/>
+<area shape="rect" id="Node000021" href="$classFEDD_1_1FE.html#a4a8574796edf03d62d51696114482a9f" title=" " alt="" coords="268,796,494,822"/>
+<area shape="poly" id="edge37_Node000019_Node000021" title=" " alt="" coords="565,748,422,798,420,793,563,743"/>
+<area shape="poly" id="edge38_Node000021_Node000021" title=" " alt="" coords="422,784,408,777,381,775,356,777,342,781,339,787,346,794,342,797,334,787,339,778,355,771,381,769,410,772,424,779"/>
+</map>
