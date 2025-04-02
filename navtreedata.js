@@ -24,9 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Finite Element Domain Decomposition Library", "index.html", [
-    [ "FEDDLib", "md_README.html", null ]
-  ] ]
+  [ "Finite Element Domain Decomposition Library", "index.html", ]
 ];
 
 var NAVTREEINDEX =
