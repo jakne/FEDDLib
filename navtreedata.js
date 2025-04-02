@@ -24,12 +24,36 @@
 */
 var NAVTREE =
 [
-  [ "Finite Element Domain Decomposition Library", "index.html", ]
+  [ "Finite Element Domain Decomposition Library", "index.html", [
+    [ "Todo List", "todo.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"AABBTree_8hpp_source.html",
+"classFEDD_1_1AdaptiveMeshRefinement.html",
+"classFEDD_1_1BCBuilder.html#a8f5210f0fc644f81d938225973f2353d",
+"classFEDD_1_1ErrorEstimation.html#a49f28452f08ee5a75220089b1d9c4b61",
+"classFEDD_1_1Mesh.html#a9e89a263b222d68acec4b70224f54780",
+"classFEDD_1_1RefinementFactory.html#a9b8e1447e7b600ba3816c0171ca0a262",
+"structConvergenceOptions.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
