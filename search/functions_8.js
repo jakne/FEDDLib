@@ -10,5 +10,6 @@ var searchData=
   ['initwithdomain_7',['initWithDomain',['../classFEDD_1_1Domain.html#a9d884b00bdbb13f43e06435db5c65ee9',1,'FEDD::Domain']]],
   ['inputtooutputmappingclass_8',['InputToOutputMappingClass',['../classFEDD_1_1InputToOutputMappingClass.html#a97dc768e3cb05a6ba2016420e2c91a6e',1,'FEDD::InputToOutputMappingClass']]],
   ['insertglobalvalues_9',['insertGlobalValues',['../classFEDD_1_1Matrix.html#a8a15f253461212f52905c75c37c7aaf7',1,'FEDD::Matrix']]],
-  ['isfillcomplete_10',['isFillComplete',['../classFEDD_1_1Matrix.html#a95c7c48f147c7be5246e02aa362e4766',1,'FEDD::Matrix']]]
+  ['is_5fnull_10',['is_null',['../classFEDD_1_1MultiVector.html#a4eead56562530b5f87b1d48466ca3b29',1,'FEDD::MultiVector']]],
+  ['isfillcomplete_11',['isFillComplete',['../classFEDD_1_1Matrix.html#a95c7c48f147c7be5246e02aa362e4766',1,'FEDD::Matrix']]]
 ];

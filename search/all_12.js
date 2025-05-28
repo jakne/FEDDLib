@@ -1,7 +1,7 @@
 var searchData=
 [
   ['u_5fimport_5fepetra_5f_0',['u_import_Epetra_',['../classFEDD_1_1HDF5Import.html#a8b18512c9323900d174b9fcdd1182646',1,'FEDD::HDF5Import']]],
-  ['u_5fimport_5fxpetra_5f_1',['u_import_Xpetra_',['../classFEDD_1_1HDF5Import.html#a1ccbc376e075a1ee228b83d995b3f456',1,'FEDD::HDF5Import']]],
+  ['u_5fimport_5ftpetra_5f_1',['u_import_Tpetra_',['../classFEDD_1_1HDF5Import.html#a95425675a08aef7f2da9333576411a8c',1,'FEDD::HDF5Import']]],
   ['uninitialize_2',['uninitialize',['../classFEDD_1_1PreconditionerOperator.html#a5063ade275eb107363d1137c0c8dc487',1,'FEDD::PreconditionerOperator']]],
   ['updateelementsofedgeslocalandglobal_3',['updateElementsOfEdgesLocalAndGlobal',['../classFEDD_1_1RefinementFactory.html#a2ebf82a5deb92e26a48805fd470f6840',1,'FEDD::RefinementFactory']]],
   ['updateelementsofsurfacelocalandglobal_4',['updateElementsOfSurfaceLocalAndGlobal',['../classFEDD_1_1ErrorEstimation.html#ab4e45f837a9605396828ff330ac53630',1,'FEDD::ErrorEstimation']]],

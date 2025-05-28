@@ -40,5 +40,5 @@ var searchData=
   ['buildtransformationsurface_37',['buildTransformationSurface',['../classFEDD_1_1Helper.html#a1c1108e8459c220c4e96d81bf19142c0',1,'FEDD::Helper']]],
   ['buildtrianglemap_38',['buildTriangleMap',['../classFEDD_1_1ErrorEstimation.html#a7bf02e0d688631bb71d3263841dd59e0',1,'FEDD::ErrorEstimation']]],
   ['builduniqueinterfacemaps_39',['buildUniqueInterfaceMaps',['../classFEDD_1_1Domain.html#a41b784cb22cb50300882951b40d9d942',1,'FEDD::Domain']]],
-  ['builduniquemap_40',['buildUniqueMap',['../classFEDD_1_1Map.html#a6418215dd767a2adbb653471cacab009',1,'FEDD::Map']]]
+  ['builduniquemap_40',['buildUniqueMap',['../classFEDD_1_1Map.html#a6418215dd767a2adbb653471cacab009',1,'FEDD::Map::buildUniqueMap()'],['../classFEDD_1_1Map__Xpetra.html#a45585db3202be9cfa6a779b28fe24357',1,'FEDD::Map_Xpetra::buildUniqueMap()']]]
 ];

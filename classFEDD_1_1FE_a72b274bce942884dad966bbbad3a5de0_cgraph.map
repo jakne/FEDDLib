@@ -5,7 +5,7 @@
 <area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="196,47,270,32,271,37,197,52"/>
 <area shape="rect" id="Node000003" href="$classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="282,107,424,132"/>
 <area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="197,85,271,100,270,106,196,91"/>
-<area shape="rect" id="Node000004" href="$classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="511,48,698,89"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="511,48,698,89"/>
 <area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="196,66,496,66,496,72,196,72"/>
 <area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="420,103,495,88,496,93,421,109"/>
 <area shape="rect" id="Node000005" href="$classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="544,113,666,139"/>

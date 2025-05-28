@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Applying the transformation matriX B to the gradient of phi, as is done in when transforming the grad..." alt="" coords="586,209,755,234"/>
 <area shape="rect" id="Node000002" href="$classFEDD_1_1AssembleFENavierStokes.html#a95445082e9e700036a2aedbd1fc257c4" title="Assembly advection vector field ." alt="" coords="296,5,510,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="653,196,607,128,574,92,537,61,509,48,512,43,539,57,578,88,611,125,657,193"/>
-<area shape="rect" id="Node000005" href="$classFEDD_1_1AssembleFENavierStokes.html#a903ab346dc6fe7ae1260c76fa0d4c824" title="Assembly advection vector field in u." alt="" coords="296,71,510,111"/>
+<area shape="rect" id="Node000005" href="$classFEDD_1_1AssembleFENavierStokes.html#a903ab346dc6fe7ae1260c76fa0d4c824" title="Assembly advection vector field in u &#160;&#160;TODO: [JK] What is this? Is this the portion that needs to be ..." alt="" coords="296,71,510,111"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="642,200,595,162,537,127,505,114,507,109,539,122,598,158,646,196"/>
 <area shape="rect" id="Node000006" href="$classFEDD_1_1AssembleFENavierStokes.html#a68797d16d6e430320f577bd2e3c55448" title="Assembly &#160;/ ." alt="" coords="296,136,510,177"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="600,207,489,180,490,175,601,202"/>

@@ -76,6 +76,7 @@ var hierarchy =
     [ "IterationHistoryStruct", "structIterationHistoryStruct.html", null ],
     [ "FEDD::LinearSolver< SC, LO, GO, NO >", "classFEDD_1_1LinearSolver.html", null ],
     [ "FEDD::Map< LO, GO, NO >", "classFEDD_1_1Map.html", null ],
+    [ "FEDD::Map_Xpetra< LO, GO, NO >", "classFEDD_1_1Map__Xpetra.html", null ],
     [ "FEDD::Matrix< SC, LO, GO, NO >", "classFEDD_1_1Matrix.html", null ],
     [ "FEDD::Mesh< SC, LO, GO, NO >", "classFEDD_1_1Mesh.html", null ],
     [ "FEDD::Mesh< default_sc, default_lo, default_go, default_no >", "classFEDD_1_1Mesh.html", [

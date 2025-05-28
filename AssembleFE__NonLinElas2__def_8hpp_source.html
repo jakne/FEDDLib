@@ -240,7 +240,7 @@ $(function(){initNavTree('AssembleFE__NonLinElas2__def_8hpp_source.html',''); in
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="comment">// std::cout &lt;&lt; &quot;[DEBUG] SKR-Rhs Call successful!&quot; &lt;&lt; std::endl;</span></div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt; p.size(); i++)</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        (*this-&gt;rhsVec_)[i] = p[i];</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>        (*this-&gt;rhsVec_)[i] = -p[i];</div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>}</div>
 </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> SC, <span class="keyword">class</span> LO, <span class="keyword">class</span> GO, <span class="keyword">class</span> NO&gt;</div>

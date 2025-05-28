@@ -21,7 +21,9 @@ var searchData=
   ['refinetype4_18',['refineType4',['../classFEDD_1_1RefinementFactory.html#addf40c0e45ec368e721226356f74b10c',1,'FEDD::RefinementFactory']]],
   ['refineuniform_19',['refineUniform',['../classFEDD_1_1AdaptiveMeshRefinement.html#a4ceb419a2cc35a7c3bc3dc17e58b96d8',1,'FEDD::AdaptiveMeshRefinement']]],
   ['reorderp2surfaceindices_20',['reorderP2SurfaceIndices',['../classFEDD_1_1MeshUnstructured.html#aa6819a39978d03238b34f865112ed713',1,'FEDD::MeshUnstructured']]],
-  ['replaceglobalvalues_21',['replaceGlobalValues',['../classFEDD_1_1Matrix.html#a38171cf5dc98f2c3c57d08e22d202b7f',1,'FEDD::Matrix']]],
-  ['replacelocalvalues_22',['replaceLocalValues',['../classFEDD_1_1Matrix.html#a3544253497eaa0762112537546138fcf',1,'FEDD::Matrix']]],
-  ['resumefill_23',['resumeFill',['../classFEDD_1_1Matrix.html#ac2f4ffec6b12b2520307f603f59886a3',1,'FEDD::Matrix']]]
+  ['replaceglobalvalue_21',['replaceGlobalValue',['../classFEDD_1_1MultiVector.html#a898f91848ee7a237d4691818ed3f8b03',1,'FEDD::MultiVector']]],
+  ['replaceglobalvalues_22',['replaceGlobalValues',['../classFEDD_1_1Matrix.html#a38171cf5dc98f2c3c57d08e22d202b7f',1,'FEDD::Matrix']]],
+  ['replacelocalvalue_23',['replaceLocalValue',['../classFEDD_1_1MultiVector.html#a0c4f103d9b266f06c0800b5de0ff8954',1,'FEDD::MultiVector']]],
+  ['replacelocalvalues_24',['replaceLocalValues',['../classFEDD_1_1Matrix.html#a3544253497eaa0762112537546138fcf',1,'FEDD::Matrix']]],
+  ['resumefill_25',['resumeFill',['../classFEDD_1_1Matrix.html#ac2f4ffec6b12b2520307f603f59886a3',1,'FEDD::Matrix']]]
 ];

@@ -31,5 +31,6 @@ var searchData=
   ['setsurfacestoelements_28',['setSurfacesToElements',['../classFEDD_1_1MeshPartitioner.html#a941a1bbe330a5599f4c86713be8dad5b',1,'FEDD::MeshPartitioner']]],
   ['setsystem_29',['setSystem',['../classFEDD_1_1BCBuilder.html#a2d2b064c1a50b229c015bd599a66c7f1',1,'FEDD::BCBuilder']]],
   ['settocorrectelement_30',['setToCorrectElement',['../classFEDD_1_1Elements.html#a4c85e1340ba638ad26cb83ce881b4789',1,'FEDD::Elements']]],
-  ['setvectorminusbc_31',['setVectorMinusBC',['../classFEDD_1_1BCBuilder.html#a0f6f3d4ddedfe54b8351f7c9a849c1fb',1,'FEDD::BCBuilder']]]
+  ['setvectorminusbc_31',['setVectorMinusBC',['../classFEDD_1_1BCBuilder.html#a0f6f3d4ddedfe54b8351f7c9a849c1fb',1,'FEDD::BCBuilder']]],
+  ['sumintoglobalvalue_32',['sumIntoGlobalValue',['../classFEDD_1_1MultiVector.html#a8b6e3c804e9f8bedbb3339f2b762b53a',1,'FEDD::MultiVector']]]
 ];

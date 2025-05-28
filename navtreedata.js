@@ -36,7 +36,9 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -48,12 +50,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AABBTree_8hpp_source.html",
-"classFEDD_1_1AdaptiveMeshRefinement.html",
-"classFEDD_1_1BCBuilder.html#a8f5210f0fc644f81d938225973f2353d",
-"classFEDD_1_1ErrorEstimation.html#a49f28452f08ee5a75220089b1d9c4b61",
-"classFEDD_1_1Mesh.html#a9e89a263b222d68acec4b70224f54780",
-"classFEDD_1_1RefinementFactory.html#a9b8e1447e7b600ba3816c0171ca0a262",
-"structConvergenceOptions.html"
+"classAssembleFE__SCI__SMC__MLCK.html",
+"classFEDD_1_1BCBuilder.html#a4028cf583fa3693387fe390f51724f94",
+"classFEDD_1_1ErrorEstimation.html#a2ab423f274ba3b7d8c248e57f791f42a",
+"classFEDD_1_1Mesh.html#a53731e7da2a9db541cadbcdf35b83cf2",
+"classFEDD_1_1PreconditionerOperator.html#aab990011035f5a76e127a4d1ae0f5dbe",
+"pfeapb_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

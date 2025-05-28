@@ -280,15 +280,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyLaplaceVecFie
 <tr class="memitem:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4" id="r_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcc9dcbbd1f1e8d4c6b4984bef0ddb4">assemblyNonlinearLaplace</a> (int dim, std::string FEType, int degree, MultiVectorPtr_Type u_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
 <tr class="memdesc:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Laplace.html">Laplace</a> example.  <br /></td></tr>
 <tr class="separator:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3890eec1b6a24744691b921e766c599" id="r_ab3890eec1b6a24744691b921e766c599"><td class="memItemLeft" align="right" valign="top"><a id="ab3890eec1b6a24744691b921e766c599" name="ab3890eec1b6a24744691b921e766c599"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyLinearReactionTerm</b> (int dim, std::string FEType, MatrixPtr_Type &amp;A, bool callFillComplete, std::vector&lt; SC &gt; &amp;funcParameter, RhsFunc_Type reactionFunc)</td></tr>
-<tr class="separator:ab3890eec1b6a24744691b921e766c599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6b2ae6be506954c83b688c2bf3038f1" id="r_aa6b2ae6be506954c83b688c2bf3038f1"><td class="memItemLeft" align="right" valign="top"><a id="aa6b2ae6be506954c83b688c2bf3038f1" name="aa6b2ae6be506954c83b688c2bf3038f1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyReactionTerm</b> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type u, bool callFillComplete, std::vector&lt; SC &gt; &amp;funcParameter, RhsFunc_Type reactionFunc)</td></tr>
-<tr class="separator:aa6b2ae6be506954c83b688c2bf3038f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a26b29038424badc09b42e7d469aa24" id="r_a8a26b29038424badc09b42e7d469aa24"><td class="memItemLeft" align="right" valign="top"><a id="a8a26b29038424badc09b42e7d469aa24" name="a8a26b29038424badc09b42e7d469aa24"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyDReactionTerm</b> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type u, bool callFillComplete, std::vector&lt; SC &gt; &amp;funcParameter, RhsFunc_Type reactionFunc)</td></tr>
-<tr class="separator:a8a26b29038424badc09b42e7d469aa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933964a43c17eb6c1de6c8eb62cdbfe5" id="r_a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933964a43c17eb6c1de6c8eb62cdbfe5">assemblyLinElasXDimE</a> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type eModVec, double nu, bool callFillComplete=true)</td></tr>
 <tr class="memdesc:a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as assemblyLinElasXDim except for changing E Module Value.  <br /></td></tr>
 <tr class="separator:a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,15 +300,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyElasticityStr
 <tr class="separator:ae219322802fba4bbd760e5e99c315958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a884513e6f5c732191b52ec80c18c2a07" id="r_a884513e6f5c732191b52ec80c18c2a07"><td class="memItemLeft" align="right" valign="top"><a id="a884513e6f5c732191b52ec80c18c2a07" name="a884513e6f5c732191b52ec80c18c2a07"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyAdvectionVecField</b> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type u, bool callFillComplete)</td></tr>
+<tr class="memdesc:a884513e6f5c732191b52ec80c18c2a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of operator \int ((u_h \cdot \nabla ) v_h)v_h dx. <br /></td></tr>
 <tr class="separator:a884513e6f5c732191b52ec80c18c2a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f695e32739a3fca232110d33c24013b" id="r_a8f695e32739a3fca232110d33c24013b"><td class="memItemLeft" align="right" valign="top"><a id="a8f695e32739a3fca232110d33c24013b" name="a8f695e32739a3fca232110d33c24013b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyAdvectionInUVecField</b> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type u, bool callFillComplete)</td></tr>
+<tr class="memdesc:a8f695e32739a3fca232110d33c24013b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of operator \int ((v_h \cdot \nabla ) u_h)v_h dx. <br /></td></tr>
 <tr class="separator:a8f695e32739a3fca232110d33c24013b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2450ea597a2a54d067adef6b27f56b34" id="r_a2450ea597a2a54d067adef6b27f56b34"><td class="memItemLeft" align="right" valign="top"><a id="a2450ea597a2a54d067adef6b27f56b34" name="a2450ea597a2a54d067adef6b27f56b34"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyDivAndDivT</b> (int dim, std::string FEType1, std::string FEType2, int degree, MatrixPtr_Type &amp;Bmat, MatrixPtr_Type &amp;BTmat, MapConstPtr_Type map1, MapConstPtr_Type map2, bool callFillComplete=true)</td></tr>
+<tr class="memdesc:a2450ea597a2a54d067adef6b27f56b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of \int q_h (nabla \cdot v_h) dx. <br /></td></tr>
 <tr class="separator:a2450ea597a2a54d067adef6b27f56b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a661127e7bb58b7dfe810d8a1b8bff0fe" id="r_a661127e7bb58b7dfe810d8a1b8bff0fe"><td class="memItemLeft" align="right" valign="top"><a id="a661127e7bb58b7dfe810d8a1b8bff0fe" name="a661127e7bb58b7dfe810d8a1b8bff0fe"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyDivAndDivTFast</b> (int dim, std::string FEType1, std::string FEType2, int degree, MatrixPtr_Type &amp;Bmat, MatrixPtr_Type &amp;BTmat, MapConstPtr_Type map1, MapConstPtr_Type map2, bool callFillComplete=true)</td></tr>
+<tr class="memdesc:a661127e7bb58b7dfe810d8a1b8bff0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of \int q_h (nabla \cdot v_h) dx. <br /></td></tr>
 <tr class="separator:a661127e7bb58b7dfe810d8a1b8bff0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a8574796edf03d62d51696114482a9f" id="r_a4a8574796edf03d62d51696114482a9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a8574796edf03d62d51696114482a9f">assemblyBDStabilization</a> (int dim, std::string FEType, MatrixPtr_Type &amp;A, bool callFillComplete=true)</td></tr>
 <tr class="separator:a4a8574796edf03d62d51696114482a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +325,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyStress</b> (i
 <tr class="memitem:adcf4e213a8f0a986c19e8308b81471cf" id="r_adcf4e213a8f0a986c19e8308b81471cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf4e213a8f0a986c19e8308b81471cf">assemblyLinElasXDim</a> (int dim, std::string FEType, MatrixPtr_Type &amp;A, double lambda, double mu, bool callFillComplete=true)</td></tr>
 <tr class="separator:adcf4e213a8f0a986c19e8308b81471cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ff7a8cf8700b25ebb7e58dc327f48a" id="r_ab1ff7a8cf8700b25ebb7e58dc327f48a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1ff7a8cf8700b25ebb7e58dc327f48a">assemblyAdditionalConvection</a> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type w, bool callFillComplete=true)</td></tr>
+<tr class="memdesc:ab1ff7a8cf8700b25ebb7e58dc327f48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Addional <a class="el" href="classFEDD_1_1Matrix.html">Matrix</a> due to ALE derivation: \int \rho_f div(w) u_h \cdot v_f dx, with mesh velocity w.  <br /></td></tr>
 <tr class="separator:ab1ff7a8cf8700b25ebb7e58dc327f48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77cc529a8595a85243d68c6df87341d8" id="r_a77cc529a8595a85243d68c6df87341d8"><td class="memItemLeft" align="right" valign="top"><a id="a77cc529a8595a85243d68c6df87341d8" name="a77cc529a8595a85243d68c6df87341d8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyFSICoupling</b> (int dim, std::string FEType, MatrixPtr_Type &amp;C, MatrixPtr_Type &amp;C_T, int FEloc1, int FEloc2, MapConstPtr_Type map1, MapConstPtr_Type map2, bool callFillComplete=true)</td></tr>
@@ -660,28 +656,32 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Addional <a class="el" href="classFEDD_1_1Matrix.html">Matrix</a> due to ALE derivation: \int \rho_f div(w) u_h \cdot v_f dx, with mesh velocity w. </p>
 <p>Dieser Term entsteht durch schwache Formulierung der ALE-Zeitableitung und bleibt in nicht-conservativer Form vorhanden. In conservativer Form "verschwindet" der Term in die conservative Form der Konvektion. Das betrachten wir aber nicht. Der Term lautet: (\grad \cdot w) u \cdot v und wir bei der endgueltigen Assemblierung subtrahiert. Also -(\grad \cdot w) u \cdot v </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_cgraph" id="aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,72,201,113"/>
-<area shape="poly" title=" " alt="" coords="55,73,53,62,61,53,77,48,103,46,130,48,147,54,145,59,129,53,103,51,79,53,64,58,58,64,60,71"/>
+<area shape="rect" title="Addional Matrix due to ALE derivation: \int \rho_f div(w) u_h \cdot v_f dx, with mesh velocity w." alt="" coords="5,96,201,137"/>
+<area shape="poly" title=" " alt="" coords="55,97,53,86,61,77,77,72,103,70,130,72,147,78,145,83,129,77,103,75,79,77,64,82,58,88,60,95"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="249,5,468,31"/>
-<area shape="poly" title=" " alt="" coords="158,69,248,40,275,32,277,38,249,45,160,74"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="283,55,434,80"/>
-<area shape="poly" title=" " alt="" coords="201,80,267,74,267,79,202,86"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="516,98,703,138"/>
-<area shape="poly" title=" " alt="" coords="201,95,501,110,500,115,201,100"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="287,156,430,182"/>
-<area shape="poly" title=" " alt="" coords="173,111,249,134,297,149,296,154,248,139,172,116"/>
-<area shape="poly" title=" " alt="" coords="426,78,501,94,500,99,425,84"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="535,48,684,74"/>
-<area shape="poly" title=" " alt="" coords="435,63,519,61,519,66,435,68"/>
-<area shape="poly" title=" " alt="" coords="425,153,500,138,501,143,426,158"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="548,163,671,188"/>
-<area shape="poly" title=" " alt="" coords="430,168,533,171,533,176,430,173"/>
+<area shape="poly" title=" " alt="" coords="137,94,188,66,248,40,269,33,270,38,250,45,190,71,139,98"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1" title="Determine polynomial degree of a finite element basis function or its gradient that is required to se..." alt="" coords="257,55,460,80"/>
+<area shape="poly" title=" " alt="" coords="201,95,273,81,274,86,202,101"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of gradient of a basis function for each quadrature point." alt="" coords="283,104,434,130"/>
+<area shape="poly" title=" " alt="" coords="201,114,267,114,267,120,201,120"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="516,147,703,188"/>
+<area shape="poly" title=" " alt="" coords="202,133,249,140,380,152,501,160,501,165,379,158,248,145,201,138"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="287,205,430,231"/>
+<area shape="poly" title=" " alt="" coords="145,135,250,184,292,198,290,203,248,189,142,140"/>
+<area shape="poly" title=" " alt="" coords="426,128,501,143,500,148,425,133"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="535,97,684,123"/>
+<area shape="poly" title=" " alt="" coords="435,112,519,110,519,115,435,117"/>
+<area shape="poly" title=" " alt="" coords="425,202,500,187,501,192,426,207"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="548,212,671,238"/>
+<area shape="poly" title=" " alt="" coords="430,217,533,220,533,225,430,223"/>
 </map>
 </div>
 <div class="dynheader">
@@ -689,7 +689,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_icgraph" id="aclassFEDD_1_1FE_ab1ff7a8cf8700b25ebb7e58dc327f48a_icgraph">
-<area shape="rect" title=" " alt="" coords="5,29,201,70"/>
+<area shape="rect" title="Addional Matrix due to ALE derivation: \int \rho_f div(w) u_h \cdot v_f dx, with mesh velocity w." alt="" coords="5,29,201,70"/>
 <area shape="poly" title=" " alt="" coords="135,16,123,10,103,8,85,10,73,15,69,20,71,28,66,29,64,19,70,10,83,5,103,3,124,5,137,11"/>
 </map>
 </div>
@@ -732,16 +732,18 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_a4a8574796edf03d62d51696114482a9f_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a4a8574796edf03d62d51696114482a9f_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_a4a8574796edf03d62d51696114482a9f_cgraph" id="aclassFEDD_1_1FE_a4a8574796edf03d62d51696114482a9f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,232,56"/>
-<area shape="poly" title=" " alt="" coords="74,32,65,22,71,12,89,6,119,4,153,7,169,14,167,19,151,12,118,9,90,11,74,16,71,21,78,28"/>
+<area shape="rect" title=" " alt="" coords="5,55,232,80"/>
+<area shape="poly" title=" " alt="" coords="74,56,65,46,71,36,89,30,119,28,153,31,169,38,167,43,151,36,118,33,90,35,74,40,71,45,78,52"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="280,5,499,31"/>
-<area shape="poly" title=" " alt="" coords="232,30,264,27,264,33,232,36"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="318,55,460,80"/>
-<area shape="poly" title=" " alt="" coords="232,51,303,57,302,62,232,56"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="547,18,734,58"/>
-<area shape="poly" title=" " alt="" coords="460,57,531,48,532,54,461,62"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="580,83,702,108"/>
-<area shape="poly" title=" " alt="" coords="461,73,564,84,564,90,460,78"/>
+<area shape="poly" title=" " alt="" coords="193,51,299,32,300,37,194,57"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1" title="Determine polynomial degree of a finite element basis function or its gradient that is required to se..." alt="" coords="288,55,491,80"/>
+<area shape="poly" title=" " alt="" coords="232,65,272,65,272,70,232,70"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="318,104,460,130"/>
+<area shape="poly" title=" " alt="" coords="194,78,303,99,302,104,193,84"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="547,67,734,108"/>
+<area shape="poly" title=" " alt="" coords="460,106,531,98,532,103,461,111"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="580,132,702,158"/>
+<area shape="poly" title=" " alt="" coords="461,122,564,134,564,139,460,127"/>
 </map>
 </div>
 <div class="dynheader">
@@ -881,17 +883,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_a7ea805b0f5879a5eac203ba6805868f7_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a7ea805b0f5879a5eac203ba6805868f7_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_a7ea805b0f5879a5eac203ba6805868f7_cgraph" id="aclassFEDD_1_1FE_a7ea805b0f5879a5eac203ba6805868f7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,222,82"/>
-<area shape="poly" title=" " alt="" coords="70,57,61,47,66,37,84,31,114,29,147,32,163,40,161,45,146,37,113,35,85,37,70,42,66,47,74,54"/>
+<area shape="rect" title=" " alt="" coords="5,80,222,106"/>
+<area shape="poly" title=" " alt="" coords="70,81,61,71,66,61,84,55,114,53,147,56,163,64,161,69,146,61,113,59,85,61,70,66,66,71,74,78"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="270,5,489,31"/>
-<area shape="poly" title=" " alt="" coords="184,53,293,32,294,37,185,58"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="304,107,455,132"/>
-<area shape="poly" title=" " alt="" coords="185,80,294,101,293,106,184,85"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="537,48,724,89"/>
-<area shape="poly" title=" " alt="" coords="222,66,522,66,522,72,222,72"/>
-<area shape="poly" title=" " alt="" coords="446,103,521,88,522,93,447,109"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="556,113,705,139"/>
-<area shape="poly" title=" " alt="" coords="456,119,540,121,540,126,456,124"/>
+<area shape="poly" title=" " alt="" coords="151,77,269,40,297,32,298,38,270,45,153,82"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1" title="Determine polynomial degree of a finite element basis function or its gradient that is required to se..." alt="" coords="278,55,481,80"/>
+<area shape="poly" title=" " alt="" coords="222,80,262,76,263,81,223,85"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of gradient of a basis function for each quadrature point." alt="" coords="304,156,455,182"/>
+<area shape="poly" title=" " alt="" coords="162,104,318,149,317,154,161,109"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="537,98,724,138"/>
+<area shape="poly" title=" " alt="" coords="222,95,522,110,521,116,222,101"/>
+<area shape="poly" title=" " alt="" coords="446,153,521,138,522,143,447,158"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="556,163,705,188"/>
+<area shape="poly" title=" " alt="" coords="456,168,540,170,540,176,456,174"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1088,17 +1092,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_adcf4e213a8f0a986c19e8308b81471cf_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_adcf4e213a8f0a986c19e8308b81471cf_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_adcf4e213a8f0a986c19e8308b81471cf_cgraph" id="aclassFEDD_1_1FE_adcf4e213a8f0a986c19e8308b81471cf_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,219,82"/>
-<area shape="poly" title=" " alt="" coords="69,57,60,47,65,37,83,31,112,29,145,32,161,39,159,44,143,37,112,35,84,37,69,42,65,47,73,54"/>
+<area shape="rect" title=" " alt="" coords="5,80,219,106"/>
+<area shape="poly" title=" " alt="" coords="69,81,60,71,65,61,83,55,112,53,145,56,161,63,159,68,143,61,112,59,84,61,69,66,65,71,73,78"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="267,5,486,31"/>
-<area shape="poly" title=" " alt="" coords="182,53,291,32,292,37,183,58"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="301,107,452,132"/>
-<area shape="poly" title=" " alt="" coords="183,80,292,101,291,106,182,85"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="534,48,721,89"/>
-<area shape="poly" title=" " alt="" coords="219,66,519,66,519,72,219,72"/>
-<area shape="poly" title=" " alt="" coords="443,103,518,88,519,93,444,109"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="553,113,702,139"/>
-<area shape="poly" title=" " alt="" coords="453,119,537,121,537,126,453,124"/>
+<area shape="poly" title=" " alt="" coords="149,77,266,40,294,32,295,38,267,45,151,82"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1" title="Determine polynomial degree of a finite element basis function or its gradient that is required to se..." alt="" coords="275,55,478,80"/>
+<area shape="poly" title=" " alt="" coords="219,80,259,76,259,81,219,85"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of gradient of a basis function for each quadrature point." alt="" coords="301,156,452,182"/>
+<area shape="poly" title=" " alt="" coords="160,104,315,149,313,154,159,109"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="534,98,721,138"/>
+<area shape="poly" title=" " alt="" coords="219,95,519,110,519,116,219,101"/>
+<area shape="poly" title=" " alt="" coords="443,153,518,138,519,143,444,158"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="553,163,702,188"/>
+<area shape="poly" title=" " alt="" coords="453,168,537,170,537,176,453,174"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1161,17 +1167,19 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classFEDD_1_1FE_a933964a43c17eb6c1de6c8eb62cdbfe5_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a933964a43c17eb6c1de6c8eb62cdbfe5_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1FE_a933964a43c17eb6c1de6c8eb62cdbfe5_cgraph" id="aclassFEDD_1_1FE_a933964a43c17eb6c1de6c8eb62cdbfe5_cgraph">
-<area shape="rect" title="Same as assemblyLinElasXDim except for changing E Module Value." alt="" coords="5,48,187,89"/>
-<area shape="poly" title=" " alt="" coords="49,49,47,38,55,29,71,24,96,22,123,24,139,30,137,35,122,29,96,27,72,29,58,34,52,40,55,47"/>
+<area shape="rect" title="Same as assemblyLinElasXDim except for changing E Module Value." alt="" coords="5,72,187,113"/>
+<area shape="poly" title=" " alt="" coords="49,73,47,62,55,53,71,48,96,46,123,48,139,54,137,59,122,53,96,51,72,53,58,58,52,64,55,71"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="235,5,454,31"/>
-<area shape="poly" title=" " alt="" coords="187,48,262,32,264,37,188,53"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of grad phi per quadvalue." alt="" coords="269,107,420,132"/>
-<area shape="poly" title=" " alt="" coords="188,85,264,100,262,106,187,90"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="502,48,689,89"/>
-<area shape="poly" title=" " alt="" coords="187,66,486,66,486,72,187,72"/>
-<area shape="poly" title=" " alt="" coords="411,103,486,88,487,93,412,109"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="521,113,670,139"/>
-<area shape="poly" title=" " alt="" coords="421,119,505,121,505,126,421,124"/>
+<area shape="poly" title=" " alt="" coords="148,69,234,40,260,33,261,38,235,45,150,74"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1" title="Determine polynomial degree of a finite element basis function or its gradient that is required to se..." alt="" coords="243,55,446,80"/>
+<area shape="poly" title=" " alt="" coords="187,81,227,77,227,82,187,86"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#aec6f9bc4208c7ce02f2bebad7a98e7d1" title="Full matrix representation of gradient of a basis function for each quadrature point." alt="" coords="269,156,420,182"/>
+<area shape="poly" title=" " alt="" coords="162,111,235,134,283,149,281,154,234,139,161,116"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="502,98,689,138"/>
+<area shape="poly" title=" " alt="" coords="187,95,486,110,486,115,187,100"/>
+<area shape="poly" title=" " alt="" coords="411,153,486,138,487,143,412,158"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37" title="Returning gradient of phi evaluated at the quadrature points." alt="" coords="521,163,670,188"/>
+<area shape="poly" title=" " alt="" coords="421,168,505,170,505,176,421,174"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1738,7 +1746,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="196,47,270,32,271,37,197,52"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#ac15451b565dee93fa08b63c7a2957480" title="Get basisfunction phi per quadrature point." alt="" coords="282,107,424,132"/>
 <area shape="poly" title=" " alt="" coords="197,85,271,100,270,106,196,91"/>
-<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title=" " alt="" coords="511,48,698,89"/>
+<area shape="rect" href="classFEDD_1_1Helper.html#afed2032e131e00f658402817f66d9cfd" title="Get quadrature formula." alt="" coords="511,48,698,89"/>
 <area shape="poly" title=" " alt="" coords="196,66,496,66,496,72,196,72"/>
 <area shape="poly" title=" " alt="" coords="420,103,495,88,496,93,421,109"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aca7380d78c4202232789905290c682a3" title="Get phi i." alt="" coords="544,113,666,139"/>

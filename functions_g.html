@@ -105,6 +105,8 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getBCFlagUnique()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a223fa08dc56db3089ee0cd85657625a8">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#aff3b40811a32be0be38208b055be3d25">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getBlock()&#160;:&#160;<a class="el" href="classFEDD_1_1PreconditionerOperator.html#a930ec5b26b7c34ea88e87928f08c8703">FEDD::PreconditionerOperator&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getComm()&#160;:&#160;<a class="el" href="classFEDD_1_1BlockMap.html#a0fe880d4a7b4b9dd1a0dd8d323528144">FEDD::BlockMap&lt; LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Domain.html#a21b36bac11162ab2d87c3ea50617e479">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#a36b35249b1e160e4f90b7b7e41c7672b">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getData()&#160;:&#160;<a class="el" href="classFEDD_1_1MultiVector.html#a31139344af1f6e205b99378a9b3b56a6">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getDataNonConst()&#160;:&#160;<a class="el" href="classFEDD_1_1MultiVector.html#a44fd4131c2363d1e9381a922c89aaad7">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getDim()&#160;:&#160;<a class="el" href="classFEDD_1_1AssembleFE.html#a35ada89164c74b433340733c01f30f4b">FEDD::AssembleFE&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getDimension()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a09100ec205969d8b46fe66957de60379">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#ad4a2d1e06b26554555bd98224bcb8191">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getDistancesToInterface()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#ae1c117f958917e8aa18ae022d753dfe7">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
@@ -132,12 +134,13 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getLocalInterfaceIDInGlobal()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a4074d5cb1d134b1925f55a3338a51a66">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getLocalRowView()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a0b0bc2d6e5243c768613334f4bdce79c">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getLocalSurfaceIndices()&#160;:&#160;<a class="el" href="classFEDD_1_1MeshUnstructured.html#ab09dea26fd8e9d3ca3b23ddcb31e56d6">FEDD::MeshUnstructured&lt; SC, LO, GO, NO &gt;</a></li>
-<li>getMap()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a17f475f42b68e48496cbc5c287923028">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getMap()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a17f475f42b68e48496cbc5c287923028">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1MultiVector.html#a74b763081017b98d9867a5e069a30839">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getMapNonConst()&#160;:&#160;<a class="el" href="classFEDD_1_1MultiVector.html#a69f553f2314e94cc5fe96c7526296af2">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMapRepeated()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a1f26cb8a8a58a75e8c0ccace63788221">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#aa95e1c2059f6ce69dc266cb35fe8fbef">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getMapTpetra()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a35870d59f853e1e93d540828f8386af6">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1MultiVector.html#a7e93601bc8410a0a4a8cbee997e24050">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMapUnique()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a4cc1c354ac82abc376ba0e0e62cd9067">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#a6065122e9e9a7f844e980d0ab3d08779">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMapVecFieldRepeated()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a29f63d5ea1a5bad9c4c6143747b22096">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMapVecFieldUnique()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#afb00ea000097e92d7cf19ebd477f1115">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
-<li>getMapXpetra()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a347d436a5f0ed5258eb501e9978a11ee">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMergedMap()&#160;:&#160;<a class="el" href="classFEDD_1_1BlockMap.html#ab7f7024d65fce2990cbc0b504bee9838">FEDD::BlockMap&lt; LO, GO, NO &gt;</a></li>
 <li>getMesh()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a336eb1045c6e65bdb90013f97109358f">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getMeshInterface()&#160;:&#160;<a class="el" href="classFEDD_1_1MeshUnstructured.html#ae0b2bc56d2fb1668afec7d5f1d904938">FEDD::MeshUnstructured&lt; SC, LO, GO, NO &gt;</a></li>
@@ -150,6 +153,7 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getNumElementsGlobal()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a99112c9fec7545cb3f6cb0c3d4391c9c">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#a53731e7da2a9db541cadbcdf35b83cf2">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getNumGlobalNodes()&#160;:&#160;<a class="el" href="classFEDD_1_1MeshUnstructured.html#a292f2aa153464a7aaf12047cd5d3b5ce">FEDD::MeshUnstructured&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getNumPoints()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a830877f14d8344de75c67f285ab720f0">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Mesh.html#ad1d04fb6406ec5c9b92cf11c4765f36f">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getNumVectors()&#160;:&#160;<a class="el" href="classFEDD_1_1MultiVector.html#ab82c4e052062ac4693eab539549d1c4d">FEDD::MultiVector&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getOrderElement()&#160;:&#160;<a class="el" href="classFEDD_1_1Mesh.html#ae689055108ae36e88e023c2e592de880">FEDD::Mesh&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getOtherGlobalInterfaceMapVecFieldPartial()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#aa4a06ab33960fe05d9e46f3ccbba9c35">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getOtherGlobalInterfaceMapVecFieldUnique()&#160;:&#160;<a class="el" href="classFEDD_1_1Domain.html#a5ff8e292ca5b15cc41dea30577fbe2db">FEDD::Domain&lt; SC, LO, GO, NO &gt;</a></li>
@@ -171,10 +175,11 @@ $(function(){initNavTree('functions_g.html',''); initResizable(true); });
 <li>getThyraLinOpNonConst()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a82f3b4389bf1988fb7354bb37d52a2d8">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getTimeIncrement()&#160;:&#160;<a class="el" href="classFEDD_1_1AssembleFE.html#a3dbd593f94d18b0275d2fdb9631d1813">FEDD::AssembleFE&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getTimeStep()&#160;:&#160;<a class="el" href="classFEDD_1_1AssembleFE.html#a960875e7038a3f20e4507bc86f17247f">FEDD::AssembleFE&lt; SC, LO, GO, NO &gt;</a></li>
+<li>getTpetraMatrix()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#aeea2c3601945a03db224838d0a36e2ed">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getTupleElement()&#160;:&#160;<a class="el" href="classFEDD_1_1AssembleFE.html#a4d5d128fbd72747e01af917b16cee6f6">FEDD::AssembleFE&lt; SC, LO, GO, NO &gt;</a></li>
 <li>getViscosity()&#160;:&#160;<a class="el" href="classFEDD_1_1CarreauYasuda.html#aa40a0ae9d2fbd4474d0b6825c73f1f6a">FEDD::CarreauYasuda&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Dimless__Carreau.html#a0b36efb45c8d9af406c2122e20c00547">FEDD::Dimless_Carreau&lt; SC, LO, GO, NO &gt;</a></li>
-<li>getXpetraMatrix()&#160;:&#160;<a class="el" href="classFEDD_1_1Matrix.html#a6108fa025f28c3fdbb4bf2ca81c1fa46">FEDD::Matrix&lt; SC, LO, GO, NO &gt;</a></li>
 <li>globalAlgorithm()&#160;:&#160;<a class="el" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e">FEDD::AdaptiveMeshRefinement&lt; SC, LO, GO, NO &gt;</a></li>
+<li>Grad&#160;:&#160;<a class="el" href="classFEDD_1_1Helper.html#a9cb6017aaedca354e0402b8ff3b70844a1b2c0b407eeb884b3d1f6e4cdbd354d5">FEDD::Helper</a></li>
 <li>gradPhi()&#160;:&#160;<a class="el" href="classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49">FEDD::ErrorEstimation&lt; SC, LO, GO, NO &gt;</a>, <a class="el" href="classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37">FEDD::Helper</a></li>
 </ul>
 </div><!-- contents -->
