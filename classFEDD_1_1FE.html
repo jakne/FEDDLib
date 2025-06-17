@@ -277,9 +277,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyLaplaceVecFie
 <tr class="memitem:ab2473768c77fb2461358214b8c8f856b" id="r_ab2473768c77fb2461358214b8c8f856b"><td class="memItemLeft" align="right" valign="top"><a id="ab2473768c77fb2461358214b8c8f856b" name="ab2473768c77fb2461358214b8c8f856b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>assemblyLaplaceVecFieldV2</b> (int dim, std::string FEType, int degree, MatrixPtr_Type &amp;A, bool callFillComplete=true)</td></tr>
 <tr class="separator:ab2473768c77fb2461358214b8c8f856b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4" id="r_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcc9dcbbd1f1e8d4c6b4984bef0ddb4">assemblyNonlinearLaplace</a> (int dim, std::string FEType, int degree, MultiVectorPtr_Type u_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Laplace.html">Laplace</a> example.  <br /></td></tr>
-<tr class="separator:aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e9937aedd33754977dbac9453f5d1e" id="r_a97e9937aedd33754977dbac9453f5d1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97e9937aedd33754977dbac9453f5d1e">assemblyNonlinearLaplace</a> (int dim, std::string FEType, int degree, MultiVectorPtr_Type u_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, std::string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:a97e9937aedd33754977dbac9453f5d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Laplace.html">Laplace</a> example.  <br /></td></tr>
+<tr class="separator:a97e9937aedd33754977dbac9453f5d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933964a43c17eb6c1de6c8eb62cdbfe5" id="r_a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a933964a43c17eb6c1de6c8eb62cdbfe5">assemblyLinElasXDimE</a> (int dim, std::string FEType, MatrixPtr_Type &amp;A, MultiVectorPtr_Type eModVec, double nu, bool callFillComplete=true)</td></tr>
 <tr class="memdesc:a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as assemblyLinElasXDim except for changing E Module Value.  <br /></td></tr>
 <tr class="separator:a933964a43c17eb6c1de6c8eb62cdbfe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,34 +360,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>fillMatrixArray</b> (
 <tr class="memitem:ad57b6ca396c5f11746d7701bd31cca42" id="r_ad57b6ca396c5f11746d7701bd31cca42"><td class="memItemLeft" align="right" valign="top"><a id="ad57b6ca396c5f11746d7701bd31cca42" name="ad57b6ca396c5f11746d7701bd31cca42"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>epsilonTensor</b> (vec_dbl_Type &amp;basisValues, <a class="el" href="classFEDD_1_1SmallMatrix.html">SmallMatrix</a>&lt; SC &gt; &amp;epsilonValues, int activeDof)</td></tr>
 <tr class="separator:ad57b6ca396c5f11746d7701bd31cca42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac06c64b5e4282388d290f916de0f8612" id="r_ac06c64b5e4282388d290f916de0f8612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac06c64b5e4282388d290f916de0f8612">assemblyNavierStokes</a> (int dim, string FETypeVelocity, string FETypePressure, int degree, int dofsVelocity, int dofsPressure, MultiVectorPtr_Type u_rep, MultiVectorPtr_Type p_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, <a class="el" href="classFEDD_1_1SmallMatrix.html">SmallMatrix_Type</a> coeff, ParameterListPtr_Type params, bool reAssemble, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:ac06c64b5e4282388d290f916de0f8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for <a class="el" href="classFEDD_1_1NavierStokes.html" title="Navier-Stokes.">NavierStokes</a>.  <br /></td></tr>
-<tr class="separator:ac06c64b5e4282388d290f916de0f8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac1bc8338d6f798bb482bcfb5654397" id="r_abac1bc8338d6f798bb482bcfb5654397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac1bc8338d6f798bb482bcfb5654397">assemblyLaplaceAssFE</a> (int dim, string FEType, int degree, int dofs, BlockMatrixPtr_Type &amp;A, bool callFillComplete, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:abac1bc8338d6f798bb482bcfb5654397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of constant stiffness matix for laplacian operator <picture><source srcset="form_6_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta $" src="form_6.png"/></picture>.  <br /></td></tr>
-<tr class="separator:abac1bc8338d6f798bb482bcfb5654397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a636fb14d24ab115ed16851e2c844723b" id="r_a636fb14d24ab115ed16851e2c844723b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a636fb14d24ab115ed16851e2c844723b">assemblyAceDeformDiffu</a> (int dim, string FETypeChem, string FETypeSolid, int degree, int dofsChem, int dofsSolid, MultiVectorPtr_Type c_rep, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="separator:a636fb14d24ab115ed16851e2c844723b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf3f6d6c642b2aa5b1319ba3467f22b9" id="r_aaf3f6d6c642b2aa5b1319ba3467f22b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf3f6d6c642b2aa5b1319ba3467f22b9">assemblyAceDeformDiffuBlock</a> (int dim, string FETypeChem, string FETypeSolid, int degree, int dofsChem, int dofsSolid, MultiVectorPtr_Type c_rep, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, int blockRow, int blockCol, BlockMultiVectorPtr_Type &amp;resVec, int block, ParameterListPtr_Type params, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="separator:aaf3f6d6c642b2aa5b1319ba3467f22b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0868a3c3c54f3740a7d2c7931ad624" id="r_aba0868a3c3c54f3740a7d2c7931ad624"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0868a3c3c54f3740a7d2c7931ad624">assemblyNavierStokes</a> (int dim, std::string FETypeVelocity, std::string FETypePressure, int degree, int dofsVelocity, int dofsPressure, MultiVectorPtr_Type u_rep, MultiVectorPtr_Type p_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, <a class="el" href="classFEDD_1_1SmallMatrix.html">SmallMatrix_Type</a> coeff, ParameterListPtr_Type params, bool reAssemble, std::string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:aba0868a3c3c54f3740a7d2c7931ad624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for <a class="el" href="classFEDD_1_1NavierStokes.html" title="Navier-Stokes.">NavierStokes</a>.  <br /></td></tr>
+<tr class="separator:aba0868a3c3c54f3740a7d2c7931ad624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf3c4b21d001524003c1bd94eef7a9b" id="r_adbf3c4b21d001524003c1bd94eef7a9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf3c4b21d001524003c1bd94eef7a9b">assemblyLaplaceAssFE</a> (int dim, std::string FEType, int degree, int dofs, BlockMatrixPtr_Type &amp;A, bool callFillComplete, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:adbf3c4b21d001524003c1bd94eef7a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of constant stiffness matix for laplacian operator <picture><source srcset="form_6_dark.png" media="(prefers-color-scheme: dark)"/><img class="formulaInl" alt="$ \Delta $" src="form_6.png"/></picture>.  <br /></td></tr>
+<tr class="separator:adbf3c4b21d001524003c1bd94eef7a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae027675103e77a3e5dd769dd67d4998b" id="r_ae027675103e77a3e5dd769dd67d4998b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae027675103e77a3e5dd769dd67d4998b">assemblyAceDeformDiffu</a> (int dim, std::string FETypeChem, std::string FETypeSolid, int degree, int dofsChem, int dofsSolid, MultiVectorPtr_Type c_rep, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, std::string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="separator:ae027675103e77a3e5dd769dd67d4998b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebef976f8c9a5e59559cccaec303ced" id="r_a2ebef976f8c9a5e59559cccaec303ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ebef976f8c9a5e59559cccaec303ced">assemblyAceDeformDiffuBlock</a> (int dim, std::string FETypeChem, std::string FETypeSolid, int degree, int dofsChem, int dofsSolid, MultiVectorPtr_Type c_rep, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, int blockRow, int blockCol, BlockMultiVectorPtr_Type &amp;resVec, int block, ParameterListPtr_Type params, std::string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="separator:a2ebef976f8c9a5e59559cccaec303ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a938fbd0d045b49276d316c2f610f44a8" id="r_a938fbd0d045b49276d316c2f610f44a8"><td class="memItemLeft" align="right" valign="top"><a id="a938fbd0d045b49276d316c2f610f44a8" name="a938fbd0d045b49276d316c2f610f44a8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>advanceInTimeAssemblyFEElements</b> (double dt, MultiVectorPtr_Type d_rep, MultiVectorPtr_Type c_rep)</td></tr>
 <tr class="separator:a938fbd0d045b49276d316c2f610f44a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a593978b4624bc70cd1178978e21ea30b" id="r_a593978b4624bc70cd1178978e21ea30b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593978b4624bc70cd1178978e21ea30b">assemblyLinearElasticity</a> (int dim, string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, bool reAssemble, string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:a593978b4624bc70cd1178978e21ea30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian.  <br /></td></tr>
-<tr class="separator:a593978b4624bc70cd1178978e21ea30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c202b219bef67e0289dd1ea63e218c8" id="r_a3c202b219bef67e0289dd1ea63e218c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c202b219bef67e0289dd1ea63e218c8">assemblyNonLinearElasticity</a> (int dim, string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:a3c202b219bef67e0289dd1ea63e218c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Elasticity.html" title="Elasticity.">Elasticity</a>.  <br /></td></tr>
-<tr class="separator:a3c202b219bef67e0289dd1ea63e218c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ec0df03e68d008f8d1f619dfacc2cc" id="r_a49ec0df03e68d008f8d1f619dfacc2cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49ec0df03e68d008f8d1f619dfacc2cc">assemblyNonLinearElasticity</a> (int dim, string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, DomainConstPtr_Type domain, MultiVectorPtr_Type eModVec, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
-<tr class="memdesc:a49ec0df03e68d008f8d1f619dfacc2cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Elasticity.html" title="Elasticity.">Elasticity</a>.  <br /></td></tr>
-<tr class="separator:a49ec0df03e68d008f8d1f619dfacc2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936774aeeaa6979a3b046ac904a23c5f" id="r_a936774aeeaa6979a3b046ac904a23c5f"><td class="memItemLeft" align="right" valign="top"><a id="a936774aeeaa6979a3b046ac904a23c5f" name="a936774aeeaa6979a3b046ac904a23c5f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>checkMeshOrientation</b> (int dim, string FEType)</td></tr>
-<tr class="separator:a936774aeeaa6979a3b046ac904a23c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3e20fc13d6739ee43c9b9b8c1449b03" id="r_ae3e20fc13d6739ee43c9b9b8c1449b03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e20fc13d6739ee43c9b9b8c1449b03">computeSteadyViscosityFE_CM</a> (int dim, string FETypeVelocity, string FETypePressure, int dofsVelocity, int dofsPressure, MultiVectorPtr_Type u_rep, MultiVectorPtr_Type p_rep, ParameterListPtr_Type params)</td></tr>
-<tr class="memdesc:ae3e20fc13d6739ee43c9b9b8c1449b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocessing: Using a converged velocity solution -&gt; compute averaged viscosity inside an element at center of mass.  <br /></td></tr>
-<tr class="separator:ae3e20fc13d6739ee43c9b9b8c1449b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f58b34bacf5eec120806d0f3fc92551" id="r_a3f58b34bacf5eec120806d0f3fc92551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f58b34bacf5eec120806d0f3fc92551">assemblyLinearElasticity</a> (int dim, std::string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, bool reAssemble, std::string assembleMode, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:a3f58b34bacf5eec120806d0f3fc92551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian.  <br /></td></tr>
+<tr class="separator:a3f58b34bacf5eec120806d0f3fc92551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c294fb95bf0a33df472bc650a05c75b" id="r_a3c294fb95bf0a33df472bc650a05c75b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c294fb95bf0a33df472bc650a05c75b">assemblyNonLinearElasticity</a> (int dim, std::string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:a3c294fb95bf0a33df472bc650a05c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Elasticity.html" title="Elasticity.">Elasticity</a>.  <br /></td></tr>
+<tr class="separator:a3c294fb95bf0a33df472bc650a05c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5824575ec34b56dd559464df9ad37e" id="r_a5b5824575ec34b56dd559464df9ad37e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b5824575ec34b56dd559464df9ad37e">assemblyNonLinearElasticity</a> (int dim, std::string FEType, int degree, int dofs, MultiVectorPtr_Type d_rep, BlockMatrixPtr_Type &amp;A, BlockMultiVectorPtr_Type &amp;resVec, ParameterListPtr_Type params, DomainConstPtr_Type domain, MultiVectorPtr_Type eModVec, bool callFillComplete=true, int FELocExternal=-1)</td></tr>
+<tr class="memdesc:a5b5824575ec34b56dd559464df9ad37e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assembly of Jacobian for nonlinear <a class="el" href="classFEDD_1_1Elasticity.html" title="Elasticity.">Elasticity</a>.  <br /></td></tr>
+<tr class="separator:a5b5824575ec34b56dd559464df9ad37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa28a0e530c92778feef789318554e6" id="r_a0aa28a0e530c92778feef789318554e6"><td class="memItemLeft" align="right" valign="top"><a id="a0aa28a0e530c92778feef789318554e6" name="a0aa28a0e530c92778feef789318554e6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>checkMeshOrientation</b> (int dim, std::string FEType)</td></tr>
+<tr class="separator:a0aa28a0e530c92778feef789318554e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a931c77e130f7e45af53f1b63b71953f4" id="r_a931c77e130f7e45af53f1b63b71953f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a931c77e130f7e45af53f1b63b71953f4">computeSteadyViscosityFE_CM</a> (int dim, std::string FETypeVelocity, std::string FETypePressure, int dofsVelocity, int dofsPressure, MultiVectorPtr_Type u_rep, MultiVectorPtr_Type p_rep, ParameterListPtr_Type params)</td></tr>
+<tr class="memdesc:a931c77e130f7e45af53f1b63b71953f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Postprocessing: Using a converged velocity solution -&gt; compute averaged viscosity inside an element at center of mass.  <br /></td></tr>
+<tr class="separator:a931c77e130f7e45af53f1b63b71953f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -402,8 +402,8 @@ BlockMultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><b>c
 <tr class="separator:aabde88cd19cddeaa11343c6819b474ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a636fb14d24ab115ed16851e2c844723b" name="a636fb14d24ab115ed16851e2c844723b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a636fb14d24ab115ed16851e2c844723b">&#9670;&#160;</a></span>assemblyAceDeformDiffu()</h2>
+<a id="ae027675103e77a3e5dd769dd67d4998b" name="ae027675103e77a3e5dd769dd67d4998b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae027675103e77a3e5dd769dd67d4998b">&#9670;&#160;</a></span>assemblyAceDeformDiffu()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,12 +418,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeChem</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeChem</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeSolid</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeSolid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -468,7 +468,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -482,12 +482,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_cgraph" id="aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_cgraph" id="aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,29,209,70"/>
 <area shape="poly" title=" " alt="" coords="68,29,66,19,73,10,86,5,107,3,129,5,142,11,140,16,128,10,107,8,88,10,76,15,72,20,74,28"/>
 </map>
@@ -495,8 +495,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_icgraph" id="aclassFEDD_1_1FE_a636fb14d24ab115ed16851e2c844723b_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_icgraph" id="aclassFEDD_1_1FE_ae027675103e77a3e5dd769dd67d4998b_icgraph">
 <area shape="rect" title=" " alt="" coords="5,29,209,70"/>
 <area shape="poly" title=" " alt="" coords="140,16,128,10,107,8,88,10,76,15,72,20,74,28,68,29,66,19,73,10,86,5,107,3,129,5,142,11"/>
 </map>
@@ -504,8 +504,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aaf3f6d6c642b2aa5b1319ba3467f22b9" name="aaf3f6d6c642b2aa5b1319ba3467f22b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf3f6d6c642b2aa5b1319ba3467f22b9">&#9670;&#160;</a></span>assemblyAceDeformDiffuBlock()</h2>
+<a id="a2ebef976f8c9a5e59559cccaec303ced" name="a2ebef976f8c9a5e59559cccaec303ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebef976f8c9a5e59559cccaec303ced">&#9670;&#160;</a></span>assemblyAceDeformDiffuBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -520,12 +520,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeChem</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeChem</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeSolid</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeSolid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -585,7 +585,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -599,12 +599,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_cgraph" id="aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_cgraph" id="aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_cgraph">
 <area shape="rect" title=" " alt="" coords="5,29,209,70"/>
 <area shape="poly" title=" " alt="" coords="68,29,66,19,73,10,86,5,107,3,129,5,142,11,140,16,128,10,107,8,88,10,76,15,72,20,74,28"/>
 </map>
@@ -612,8 +612,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_icgraph" id="aclassFEDD_1_1FE_aaf3f6d6c642b2aa5b1319ba3467f22b9_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_icgraph" id="aclassFEDD_1_1FE_a2ebef976f8c9a5e59559cccaec303ced_icgraph">
 <area shape="rect" title=" " alt="" coords="5,29,209,70"/>
 <area shape="poly" title=" " alt="" coords="140,16,128,10,107,8,88,10,76,15,72,20,74,28,68,29,66,19,73,10,86,5,107,3,129,5,142,11"/>
 </map>
@@ -758,8 +758,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="abac1bc8338d6f798bb482bcfb5654397" name="abac1bc8338d6f798bb482bcfb5654397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abac1bc8338d6f798bb482bcfb5654397">&#9670;&#160;</a></span>assemblyLaplaceAssFE()</h2>
+<a id="adbf3c4b21d001524003c1bd94eef7a9b" name="adbf3c4b21d001524003c1bd94eef7a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf3c4b21d001524003c1bd94eef7a9b">&#9670;&#160;</a></span>assemblyLaplaceAssFE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -774,7 +774,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -819,8 +819,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_cgraph" id="aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_cgraph" id="aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_cgraph">
 <area shape="rect" title="Assembly of constant stiffness matix for laplacian operator ." alt="" coords="5,29,190,70"/>
 <area shape="poly" title=" " alt="" coords="62,29,61,19,66,10,79,5,98,3,118,5,130,11,127,16,116,10,97,8,80,10,70,14,66,20,67,28"/>
 </map>
@@ -828,8 +828,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_icgraph" id="aclassFEDD_1_1FE_abac1bc8338d6f798bb482bcfb5654397_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_icgraph" id="aclassFEDD_1_1FE_adbf3c4b21d001524003c1bd94eef7a9b_icgraph">
 <area shape="rect" title="Assembly of constant stiffness matix for laplacian operator ." alt="" coords="5,29,190,70"/>
 <area shape="poly" title=" " alt="" coords="127,16,116,10,97,8,80,10,70,14,66,20,67,28,62,29,61,19,66,10,79,5,98,3,118,5,130,11"/>
 </map>
@@ -910,8 +910,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a593978b4624bc70cd1178978e21ea30b" name="a593978b4624bc70cd1178978e21ea30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a593978b4624bc70cd1178978e21ea30b">&#9670;&#160;</a></span>assemblyLinearElasticity()</h2>
+<a id="a3f58b34bacf5eec120806d0f3fc92551" name="a3f58b34bacf5eec120806d0f3fc92551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f58b34bacf5eec120806d0f3fc92551">&#9670;&#160;</a></span>assemblyLinearElasticity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -926,7 +926,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -966,7 +966,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1024,12 +1024,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
   </table>
   </dd>
 </dl>
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_cgraph" id="aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_cgraph" id="aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_cgraph">
 <area shape="rect" title="Assembly of Jacobian." alt="" coords="5,29,180,70"/>
 <area shape="poly" title=" " alt="" coords="59,29,57,19,63,10,75,5,93,3,112,5,123,11,120,16,110,10,92,8,76,10,66,14,63,20,64,28"/>
 </map>
@@ -1037,8 +1037,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_icgraph" id="aclassFEDD_1_1FE_a593978b4624bc70cd1178978e21ea30b_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_icgraph" id="aclassFEDD_1_1FE_a3f58b34bacf5eec120806d0f3fc92551_icgraph">
 <area shape="rect" title="Assembly of Jacobian." alt="" coords="5,29,180,70"/>
 <area shape="poly" title=" " alt="" coords="120,16,110,10,92,8,76,10,66,14,63,20,64,28,59,29,57,19,63,10,75,5,93,3,112,5,123,11"/>
 </map>
@@ -1194,8 +1194,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac06c64b5e4282388d290f916de0f8612" name="ac06c64b5e4282388d290f916de0f8612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac06c64b5e4282388d290f916de0f8612">&#9670;&#160;</a></span>assemblyNavierStokes()</h2>
+<a id="aba0868a3c3c54f3740a7d2c7931ad624" name="aba0868a3c3c54f3740a7d2c7931ad624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba0868a3c3c54f3740a7d2c7931ad624">&#9670;&#160;</a></span>assemblyNavierStokes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1210,12 +1210,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeVelocity</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeVelocity</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypePressure</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypePressure</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1270,7 +1270,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1297,12 +1297,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
   </table>
   </dd>
 </dl>
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_cgraph" id="aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_cgraph" id="aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_cgraph">
 <area shape="rect" title="Assembly of Jacobian for NavierStokes." alt="" coords="5,29,182,70"/>
 <area shape="poly" title=" " alt="" coords="60,29,58,19,64,10,76,5,94,3,113,5,124,11,122,16,111,10,93,8,77,10,67,14,63,20,65,28"/>
 </map>
@@ -1310,8 +1310,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_icgraph" id="aclassFEDD_1_1FE_ac06c64b5e4282388d290f916de0f8612_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_icgraph" id="aclassFEDD_1_1FE_aba0868a3c3c54f3740a7d2c7931ad624_icgraph">
 <area shape="rect" title="Assembly of Jacobian for NavierStokes." alt="" coords="5,29,182,70"/>
 <area shape="poly" title=" " alt="" coords="122,16,111,10,93,8,77,10,67,14,63,20,65,28,60,29,58,19,64,10,76,5,94,3,113,5,124,11"/>
 </map>
@@ -1319,8 +1319,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3c202b219bef67e0289dd1ea63e218c8" name="a3c202b219bef67e0289dd1ea63e218c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c202b219bef67e0289dd1ea63e218c8">&#9670;&#160;</a></span>assemblyNonLinearElasticity() <span class="overload">[1/2]</span></h2>
+<a id="a3c294fb95bf0a33df472bc650a05c75b" name="a3c294fb95bf0a33df472bc650a05c75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c294fb95bf0a33df472bc650a05c75b">&#9670;&#160;</a></span>assemblyNonLinearElasticity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1335,7 +1335,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1392,12 +1392,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
   </table>
   </dd>
 </dl>
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_cgraph" id="aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_cgraph" id="aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_cgraph">
 <area shape="rect" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="5,29,204,70"/>
 <area shape="poly" title=" " alt="" coords="67,29,65,19,71,10,84,5,105,3,126,5,139,11,137,16,125,10,104,8,86,10,74,15,70,20,72,28"/>
 </map>
@@ -1405,19 +1405,19 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_icgraph" id="aclassFEDD_1_1FE_a3c202b219bef67e0289dd1ea63e218c8_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_icgraph" id="aclassFEDD_1_1FE_a3c294fb95bf0a33df472bc650a05c75b_icgraph">
 <area shape="rect" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="252,29,450,70"/>
 <area shape="poly" title=" " alt="" coords="391,16,376,10,351,8,327,10,313,15,307,21,310,28,305,29,302,19,310,10,326,5,351,3,377,5,393,11"/>
-<area shape="rect" href="classFEDD_1_1FE.html#a49ec0df03e68d008f8d1f619dfacc2cc" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="5,29,204,70"/>
+<area shape="rect" href="classFEDD_1_1FE.html#a5b5824575ec34b56dd559464df9ad37e" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="5,29,204,70"/>
 <area shape="poly" title=" " alt="" coords="236,52,204,52,204,47,236,47"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a49ec0df03e68d008f8d1f619dfacc2cc" name="a49ec0df03e68d008f8d1f619dfacc2cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49ec0df03e68d008f8d1f619dfacc2cc">&#9670;&#160;</a></span>assemblyNonLinearElasticity() <span class="overload">[2/2]</span></h2>
+<a id="a5b5824575ec34b56dd559464df9ad37e" name="a5b5824575ec34b56dd559464df9ad37e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5824575ec34b56dd559464df9ad37e">&#9670;&#160;</a></span>assemblyNonLinearElasticity() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1432,7 +1432,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1499,14 +1499,14 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
   </table>
   </dd>
 </dl>
-<p>Tupel construction follows follwing pattern: string: Physical Entity (i.e. Velocity) , string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
+<p>Tupel construction follows follwing pattern: std::string: Physical Entity (i.e. Velocity) , std::string: Discretisation (i.e. "P2"), int: Degrees of Freedom per Node, int: Number of Nodes per element)</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_a49ec0df03e68d008f8d1f619dfacc2cc_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a49ec0df03e68d008f8d1f619dfacc2cc_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_a49ec0df03e68d008f8d1f619dfacc2cc_cgraph" id="aclassFEDD_1_1FE_a49ec0df03e68d008f8d1f619dfacc2cc_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a5b5824575ec34b56dd559464df9ad37e_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a5b5824575ec34b56dd559464df9ad37e_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a5b5824575ec34b56dd559464df9ad37e_cgraph" id="aclassFEDD_1_1FE_a5b5824575ec34b56dd559464df9ad37e_cgraph">
 <area shape="rect" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="5,29,204,70"/>
-<area shape="rect" href="classFEDD_1_1FE.html#a3c202b219bef67e0289dd1ea63e218c8" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="252,29,450,70"/>
+<area shape="rect" href="classFEDD_1_1FE.html#a3c294fb95bf0a33df472bc650a05c75b" title="Assembly of Jacobian for nonlinear Elasticity." alt="" coords="252,29,450,70"/>
 <area shape="poly" title=" " alt="" coords="204,47,236,47,236,52,204,52"/>
 <area shape="poly" title=" " alt="" coords="305,29,302,19,310,10,326,5,351,3,377,5,393,11,391,16,376,10,351,8,327,10,313,15,307,21,310,28"/>
 </map>
@@ -1514,8 +1514,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aafcc9dcbbd1f1e8d4c6b4984bef0ddb4" name="aafcc9dcbbd1f1e8d4c6b4984bef0ddb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafcc9dcbbd1f1e8d4c6b4984bef0ddb4">&#9670;&#160;</a></span>assemblyNonlinearLaplace()</h2>
+<a id="a97e9937aedd33754977dbac9453f5d1e" name="a97e9937aedd33754977dbac9453f5d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e9937aedd33754977dbac9453f5d1e">&#9670;&#160;</a></span>assemblyNonlinearLaplace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1560,7 +1560,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>assembleMode</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1594,8 +1594,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_cgraph" id="aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_cgraph" id="aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_cgraph">
 <area shape="rect" title="Assembly of Jacobian for nonlinear Laplace example." alt="" coords="5,29,199,70"/>
 <area shape="poly" title=" " alt="" coords="65,29,63,19,69,10,82,5,102,3,123,5,136,11,133,16,122,10,102,8,84,10,73,15,69,20,70,28"/>
 </map>
@@ -1603,8 +1603,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_icgraph" id="aclassFEDD_1_1FE_aafcc9dcbbd1f1e8d4c6b4984bef0ddb4_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_icgraph" id="aclassFEDD_1_1FE_a97e9937aedd33754977dbac9453f5d1e_icgraph">
 <area shape="rect" title="Assembly of Jacobian for nonlinear Laplace example." alt="" coords="5,29,199,70"/>
 <area shape="poly" title=" " alt="" coords="133,16,122,10,102,8,84,10,73,15,69,20,70,28,65,29,63,19,69,10,82,5,102,3,123,5,136,11"/>
 </map>
@@ -1765,8 +1765,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae3e20fc13d6739ee43c9b9b8c1449b03" name="ae3e20fc13d6739ee43c9b9b8c1449b03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3e20fc13d6739ee43c9b9b8c1449b03">&#9670;&#160;</a></span>computeSteadyViscosityFE_CM()</h2>
+<a id="a931c77e130f7e45af53f1b63b71953f4" name="a931c77e130f7e45af53f1b63b71953f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a931c77e130f7e45af53f1b63b71953f4">&#9670;&#160;</a></span>computeSteadyViscosityFE_CM()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1781,12 +1781,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeVelocity</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeVelocity</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypePressure</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypePressure</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1830,8 +1830,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_cgraph" id="aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_cgraph">
+<div class="center"><img src="classFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_cgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_cgraph" id="aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_cgraph">
 <area shape="rect" title="Postprocessing: Using a converged velocity solution &#45;&gt; compute averaged viscosity inside an element a..." alt="" coords="5,29,232,70"/>
 <area shape="poly" title=" " alt="" coords="76,29,74,19,81,10,96,5,119,3,143,5,158,11,155,16,142,10,118,8,97,10,84,15,79,21,81,28"/>
 </map>
@@ -1839,8 +1839,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_icgraph" id="aclassFEDD_1_1FE_ae3e20fc13d6739ee43c9b9b8c1449b03_icgraph">
+<div class="center"><img src="classFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_icgraph.png" border="0" usemap="#aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_icgraph" id="aclassFEDD_1_1FE_a931c77e130f7e45af53f1b63b71953f4_icgraph">
 <area shape="rect" title="Postprocessing: Using a converged velocity solution &#45;&gt; compute averaged viscosity inside an element a..." alt="" coords="5,29,232,70"/>
 <area shape="poly" title=" " alt="" coords="155,16,142,10,118,8,97,10,84,15,79,21,81,28,76,29,74,19,81,10,96,5,119,3,143,5,158,11"/>
 </map>

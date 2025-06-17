@@ -152,9 +152,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>checkParamete
 <tr class="memitem:a48ea6d9259f538a88fa5b21667869bce" id="r_a48ea6d9259f538a88fa5b21667869bce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ea6d9259f538a88fa5b21667869bce">updateParams</a> (ParameterListPtr_Type params)</td></tr>
 <tr class="memdesc:a48ea6d9259f538a88fa5b21667869bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set or update the parameters read from the ParameterList.  <br /></td></tr>
 <tr class="separator:a48ea6d9259f538a88fa5b21667869bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e388259dcbb80d6b2d55d9ff3265de" id="r_a66e388259dcbb80d6b2d55d9ff3265de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e388259dcbb80d6b2d55d9ff3265de">updateParameter</a> (string type, double value)</td></tr>
-<tr class="memdesc:a66e388259dcbb80d6b2d55d9ff3265de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the parameter read from the ParameterList.  <br /></td></tr>
-<tr class="separator:a66e388259dcbb80d6b2d55d9ff3265de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31cf00b2988cbb482a880f7d807c763f" id="r_a31cf00b2988cbb482a880f7d807c763f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31cf00b2988cbb482a880f7d807c763f">updateParameter</a> (std::string type, double value)</td></tr>
+<tr class="memdesc:a31cf00b2988cbb482a880f7d807c763f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the parameter read from the ParameterList.  <br /></td></tr>
+<tr class="separator:a31cf00b2988cbb482a880f7d807c763f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa291b30d2a3f78705b2a7722a1a04d96" id="r_aa291b30d2a3f78705b2a7722a1a04d96"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa291b30d2a3f78705b2a7722a1a04d96">advanceInTime</a> (double dt)</td></tr>
 <tr class="memdesc:aa291b30d2a3f78705b2a7722a1a04d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called every time the FEDDLib proceeds from one to the next time step. The size of the time step will always be provided as input.  <br /></td></tr>
 <tr class="separator:aa291b30d2a3f78705b2a7722a1a04d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,9 +296,9 @@ class FEDD::AssembleFE&lt; SC, LO, GO, NO &gt;</div><p>This abstract class defin
   </dd>
 </dl>
 <p>Any new assembly routine on element level should implemented following the interface provided in this class. During the setup of a specific boundary value problem one <a class="el" href="classFEDD_1_1AssembleFE.html" title="This abstract class defining the interface for any type of element assembly rountines in the FEDDLib.">AssembleFE</a> object will be constructed using the <a class="el" href="classFEDD_1_1AssembleFEFactory.html" title="This class allows for constructing AssembleFE objects.">AssembleFEFactory</a> for each finite element. This is can be understood roughly as follows: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;numElements; i++) {</div>
-<div class="line">    <a class="code hl_function" href="#a5ff56b610942ec92cc1b1e0ac1e07ce4">AssembleFE</a> assmeblyFe[i] = <a class="code hl_function" href="classFEDD_1_1AssembleFEFactory.html#ac895d65acf2626100832586df84d6a9c">AssembleFEFactory&lt;&gt;::build</a>(<span class="stringliteral">&quot;problemType&quot;</span>,flag,nodesRefConfig,params,tuple);</div>
+<div class="line">    <a class="code hl_function" href="#a5ff56b610942ec92cc1b1e0ac1e07ce4">AssembleFE</a> assmeblyFe[i] = <a class="code hl_function" href="classFEDD_1_1AssembleFEFactory.html#a8193000737bf34b4a89d7926c8a7e79e">AssembleFEFactory&lt;&gt;::build</a>(<span class="stringliteral">&quot;problemType&quot;</span>,flag,nodesRefConfig,params,tuple);</div>
 <div class="line">}</div>
-<div class="ttc" id="aclassFEDD_1_1AssembleFEFactory_html_ac895d65acf2626100832586df84d6a9c"><div class="ttname"><a href="classFEDD_1_1AssembleFEFactory.html#ac895d65acf2626100832586df84d6a9c">FEDD::AssembleFEFactory::build</a></div><div class="ttdeci">AssembleFEPtr_Type build(string problemType, int flag, vec2D_dbl_Type nodesRefConfig, ParameterListPtr_Type params, tuple_disk_vec_ptr_Type tuple)</div><div class="ttdoc">We only need this one function to build assembleFE, where we define the problem type and the Assemble...</div><div class="ttdef"><b>Definition</b> AssembleFEFactory_def.hpp:16</div></div>
+<div class="ttc" id="aclassFEDD_1_1AssembleFEFactory_html_a8193000737bf34b4a89d7926c8a7e79e"><div class="ttname"><a href="classFEDD_1_1AssembleFEFactory.html#a8193000737bf34b4a89d7926c8a7e79e">FEDD::AssembleFEFactory::build</a></div><div class="ttdeci">AssembleFEPtr_Type build(std::string problemType, int flag, vec2D_dbl_Type nodesRefConfig, ParameterListPtr_Type params, tuple_disk_vec_ptr_Type tuple)</div><div class="ttdoc">We only need this one function to build assembleFE, where we define the problem type and the Assemble...</div><div class="ttdef"><b>Definition</b> AssembleFEFactory_def.hpp:16</div></div>
 <div class="ttc" id="aclassFEDD_1_1AssembleFE_html_a5ff56b610942ec92cc1b1e0ac1e07ce4"><div class="ttname"><a href="#a5ff56b610942ec92cc1b1e0ac1e07ce4">FEDD::AssembleFE::AssembleFE</a></div><div class="ttdeci">AssembleFE(int flag, vec2D_dbl_Type nodesRefConfig, ParameterListPtr_Type parameters, tuple_disk_vec_ptr_Type tuple)</div><div class="ttdoc">Constructor.</div><div class="ttdef"><b>Definition</b> AssembleFE_def.hpp:10</div></div>
 </div><!-- fragment --><p> It is not possible to construct an <a class="el" href="classFEDD_1_1AssembleFE.html" title="This abstract class defining the interface for any type of element assembly rountines in the FEDDLib.">AssembleFE</a> object without using the <a class="el" href="classFEDD_1_1AssembleFEFactory.html" title="This class allows for constructing AssembleFE objects.">AssembleFEFactory</a> since the constructor is protected and hence not directly accessible.</p>
 <p>Similar to constructing the <a class="el" href="classFEDD_1_1AssembleFE.html" title="This abstract class defining the interface for any type of element assembly rountines in the FEDDLib.">AssembleFE</a>, all other member functions will be called automatically by the FEDDLib during the program flow. For instance, the assembly of the element Jacobian matrices will be performed: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;numElements; i++) {</div>
@@ -894,8 +894,8 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
 
 </div>
 </div>
-<a id="a66e388259dcbb80d6b2d55d9ff3265de" name="a66e388259dcbb80d6b2d55d9ff3265de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e388259dcbb80d6b2d55d9ff3265de">&#9670;&#160;</a></span>updateParameter()</h2>
+<a id="a31cf00b2988cbb482a880f7d807c763f" name="a31cf00b2988cbb482a880f7d807c763f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31cf00b2988cbb482a880f7d807c763f">&#9670;&#160;</a></span>updateParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -908,7 +908,7 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
         <tr>
           <td class="memname">virtual void <a class="el" href="classFEDD_1_1AssembleFE.html">FEDD::AssembleFE</a>&lt; SC, LO, GO, NO &gt;::updateParameter </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -931,7 +931,7 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classFEDD_1_1AssembleFE__NonLinElas2.html#a544c2c8fc05f08607bfd5fd70470444e">FEDD::AssembleFE_NonLinElas2&lt; SC, LO, GO, NO &gt;</a>, and <a class="el" href="classFEDD_1_1AssembleFE__NonLinElas.html#a4f028f22d754083cd751f5d04f57fc0e">FEDD::AssembleFE_NonLinElas&lt; SC, LO, GO, NO &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classFEDD_1_1AssembleFE__NonLinElas2.html#a138babdc3757fbcd43077cda13ac021c">FEDD::AssembleFE_NonLinElas2&lt; SC, LO, GO, NO &gt;</a>, and <a class="el" href="classFEDD_1_1AssembleFE__NonLinElas.html#a328c95d4f81456e189c3c6e00881f74c">FEDD::AssembleFE_NonLinElas&lt; SC, LO, GO, NO &gt;</a>.</p>
 
 </div>
 </div>

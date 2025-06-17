@@ -1,13 +1,13 @@
 <map id="FEDD::RefinementFactory::determineLongestEdge" name="FEDD::RefinementFactory::determineLongestEdge">
 <area shape="rect" id="Node000001" title="Eetermine longest edge in triangle." alt="" coords="915,68,1084,109"/>
-<area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,68,867,109"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,68,867,109"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="899,91,867,91,867,86,899,86"/>
 <area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,13,649,54"/>
 <area shape="poly" id="edge11_Node000001_Node000003" title=" " alt="" coords="906,67,866,59,753,46,649,39,650,34,754,40,867,54,907,61"/>
 <area shape="rect" id="Node000008" href="$classFEDD_1_1RefinementFactory.html#a092455b08d3903df72c5f58c28bf4b05" title="2D refinement by bisection of tagged Elements with three tagged Edges." alt="" coords="697,133,867,174"/>
 <area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="916,116,853,135,852,130,915,111"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="683,66,648,57,649,52,684,61"/>
-<area shape="rect" id="Node000004" href="$classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" id="edge7_Node000002_Node000004" title=" " alt="" coords="682,92,433,93,433,88,682,86"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="472,61,428,73,426,67,470,56"/>
 <area shape="rect" id="Node000005" href="$classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>

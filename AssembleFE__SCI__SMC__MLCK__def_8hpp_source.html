@@ -426,7 +426,7 @@ $(function(){initNavTree('AssembleFE__SCI__SMC__MLCK__def_8hpp_source.html','');
 <div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span>    </div>
 <div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt; 30; i++){</div>
 <div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;30; j++){</div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>            <span class="comment">//if(fabs(stiffnessMatrixKuu[i][j]) &gt; 1e7)</span></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>            <span class="comment">//if(std::fabs(stiffnessMatrixKuu[i][j]) &gt; 1e7)</span></div>
 <div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>            <span class="comment">//  cout &lt;&lt; &quot; !!! Sus entry Kuu [&quot; &lt;&lt; i &lt;&lt; &quot;][&quot; &lt;&lt; j &lt;&lt; &quot;] &quot; &lt;&lt; stiffnessMatrixKuu[i][j] &lt;&lt; endl; </span></div>
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            </div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>            (*elementMatrix)[i][j]=stiffnessMatrixKuu[i][j];</div>
@@ -434,7 +434,7 @@ $(function(){initNavTree('AssembleFE__SCI__SMC__MLCK__def_8hpp_source.html','');
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    }</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt; 30; i++){</div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;10; j++){</div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>            <span class="comment">//if(fabs(stiffnessMatrixKuc[i][j]) &gt; 1e7)</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>            <span class="comment">//if(std::fabs(stiffnessMatrixKuc[i][j]) &gt; 1e7)</span></div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>            <span class="comment">//  cout &lt;&lt; &quot; !!! Sus entry Kuc [&quot; &lt;&lt; i &lt;&lt; &quot;][&quot; &lt;&lt; j &lt;&lt; &quot;] &quot; &lt;&lt; stiffnessMatrixKuc[i][j] &lt;&lt; endl; </span></div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>            </div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>            (*elementMatrix)[i][j+30]=stiffnessMatrixKuc[i][j];</div>
@@ -442,7 +442,7 @@ $(function(){initNavTree('AssembleFE__SCI__SMC__MLCK__def_8hpp_source.html','');
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    }</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt; 10; i++){</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;30; j++){</div>
-<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>            <span class="comment">//if(fabs(stiffnessMatrixKcu[i][j]) &gt; 1e7)</span></div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>            <span class="comment">//if(std::fabs(stiffnessMatrixKcu[i][j]) &gt; 1e7)</span></div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>            <span class="comment">//  cout &lt;&lt; &quot; !!! Sus entry Kcu [&quot; &lt;&lt; i &lt;&lt; &quot;][&quot; &lt;&lt; j &lt;&lt; &quot;] &quot; &lt;&lt; stiffnessMatrixKcu[i][j] &lt;&lt; endl; </span></div>
 <div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>            </div>
 <div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>            (*elementMatrix)[i+30][j]=stiffnessMatrixKcu[i][j];</div>
@@ -450,7 +450,7 @@ $(function(){initNavTree('AssembleFE__SCI__SMC__MLCK__def_8hpp_source.html','');
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>    }</div>
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt; 10; i++){</div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;10; j++){</div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>            <span class="comment">//if(fabs(massMatrixMc[i][j]) &gt; 1e5 || fabs(stiffnessMatrixKcc[i][j]) &gt; 1e5 )</span></div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>            <span class="comment">//if(std::fabs(massMatrixMc[i][j]) &gt; 1e5 || std::fabs(stiffnessMatrixKcc[i][j]) &gt; 1e5 )</span></div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>            <span class="comment">//  cout &lt;&lt; &quot; !!! Sus entry Mass [&quot; &lt;&lt; i &lt;&lt; &quot;][&quot; &lt;&lt; j &lt;&lt; &quot;] &quot; &lt;&lt; massMatrixMc[i][j] &lt;&lt; &quot; or stiff Kcc &quot; &lt;&lt; stiffnessMatrixKcc[i][j] &lt;&lt; endl; </span></div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>             </div>
 <div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>            (*elementMatrix)[i+30][j+30] =stiffnessMatrixKcc[i][j] +(1./deltaT)*massMatrixMc[i][j]; <span class="comment">//</span></div>

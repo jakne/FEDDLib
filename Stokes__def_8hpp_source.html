@@ -215,7 +215,7 @@ $(function(){initNavTree('Stokes__def_8hpp_source.html',''); initResizable(true)
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        }</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    }</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">string</span> precType = this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;General&quot;</span>).get(<span class="stringliteral">&quot;Preconditioner Method&quot;</span>,<span class="stringliteral">&quot;Monolithic&quot;</span>);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    std::string precType = this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;General&quot;</span>).get(<span class="stringliteral">&quot;Preconditioner Method&quot;</span>,<span class="stringliteral">&quot;Monolithic&quot;</span>);</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    <span class="keywordflow">if</span> ( precType == <span class="stringliteral">&quot;Diagonal&quot;</span> || precType == <span class="stringliteral">&quot;Triangular&quot;</span> ) {</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        MatrixPtr_Type Mpressure(<span class="keyword">new</span> Matrix_Type( this-&gt;getDomain(1)-&gt;getMapUnique(), this-&gt;getDomain(1)-&gt;getApproxEntriesPerRow() ) );</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        </div>

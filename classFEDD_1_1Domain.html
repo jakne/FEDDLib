@@ -265,12 +265,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>info</b> () const</td
 <tr class="memitem:a21b36bac11162ab2d87c3ea50617e479" id="r_a21b36bac11162ab2d87c3ea50617e479"><td class="memItemLeft" align="right" valign="top">CommConstPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21b36bac11162ab2d87c3ea50617e479">getComm</a> () const</td></tr>
 <tr class="memdesc:a21b36bac11162ab2d87c3ea50617e479"><td class="mdescLeft">&#160;</td><td class="mdescRight">Communicator.  <br /></td></tr>
 <tr class="separator:a21b36bac11162ab2d87c3ea50617e479"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af791acc1d844d101e7848efcf4a03da9" id="r_af791acc1d844d101e7848efcf4a03da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af791acc1d844d101e7848efcf4a03da9">readMesh</a> (string filename, string delimiter, int dim, string FEType, int volumeID=10)</td></tr>
-<tr class="memdesc:af791acc1d844d101e7848efcf4a03da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading mesh from .mesh file with name 'filename'.  <br /></td></tr>
-<tr class="separator:af791acc1d844d101e7848efcf4a03da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4414962ce6ac96543b8d539c5472ebe4" id="r_a4414962ce6ac96543b8d539c5472ebe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4414962ce6ac96543b8d539c5472ebe4">readMeshSize</a> (string filename, string delimiter)</td></tr>
-<tr class="memdesc:a4414962ce6ac96543b8d539c5472ebe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading mesh size.  <br /></td></tr>
-<tr class="separator:a4414962ce6ac96543b8d539c5472ebe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3304faa343ae2310c9fde98e85261fb1" id="r_a3304faa343ae2310c9fde98e85261fb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3304faa343ae2310c9fde98e85261fb1">readMesh</a> (std::string filename, std::string delimiter, int dim, std::string FEType, int volumeID=10)</td></tr>
+<tr class="memdesc:a3304faa343ae2310c9fde98e85261fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading mesh from .mesh file with name 'filename'.  <br /></td></tr>
+<tr class="separator:a3304faa343ae2310c9fde98e85261fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c9538ead8277dd85a7102dad6d2d1f" id="r_a40c9538ead8277dd85a7102dad6d2d1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40c9538ead8277dd85a7102dad6d2d1f">readMeshSize</a> (std::string filename, std::string delimiter)</td></tr>
+<tr class="memdesc:a40c9538ead8277dd85a7102dad6d2d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading mesh size.  <br /></td></tr>
+<tr class="separator:a40c9538ead8277dd85a7102dad6d2d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4589559713581f1b0fce626e350593d9" id="r_a4589559713581f1b0fce626e350593d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4589559713581f1b0fce626e350593d9">partitionMesh</a> (bool partitionDistance=false)</td></tr>
 <tr class="memdesc:a4589559713581f1b0fce626e350593d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Partition mesh according to number of processors. Partition with parmetis.  <br /></td></tr>
 <tr class="separator:a4589559713581f1b0fce626e350593d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -364,9 +364,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setReferenceConfigura
 <tr class="memitem:a872ee75686a833b5e79348f35eec99cb" id="r_a872ee75686a833b5e79348f35eec99cb"><td class="memItemLeft" align="right" valign="top">MeshConstPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a872ee75686a833b5e79348f35eec99cb">getMesh</a> () const</td></tr>
 <tr class="memdesc:a872ee75686a833b5e79348f35eec99cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get mesh constant.  <br /></td></tr>
 <tr class="separator:a872ee75686a833b5e79348f35eec99cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea44d2485e6cb10e4a1dd4f6ebe52156" id="r_aea44d2485e6cb10e4a1dd4f6ebe52156"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea44d2485e6cb10e4a1dd4f6ebe52156">initializeUnstructuredMesh</a> (int dimension, string feType, int volumeID=10)</td></tr>
-<tr class="memdesc:aea44d2485e6cb10e4a1dd4f6ebe52156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generally the domain object holds only meshes from type '<a class="el" href="classFEDD_1_1Mesh.html">Mesh</a>'. If we read a mesh from file it becomes the type '<a class="el" href="classFEDD_1_1MeshUnstructured.html">MeshUnstructured</a>' and needs to be initialized.  <br /></td></tr>
-<tr class="separator:aea44d2485e6cb10e4a1dd4f6ebe52156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8448beb178cf869025673e61c1131fc5" id="r_a8448beb178cf869025673e61c1131fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8448beb178cf869025673e61c1131fc5">initializeUnstructuredMesh</a> (int dimension, std::string feType, int volumeID=10)</td></tr>
+<tr class="memdesc:a8448beb178cf869025673e61c1131fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generally the domain object holds only meshes from type '<a class="el" href="classFEDD_1_1Mesh.html">Mesh</a>'. If we read a mesh from file it becomes the type '<a class="el" href="classFEDD_1_1MeshUnstructured.html">MeshUnstructured</a>' and needs to be initialized.  <br /></td></tr>
+<tr class="separator:a8448beb178cf869025673e61c1131fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69201fea8c13b3cc350db52ab2367aa8" id="r_a69201fea8c13b3cc350db52ab2367aa8"><td class="memItemLeft" align="right" valign="top"><a id="a69201fea8c13b3cc350db52ab2367aa8" name="a69201fea8c13b3cc350db52ab2367aa8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>toNodeID</b> (UN dim, GO dofID, GO &amp;nodeID, LO &amp;localDofNumber)</td></tr>
 <tr class="memdesc:a69201fea8c13b3cc350db52ab2367aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hilfsfunktion fuer buildLocalInterfaceIDInGlobal(). Gibt fuer eine gegebene nodeID die entsprechende dofID und umgekehrt. localDofNumber entspricht dem Rest der Division, also ob es sich um die x- (=0), y- (=1) oder z-Komponente (=2) handelt. <br /></td></tr>
@@ -387,25 +387,25 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>toDofID</b> (UN dim, 
 <tr class="memitem:a4d65f9b93a9bdc2349a01387b6a50efa" id="r_a4d65f9b93a9bdc2349a01387b6a50efa"><td class="memItemLeft" align="right" valign="top">MultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d65f9b93a9bdc2349a01387b6a50efa">getNodeListMV</a> () const</td></tr>
 <tr class="memdesc:a4d65f9b93a9bdc2349a01387b6a50efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get node list in multi vector point.  <br /></td></tr>
 <tr class="separator:a4d65f9b93a9bdc2349a01387b6a50efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3c6c4e5978d9581d53460c473ad9b0a" id="r_ab3c6c4e5978d9581d53460c473ad9b0a"><td class="memItemLeft" align="right" valign="top"><a id="ab3c6c4e5978d9581d53460c473ad9b0a" name="ab3c6c4e5978d9581d53460c473ad9b0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>exportMesh</b> (bool exportEdges=false, bool exportSurfaces=false, string exportMesh=&quot;export.mesh&quot;)</td></tr>
-<tr class="memdesc:ab3c6c4e5978d9581d53460c473ad9b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting <a class="el" href="classFEDD_1_1Mesh.html">Mesh</a>. <br /></td></tr>
-<tr class="separator:ab3c6c4e5978d9581d53460c473ad9b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55dcd00227f596970c66171c48ecde5" id="r_ae55dcd00227f596970c66171c48ecde5"><td class="memItemLeft" align="right" valign="top"><a id="ae55dcd00227f596970c66171c48ecde5" name="ae55dcd00227f596970c66171c48ecde5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>exportMesh</b> (bool exportEdges=false, bool exportSurfaces=false, std::string exportMesh=&quot;export.mesh&quot;)</td></tr>
+<tr class="memdesc:ae55dcd00227f596970c66171c48ecde5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting <a class="el" href="classFEDD_1_1Mesh.html">Mesh</a>. <br /></td></tr>
+<tr class="separator:ae55dcd00227f596970c66171c48ecde5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21389c495b75fd3a7189d6b16d3bafd9" id="r_a21389c495b75fd3a7189d6b16d3bafd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21389c495b75fd3a7189d6b16d3bafd9">preProcessMesh</a> (bool correctSurfaceNormals, bool correctElementDirection)</td></tr>
 <tr class="memdesc:a21389c495b75fd3a7189d6b16d3bafd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Option of preprocessing mesh by making consistent outward normal and/or consistent element orientation, where we always have positive det of transformation to reference element.  <br /></td></tr>
 <tr class="separator:a21389c495b75fd3a7189d6b16d3bafd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b7c30ad80db8f50178f0f56d88e8ec" id="r_ac2b7c30ad80db8f50178f0f56d88e8ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b7c30ad80db8f50178f0f56d88e8ec">exportElementFlags</a> (string name=&quot;default&quot;)</td></tr>
-<tr class="memdesc:ac2b7c30ad80db8f50178f0f56d88e8ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying element flags of the underlying mesh.  <br /></td></tr>
-<tr class="separator:ac2b7c30ad80db8f50178f0f56d88e8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a947cdcecb6085cae36e60d1e64032bd3" id="r_a947cdcecb6085cae36e60d1e64032bd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947cdcecb6085cae36e60d1e64032bd3">exportNodeFlags</a> (string name=&quot;default&quot;)</td></tr>
-<tr class="memdesc:a947cdcecb6085cae36e60d1e64032bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying node flags of the underlying mesh.  <br /></td></tr>
-<tr class="separator:a947cdcecb6085cae36e60d1e64032bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a813ce8dc3538b3d2a098db7d8aadc817" id="r_a813ce8dc3538b3d2a098db7d8aadc817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a813ce8dc3538b3d2a098db7d8aadc817">exportSurfaceNormals</a> (string name=&quot;default&quot;)</td></tr>
-<tr class="memdesc:a813ce8dc3538b3d2a098db7d8aadc817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not able to plot only the surfaces, the normals are displayed in each node. This means, that at corners, the visualization is incorrect (i.e. node belongs to surfaces which are in different directions)  <br /></td></tr>
-<tr class="separator:a813ce8dc3538b3d2a098db7d8aadc817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab94248b388ac28b728764eea8195dd8a" id="r_ab94248b388ac28b728764eea8195dd8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94248b388ac28b728764eea8195dd8a">exportElementOrientation</a> (string name=&quot;default&quot;)</td></tr>
-<tr class="memdesc:ab94248b388ac28b728764eea8195dd8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying element volume of underlying mesh.  <br /></td></tr>
-<tr class="separator:ab94248b388ac28b728764eea8195dd8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0640df799ab28838b271f9cecc52e30" id="r_aa0640df799ab28838b271f9cecc52e30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0640df799ab28838b271f9cecc52e30">exportElementFlags</a> (std::string name=&quot;default&quot;)</td></tr>
+<tr class="memdesc:aa0640df799ab28838b271f9cecc52e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying element flags of the underlying mesh.  <br /></td></tr>
+<tr class="separator:aa0640df799ab28838b271f9cecc52e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3da9cc7d970f2513fdeaa7431fd52f9" id="r_ab3da9cc7d970f2513fdeaa7431fd52f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3da9cc7d970f2513fdeaa7431fd52f9">exportNodeFlags</a> (std::string name=&quot;default&quot;)</td></tr>
+<tr class="memdesc:ab3da9cc7d970f2513fdeaa7431fd52f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying node flags of the underlying mesh.  <br /></td></tr>
+<tr class="separator:ab3da9cc7d970f2513fdeaa7431fd52f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182837ea70fa396919b9c6dde6d771d5" id="r_a182837ea70fa396919b9c6dde6d771d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a182837ea70fa396919b9c6dde6d771d5">exportSurfaceNormals</a> (std::string name=&quot;default&quot;)</td></tr>
+<tr class="memdesc:a182837ea70fa396919b9c6dde6d771d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not able to plot only the surfaces, the normals are displayed in each node. This means, that at corners, the visualization is incorrect (i.e. node belongs to surfaces which are in different directions)  <br /></td></tr>
+<tr class="separator:a182837ea70fa396919b9c6dde6d771d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b967be92ac02d53ee4608023417817" id="r_ac8b967be92ac02d53ee4608023417817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8b967be92ac02d53ee4608023417817">exportElementOrientation</a> (std::string name=&quot;default&quot;)</td></tr>
+<tr class="memdesc:ac8b967be92ac02d53ee4608023417817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting Paraview file displaying element volume of underlying mesh.  <br /></td></tr>
+<tr class="separator:ac8b967be92ac02d53ee4608023417817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a25fc2bbb7dc04de042db9e127be5ed15" name="a25fc2bbb7dc04de042db9e127be5ed15"></a>
@@ -684,8 +684,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 
 </div>
 </div>
-<a id="ac2b7c30ad80db8f50178f0f56d88e8ec" name="ac2b7c30ad80db8f50178f0f56d88e8ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2b7c30ad80db8f50178f0f56d88e8ec">&#9670;&#160;</a></span>exportElementFlags()</h2>
+<a id="aa0640df799ab28838b271f9cecc52e30" name="aa0640df799ab28838b271f9cecc52e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0640df799ab28838b271f9cecc52e30">&#9670;&#160;</a></span>exportElementFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,7 +695,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">void Domain::exportElementFlags </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -711,8 +711,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1Domain_ac2b7c30ad80db8f50178f0f56d88e8ec_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_ac2b7c30ad80db8f50178f0f56d88e8ec_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1Domain_ac2b7c30ad80db8f50178f0f56d88e8ec_cgraph" id="aclassFEDD_1_1Domain_ac2b7c30ad80db8f50178f0f56d88e8ec_cgraph">
+<div class="center"><img src="classFEDD_1_1Domain_aa0640df799ab28838b271f9cecc52e30_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_aa0640df799ab28838b271f9cecc52e30_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1Domain_aa0640df799ab28838b271f9cecc52e30_cgraph" id="aclassFEDD_1_1Domain_aa0640df799ab28838b271f9cecc52e30_cgraph">
 <area shape="rect" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="5,47,199,88"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#acc7dc177f778811d110d032a0e3f234e" title="Get map of elements." alt="" coords="247,5,448,31"/>
 <area shape="poly" title=" " alt="" coords="199,45,264,32,265,37,200,51"/>
@@ -725,8 +725,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ab94248b388ac28b728764eea8195dd8a" name="ab94248b388ac28b728764eea8195dd8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab94248b388ac28b728764eea8195dd8a">&#9670;&#160;</a></span>exportElementOrientation()</h2>
+<a id="ac8b967be92ac02d53ee4608023417817" name="ac8b967be92ac02d53ee4608023417817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b967be92ac02d53ee4608023417817">&#9670;&#160;</a></span>exportElementOrientation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -736,7 +736,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">void Domain::exportElementOrientation </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -752,8 +752,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1Domain_ab94248b388ac28b728764eea8195dd8a_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_ab94248b388ac28b728764eea8195dd8a_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1Domain_ab94248b388ac28b728764eea8195dd8a_cgraph" id="aclassFEDD_1_1Domain_ab94248b388ac28b728764eea8195dd8a_cgraph">
+<div class="center"><img src="classFEDD_1_1Domain_ac8b967be92ac02d53ee4608023417817_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_ac8b967be92ac02d53ee4608023417817_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1Domain_ac8b967be92ac02d53ee4608023417817_cgraph" id="aclassFEDD_1_1Domain_ac8b967be92ac02d53ee4608023417817_cgraph">
 <area shape="rect" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="5,72,199,113"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#aa39723a79c28706566d5b54a4cde6b4e" title="Build transformation of element to reference element depending on FEType." alt="" coords="247,5,466,31"/>
 <area shape="poly" title=" " alt="" coords="157,69,246,40,273,32,275,38,247,45,158,74"/>
@@ -768,8 +768,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a947cdcecb6085cae36e60d1e64032bd3" name="a947cdcecb6085cae36e60d1e64032bd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a947cdcecb6085cae36e60d1e64032bd3">&#9670;&#160;</a></span>exportNodeFlags()</h2>
+<a id="ab3da9cc7d970f2513fdeaa7431fd52f9" name="ab3da9cc7d970f2513fdeaa7431fd52f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3da9cc7d970f2513fdeaa7431fd52f9">&#9670;&#160;</a></span>exportNodeFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -779,7 +779,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">void Domain::exportNodeFlags </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -795,8 +795,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1Domain_a947cdcecb6085cae36e60d1e64032bd3_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a947cdcecb6085cae36e60d1e64032bd3_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1Domain_a947cdcecb6085cae36e60d1e64032bd3_cgraph" id="aclassFEDD_1_1Domain_a947cdcecb6085cae36e60d1e64032bd3_cgraph">
+<div class="center"><img src="classFEDD_1_1Domain_ab3da9cc7d970f2513fdeaa7431fd52f9_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_ab3da9cc7d970f2513fdeaa7431fd52f9_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1Domain_ab3da9cc7d970f2513fdeaa7431fd52f9_cgraph" id="aclassFEDD_1_1Domain_ab3da9cc7d970f2513fdeaa7431fd52f9_cgraph">
 <area shape="rect" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="5,47,183,88"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a223fa08dc56db3089ee0cd85657625a8" title="Get vector of the flags corrsponding to the unique points (on your processor)" alt="" coords="231,5,444,31"/>
 <area shape="poly" title=" " alt="" coords="183,47,255,32,256,37,184,52"/>
@@ -809,8 +809,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a813ce8dc3538b3d2a098db7d8aadc817" name="a813ce8dc3538b3d2a098db7d8aadc817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a813ce8dc3538b3d2a098db7d8aadc817">&#9670;&#160;</a></span>exportSurfaceNormals()</h2>
+<a id="a182837ea70fa396919b9c6dde6d771d5" name="a182837ea70fa396919b9c6dde6d771d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a182837ea70fa396919b9c6dde6d771d5">&#9670;&#160;</a></span>exportSurfaceNormals()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -820,7 +820,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">void Domain::exportSurfaceNormals </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -836,8 +836,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1Domain_a813ce8dc3538b3d2a098db7d8aadc817_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a813ce8dc3538b3d2a098db7d8aadc817_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1Domain_a813ce8dc3538b3d2a098db7d8aadc817_cgraph" id="aclassFEDD_1_1Domain_a813ce8dc3538b3d2a098db7d8aadc817_cgraph">
+<div class="center"><img src="classFEDD_1_1Domain_a182837ea70fa396919b9c6dde6d771d5_cgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a182837ea70fa396919b9c6dde6d771d5_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1Domain_a182837ea70fa396919b9c6dde6d771d5_cgraph" id="aclassFEDD_1_1Domain_a182837ea70fa396919b9c6dde6d771d5_cgraph">
 <area shape="rect" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="5,163,197,203"/>
 <area shape="rect" href="classFEDD_1_1Helper.html#adeb786cd3ca841d38d9b6f6bddd09be8" title="Compute surface normal of corresponding surface." alt="" coords="255,5,456,46"/>
 <area shape="poly" title=" " alt="" coords="119,160,171,108,206,80,243,55,254,50,256,55,246,60,209,84,175,112,122,164"/>
@@ -969,7 +969,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Get vector of the flags corrsponding to the unique points (on your processor)" alt="" coords="275,35,488,60"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a36ee94dc00b0b8ff344faa6ed9b64385" title="Build interface maps." alt="" coords="5,5,227,31"/>
 <area shape="poly" title=" " alt="" coords="259,37,227,33,227,28,260,31"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a947cdcecb6085cae36e60d1e64032bd3" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="27,55,205,96"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ab3da9cc7d970f2513fdeaa7431fd52f9" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="27,55,205,96"/>
 <area shape="poly" title=" " alt="" coords="259,63,205,69,205,63,259,58"/>
 </map>
 </div>
@@ -1109,9 +1109,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1Domain_acc7dc177f778811d110d032a0e3f234e_icgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_acc7dc177f778811d110d032a0e3f234e_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1Domain_acc7dc177f778811d110d032a0e3f234e_icgraph" id="aclassFEDD_1_1Domain_acc7dc177f778811d110d032a0e3f234e_icgraph">
 <area shape="rect" title="Get map of elements." alt="" coords="247,46,448,72"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ac2b7c30ad80db8f50178f0f56d88e8ec" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="5,5,199,46"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#aa0640df799ab28838b271f9cecc52e30" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="5,5,199,46"/>
 <area shape="poly" title=" " alt="" coords="233,46,199,41,199,36,233,41"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ab94248b388ac28b728764eea8195dd8a" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="5,71,199,111"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ac8b967be92ac02d53ee4608023417817" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="5,71,199,111"/>
 <area shape="poly" title=" " alt="" coords="232,77,200,81,199,76,231,71"/>
 </map>
 </div>
@@ -1165,11 +1165,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1Domain_a686e1e8615c2420f272e525bf7385839_icgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a686e1e8615c2420f272e525bf7385839_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1Domain_a686e1e8615c2420f272e525bf7385839_icgraph" id="aclassFEDD_1_1Domain_a686e1e8615c2420f272e525bf7385839_icgraph">
 <area shape="rect" title="Get the elements (on your processor) as Elements_Type." alt="" coords="247,112,439,137"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ac2b7c30ad80db8f50178f0f56d88e8ec" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="5,5,199,46"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#aa0640df799ab28838b271f9cecc52e30" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="5,5,199,46"/>
 <area shape="poly" title=" " alt="" coords="300,107,198,61,165,49,167,44,200,57,302,102"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ab94248b388ac28b728764eea8195dd8a" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="5,71,199,111"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ac8b967be92ac02d53ee4608023417817" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="5,71,199,111"/>
 <area shape="poly" title=" " alt="" coords="231,112,199,107,200,102,231,106"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="6,136,198,177"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="6,136,198,177"/>
 <area shape="poly" title=" " alt="" coords="231,142,198,146,198,141,231,137"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a737cca46fac2b0a2ec56c0fd158f5b43" title="initializeFEData" alt="" coords="23,201,181,242"/>
 <area shape="poly" title=" " alt="" coords="301,147,200,191,167,203,165,198,198,186,298,142"/>
@@ -1387,7 +1387,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1Domain_a1f26cb8a8a58a75e8c0ccace63788221_icgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a1f26cb8a8a58a75e8c0ccace63788221_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1Domain_a1f26cb8a8a58a75e8c0ccace63788221_icgraph" id="aclassFEDD_1_1Domain_a1f26cb8a8a58a75e8c0ccace63788221_icgraph">
 <area shape="rect" title="Get map of all repeated (not uniquely distributed) nodes of processors." alt="" coords="259,78,468,104"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="12,5,204,46"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="12,5,204,46"/>
 <area shape="poly" title=" " alt="" coords="295,76,190,49,191,44,296,71"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a29f63d5ea1a5bad9c4c6143747b22096" title=" " alt="" coords="5,71,211,111"/>
 <area shape="poly" title=" " alt="" coords="243,94,211,94,211,88,243,88"/>
@@ -1427,9 +1427,9 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="582,120,529,82,465,46,431,34,432,29,467,41,532,77,585,116"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a41b784cb22cb50300882951b40d9d942" title="Build unique node and dof interfaceMap in interface numbering." alt="" coords="266,55,445,96"/>
 <area shape="poly" title=" " alt="" coords="543,126,437,99,439,94,544,121"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a947cdcecb6085cae36e60d1e64032bd3" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="267,120,444,161"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ab3da9cc7d970f2513fdeaa7431fd52f9" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="267,120,444,161"/>
 <area shape="poly" title=" " alt="" coords="498,144,444,144,444,138,498,138"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="5,207,197,248"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="5,207,197,248"/>
 <area shape="poly" title=" " alt="" coords="540,160,466,175,198,218,197,212,466,170,539,155"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#afb00ea000097e92d7cf19ebd477f1115" title="Get map of all unique (not uniquely distributed) nodes of processors in a vector field point of view...." alt="" coords="253,235,458,276"/>
 <area shape="poly" title=" " alt="" coords="576,164,467,219,422,237,420,232,465,214,573,159"/>
@@ -1504,7 +1504,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1Domain_afb00ea000097e92d7cf19ebd477f1115_icgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_afb00ea000097e92d7cf19ebd477f1115_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1Domain_afb00ea000097e92d7cf19ebd477f1115_icgraph" id="aclassFEDD_1_1Domain_afb00ea000097e92d7cf19ebd477f1115_icgraph">
 <area shape="rect" title="Get map of all unique (not uniquely distributed) nodes of processors in a vector field point of view...." alt="" coords="245,5,450,46"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="5,5,197,46"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="5,5,197,46"/>
 <area shape="poly" title=" " alt="" coords="229,28,197,28,197,23,229,23"/>
 </map>
 </div>
@@ -1540,13 +1540,13 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="338,181,294,112,262,76,225,46,201,34,203,29,228,41,266,72,298,109,343,178"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a41b784cb22cb50300882951b40d9d942" title="Build unique node and dof interfaceMap in interface numbering." alt="" coords="26,55,206,96"/>
 <area shape="poly" title=" " alt="" coords="328,185,282,147,225,111,197,99,199,94,228,106,285,143,331,181"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ac2b7c30ad80db8f50178f0f56d88e8ec" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="19,120,213,161"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#aa0640df799ab28838b271f9cecc52e30" title="Exporting Paraview file displaying element flags of the underlying mesh." alt="" coords="19,120,213,161"/>
 <area shape="poly" title=" " alt="" coords="290,191,193,164,194,159,292,186"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#ab94248b388ac28b728764eea8195dd8a" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="19,186,213,226"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ac8b967be92ac02d53ee4608023417817" title="Exporting Paraview file displaying element volume of underlying mesh." alt="" coords="19,186,213,226"/>
 <area shape="poly" title=" " alt="" coords="259,209,213,209,213,204,259,204"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a947cdcecb6085cae36e60d1e64032bd3" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="27,251,205,292"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#ab3da9cc7d970f2513fdeaa7431fd52f9" title="Exporting Paraview file displaying node flags of the underlying mesh." alt="" coords="27,251,205,292"/>
 <area shape="poly" title=" " alt="" coords="292,226,194,253,193,248,290,221"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="20,316,212,357"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="20,316,212,357"/>
 <area shape="poly" title=" " alt="" coords="331,232,285,269,228,306,199,318,197,313,225,301,282,265,328,227"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a311d61719473745d65f22487764602b1" title="Set partial coupling." alt="" coords="33,382,199,422"/>
 <area shape="poly" title=" " alt="" coords="342,234,298,302,266,339,228,371,201,386,198,381,225,367,262,336,293,299,338,231"/>
@@ -1759,7 +1759,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1Domain_a707f2f5b832dbb22439db6720258db1d_icgraph.png" border="0" usemap="#aclassFEDD_1_1Domain_a707f2f5b832dbb22439db6720258db1d_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1Domain_a707f2f5b832dbb22439db6720258db1d_icgraph" id="aclassFEDD_1_1Domain_a707f2f5b832dbb22439db6720258db1d_icgraph">
 <area shape="rect" title="Get vector of repeated points (on your processor). 2D Vector with size: numPoints x dim." alt="" coords="256,70,477,96"/>
-<area shape="rect" href="classFEDD_1_1Domain.html#a813ce8dc3538b3d2a098db7d8aadc817" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="11,5,202,46"/>
+<area shape="rect" href="classFEDD_1_1Domain.html#a182837ea70fa396919b9c6dde6d771d5" title="Exporting Paraview file displaying surface normals of the underlying mesh. As we are generally not ab..." alt="" coords="11,5,202,46"/>
 <area shape="poly" title=" " alt="" coords="289,69,201,49,203,44,290,64"/>
 <area shape="rect" href="classFEDD_1_1Domain.html#a4d65f9b93a9bdc2349a01387b6a50efa" title="Get node list in multi vector point." alt="" coords="5,70,208,96"/>
 <area shape="poly" title=" " alt="" coords="240,86,208,86,208,80,240,80"/>
@@ -1861,8 +1861,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 
 </div>
 </div>
-<a id="aea44d2485e6cb10e4a1dd4f6ebe52156" name="aea44d2485e6cb10e4a1dd4f6ebe52156"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea44d2485e6cb10e4a1dd4f6ebe52156">&#9670;&#160;</a></span>initializeUnstructuredMesh()</h2>
+<a id="a8448beb178cf869025673e61c1131fc5" name="a8448beb178cf869025673e61c1131fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8448beb178cf869025673e61c1131fc5">&#9670;&#160;</a></span>initializeUnstructuredMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1877,7 +1877,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>feType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>feType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2067,8 +2067,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 
 </div>
 </div>
-<a id="af791acc1d844d101e7848efcf4a03da9" name="af791acc1d844d101e7848efcf4a03da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af791acc1d844d101e7848efcf4a03da9">&#9670;&#160;</a></span>readMesh()</h2>
+<a id="a3304faa343ae2310c9fde98e85261fb1" name="a3304faa343ae2310c9fde98e85261fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3304faa343ae2310c9fde98e85261fb1">&#9670;&#160;</a></span>readMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2078,12 +2078,12 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
         <tr>
           <td class="memname">void <a class="el" href="classFEDD_1_1Domain.html">FEDD::Domain</a>&lt; SC, LO, GO, NO &gt;::readMesh </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2093,7 +2093,7 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2117,8 +2117,8 @@ template&lt;class SC = default_sc, class LO = default_lo, class GO = default_go,
 
 </div>
 </div>
-<a id="a4414962ce6ac96543b8d539c5472ebe4" name="a4414962ce6ac96543b8d539c5472ebe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4414962ce6ac96543b8d539c5472ebe4">&#9670;&#160;</a></span>readMeshSize()</h2>
+<a id="a40c9538ead8277dd85a7102dad6d2d1f" name="a40c9538ead8277dd85a7102dad6d2d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c9538ead8277dd85a7102dad6d2d1f">&#9670;&#160;</a></span>readMeshSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2128,12 +2128,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">void Domain::readMeshSize </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>delimiter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

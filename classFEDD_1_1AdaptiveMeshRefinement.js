@@ -1,9 +1,9 @@
 var classFEDD_1_1AdaptiveMeshRefinement =
 [
     [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#a330d8d6a328ddbb7e1e2038fea565c7a", null ],
-    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#a6331efe29307723fb532acea922d8489", null ],
-    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#acf48e548d006ada2f7bec61fb2bc1d36", null ],
-    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#ae84158597b5700ee9ca25d8e02da286b", null ],
+    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#a0ca90ad45d18734cb1152a37a67d24ab", null ],
+    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#a2e51ada85a1fc0e0967650e7fd240e77", null ],
+    [ "AdaptiveMeshRefinement", "classFEDD_1_1AdaptiveMeshRefinement.html#a30d3c31a72bf4351900735ff61ab57c2", null ],
     [ "calcErrorNorms", "classFEDD_1_1AdaptiveMeshRefinement.html#aed27c7286027cf3f3bef4b663562e5dd", null ],
     [ "calcExactSolution", "classFEDD_1_1AdaptiveMeshRefinement.html#a006a35028c7c627a1dd885df67204084", null ],
     [ "calcExactSolutionP", "classFEDD_1_1AdaptiveMeshRefinement.html#aabc419ce3fcac702ee1b2ce9023e4fef", null ],

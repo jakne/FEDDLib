@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="5,461,175,502"/>
 <area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#af40b1acc9353be1408fed4d6a61ed2ae" title="Adding a Midpoint on an edge." alt="" coords="745,53,915,94"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,461,93,388,100,339,111,286,127,231,150,177,181,127,221,85,250,63,282,45,350,19,423,6,497,3,570,8,639,18,754,46,753,51,638,23,569,13,497,8,424,11,352,24,284,49,253,67,224,89,186,131,155,180,132,233,116,287,105,340,98,389,94,461"/>
-<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="500,85,670,126"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="500,85,670,126"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="89,461,95,394,114,303,131,254,154,207,184,165,221,129,251,110,283,96,352,81,422,78,486,83,485,88,422,83,353,86,285,102,253,115,224,133,188,168,158,210,136,256,120,304,101,395,95,461"/>
 <area shape="rect" id="Node000005" href="$classFEDD_1_1RefinementFactory.html#a4294d0901e6691203b9043bb2f9c6ac6" title="Building edgeMap after refinement." alt="" coords="239,461,408,502"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="175,479,224,479,224,484,175,484"/>

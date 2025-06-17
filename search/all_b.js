@@ -5,7 +5,7 @@ var searchData=
   ['map_3c_20lo_2c_20go_2c_20no_20_3e_2',['Map&lt; LO, GO, NO &gt;',['../classFEDD_1_1Map.html',1,'FEDD']]],
   ['map_5fxpetra_3',['Map_Xpetra',['../classFEDD_1_1Map__Xpetra.html',1,'FEDD']]],
   ['map_5fxpetra_3c_20lo_2c_20go_2c_20no_20_3e_4',['Map_Xpetra&lt; LO, GO, NO &gt;',['../classFEDD_1_1Map__Xpetra.html',1,'FEDD']]],
-  ['markelements_5',['markElements',['../classFEDD_1_1ErrorEstimation.html#ae06a1a8d7f551986e5d8bcd6a2303455',1,'FEDD::ErrorEstimation']]],
+  ['markelements_5',['markElements',['../classFEDD_1_1ErrorEstimation.html#ab31ee40368ae3337862b9dd5f9150012',1,'FEDD::ErrorEstimation']]],
   ['matrix_6',['Matrix',['../classFEDD_1_1Matrix.html',1,'FEDD']]],
   ['matrix_3c_20sc_2c_20lo_2c_20go_2c_20no_20_3e_7',['Matrix&lt; SC, LO, GO, NO &gt;',['../classFEDD_1_1Matrix.html',1,'FEDD']]],
   ['merge_8',['merge',['../classFEDD_1_1BlockMap.html#a4db84468375c6001e0cfc005a899b598',1,'FEDD::BlockMap']]],

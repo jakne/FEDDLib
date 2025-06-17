@@ -541,25 +541,64 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>s_to_r8</b> (string
 <tr class="memitem:a140219d2b5f1ae4af42f0fef79c9f338" id="r_a140219d2b5f1ae4af42f0fef79c9f338"><td class="memItemLeft" align="right" valign="top"><a id="a140219d2b5f1ae4af42f0fef79c9f338" name="a140219d2b5f1ae4af42f0fef79c9f338"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>timestamp</b> ()</td></tr>
 <tr class="separator:a140219d2b5f1ae4af42f0fef79c9f338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae043e0c7cfaf64a5a126db994cc750c3" id="r_ae043e0c7cfaf64a5a126db994cc750c3"><td class="memItemLeft" align="right" valign="top"><a id="ae043e0c7cfaf64a5a126db994cc750c3" name="ae043e0c7cfaf64a5a126db994cc750c3"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>meshReadSize</b> (string mesh_filename, int &amp;numNode, int &amp;dim, int &amp;numElement, int &amp;orderElement, int &amp;numSurface, int &amp;orderSurface, int &amp;numEdges, int &amp;orderEdges)</td></tr>
-<tr class="separator:ae043e0c7cfaf64a5a126db994cc750c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b347c6e83b5bc2edcdd25a12362df00" id="r_a2b347c6e83b5bc2edcdd25a12362df00"><td class="memTemplParams" colspan="2"><a id="a2b347c6e83b5bc2edcdd25a12362df00" name="a2b347c6e83b5bc2edcdd25a12362df00"></a>
+<tr class="memitem:a8ea8012b9d5a9e64508a03a4ab09250a" id="r_a8ea8012b9d5a9e64508a03a4ab09250a"><td class="memItemLeft" align="right" valign="top"><a id="a8ea8012b9d5a9e64508a03a4ab09250a" name="a8ea8012b9d5a9e64508a03a4ab09250a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>gmsh_data_read</b> (std::string gmsh_filename, int node_dim, int node_num, double node_x[], int element_order, int element_num, int element_node[])</td></tr>
+<tr class="separator:a8ea8012b9d5a9e64508a03a4ab09250a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0963ff13bfa5c6f360b274d681868e8" id="r_aa0963ff13bfa5c6f360b274d681868e8"><td class="memItemLeft" align="right" valign="top"><a id="aa0963ff13bfa5c6f360b274d681868e8" name="aa0963ff13bfa5c6f360b274d681868e8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>gmsh_size_read</b> (std::string gmsh_filename, int &amp;node_num, int &amp;node_dim, int &amp;element_num, int &amp;element_order)</td></tr>
+<tr class="separator:aa0963ff13bfa5c6f360b274d681868e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8077d60767f05487ff7bfa4d0f9b94e3" id="r_a8077d60767f05487ff7bfa4d0f9b94e3"><td class="memItemLeft" align="right" valign="top"><a id="a8077d60767f05487ff7bfa4d0f9b94e3" name="a8077d60767f05487ff7bfa4d0f9b94e3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>gmsh_mesh1d_write</b> (std::string gmsh_filename, int m, int node_num, double node_x[], int element_order, int element_num, int element_node[])</td></tr>
+<tr class="separator:a8077d60767f05487ff7bfa4d0f9b94e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcd34c4d66f6d21a6c2bbe1b064bd80f" id="r_adcd34c4d66f6d21a6c2bbe1b064bd80f"><td class="memItemLeft" align="right" valign="top"><a id="adcd34c4d66f6d21a6c2bbe1b064bd80f" name="adcd34c4d66f6d21a6c2bbe1b064bd80f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>gmsh_mesh2d_write</b> (std::string gmsh_filename, int m, int node_num, double node_x[], int element_order, int element_num, int element_node[])</td></tr>
+<tr class="separator:adcd34c4d66f6d21a6c2bbe1b064bd80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d942a7d3cc98a723f85bee2676f976" id="r_ab7d942a7d3cc98a723f85bee2676f976"><td class="memItemLeft" align="right" valign="top"><a id="ab7d942a7d3cc98a723f85bee2676f976" name="ab7d942a7d3cc98a723f85bee2676f976"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>gmsh_mesh3d_write</b> (std::string gmsh_filename, int m, int node_num, double node_x[], int element_order, int element_num, int element_node[])</td></tr>
+<tr class="separator:ab7d942a7d3cc98a723f85bee2676f976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1d2976e2ce61dcfb97473fcb9f5696" id="r_a7b1d2976e2ce61dcfb97473fcb9f5696"><td class="memItemLeft" align="right" valign="top"><a id="a7b1d2976e2ce61dcfb97473fcb9f5696" name="a7b1d2976e2ce61dcfb97473fcb9f5696"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>i4mat_transpose_print</b> (int m, int n, int a[], std::string title)</td></tr>
+<tr class="separator:a7b1d2976e2ce61dcfb97473fcb9f5696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0d5ab0e997e33988cb3b3a96cfb5c7" id="r_abb0d5ab0e997e33988cb3b3a96cfb5c7"><td class="memItemLeft" align="right" valign="top"><a id="abb0d5ab0e997e33988cb3b3a96cfb5c7" name="abb0d5ab0e997e33988cb3b3a96cfb5c7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>i4mat_transpose_print_some</b> (int m, int n, int a[], int ilo, int jlo, int ihi, int jhi, std::string title)</td></tr>
+<tr class="separator:abb0d5ab0e997e33988cb3b3a96cfb5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c191d48974615518b97e71e71403af" id="r_aa2c191d48974615518b97e71e71403af"><td class="memItemLeft" align="right" valign="top"><a id="aa2c191d48974615518b97e71e71403af" name="aa2c191d48974615518b97e71e71403af"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>r8mat_transpose_print</b> (int m, int n, double a[], std::string title)</td></tr>
+<tr class="separator:aa2c191d48974615518b97e71e71403af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af79316fd944ec5468b17073c654f181c" id="r_af79316fd944ec5468b17073c654f181c"><td class="memItemLeft" align="right" valign="top"><a id="af79316fd944ec5468b17073c654f181c" name="af79316fd944ec5468b17073c654f181c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>r8mat_transpose_print_some</b> (int m, int n, double a[], int ilo, int jlo, int ihi, int jhi, std::string title)</td></tr>
+<tr class="separator:af79316fd944ec5468b17073c654f181c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad564a0069eff72883a453fad541eef4b" id="r_ad564a0069eff72883a453fad541eef4b"><td class="memItemLeft" align="right" valign="top"><a id="ad564a0069eff72883a453fad541eef4b" name="ad564a0069eff72883a453fad541eef4b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>s_begin</b> (std::string s1, std::string s2)</td></tr>
+<tr class="separator:ad564a0069eff72883a453fad541eef4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7fc845e20af7c43ca6dd69b39830708" id="r_ab7fc845e20af7c43ca6dd69b39830708"><td class="memItemLeft" align="right" valign="top"><a id="ab7fc845e20af7c43ca6dd69b39830708" name="ab7fc845e20af7c43ca6dd69b39830708"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>s_len_trim</b> (std::string s)</td></tr>
+<tr class="separator:ab7fc845e20af7c43ca6dd69b39830708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83beede1c6ec5b66b0852854f209b03e" id="r_a83beede1c6ec5b66b0852854f209b03e"><td class="memItemLeft" align="right" valign="top"><a id="a83beede1c6ec5b66b0852854f209b03e" name="a83beede1c6ec5b66b0852854f209b03e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>s_to_i4</b> (std::string s, int &amp;last, bool &amp;error)</td></tr>
+<tr class="separator:a83beede1c6ec5b66b0852854f209b03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5092ae175f1e8c10170885268060506" id="r_ad5092ae175f1e8c10170885268060506"><td class="memItemLeft" align="right" valign="top"><a id="ad5092ae175f1e8c10170885268060506" name="ad5092ae175f1e8c10170885268060506"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>s_to_r8</b> (std::string s, int &amp;lchar, bool &amp;error)</td></tr>
+<tr class="separator:ad5092ae175f1e8c10170885268060506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49377e7adef9588f72bfe858d96a6ce" id="r_ab49377e7adef9588f72bfe858d96a6ce"><td class="memItemLeft" align="right" valign="top"><a id="ab49377e7adef9588f72bfe858d96a6ce" name="ab49377e7adef9588f72bfe858d96a6ce"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>meshReadSize</b> (std::string mesh_filename, int &amp;numNode, int &amp;dim, int &amp;numElement, int &amp;orderElement, int &amp;numSurface, int &amp;orderSurface, int &amp;numEdges, int &amp;orderEdges)</td></tr>
+<tr class="separator:ab49377e7adef9588f72bfe858d96a6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ebd603d839ccab76bdb8f2924f69d2" id="r_a64ebd603d839ccab76bdb8f2924f69d2"><td class="memTemplParams" colspan="2"><a id="a64ebd603d839ccab76bdb8f2924f69d2" name="a64ebd603d839ccab76bdb8f2924f69d2"></a>
 template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a2b347c6e83b5bc2edcdd25a12362df00"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>NextEntry</b> (string text, string delimiter, int fromPos, int &amp;value, T &amp;random)</td></tr>
-<tr class="separator:a2b347c6e83b5bc2edcdd25a12362df00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf96d6304a3e3bd50665deeb759dcbb3" id="r_acf96d6304a3e3bd50665deeb759dcbb3"><td class="memTemplParams" colspan="2"><a id="acf96d6304a3e3bd50665deeb759dcbb3" name="acf96d6304a3e3bd50665deeb759dcbb3"></a>
+<tr class="memitem:a64ebd603d839ccab76bdb8f2924f69d2"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>NextEntry</b> (std::string text, std::string delimiter, int fromPos, int &amp;value, T &amp;random)</td></tr>
+<tr class="separator:a64ebd603d839ccab76bdb8f2924f69d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea433efa1a8f4fa8e478466050fc65a" id="r_a8ea433efa1a8f4fa8e478466050fc65a"><td class="memTemplParams" colspan="2"><a id="a8ea433efa1a8f4fa8e478466050fc65a" name="a8ea433efa1a8f4fa8e478466050fc65a"></a>
 template&lt;typename T&gt; </td></tr>
-<tr class="memitem:acf96d6304a3e3bd50665deeb759dcbb3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>NextEntry</b> (string text, string delimiter, int fromPos, double &amp;value, T &amp;random)</td></tr>
-<tr class="separator:acf96d6304a3e3bd50665deeb759dcbb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0322247df4ecb62b7b3876b54790a40b" id="r_a0322247df4ecb62b7b3876b54790a40b"><td class="memTemplParams" colspan="2"><a id="a0322247df4ecb62b7b3876b54790a40b" name="a0322247df4ecb62b7b3876b54790a40b"></a>
+<tr class="memitem:a8ea433efa1a8f4fa8e478466050fc65a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><b>NextEntry</b> (std::string text, std::string delimiter, int fromPos, double &amp;value, T &amp;random)</td></tr>
+<tr class="separator:a8ea433efa1a8f4fa8e478466050fc65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dac9eb75bce0ab9a46bd242be2cc38f" id="r_a1dac9eb75bce0ab9a46bd242be2cc38f"><td class="memTemplParams" colspan="2"><a id="a1dac9eb75bce0ab9a46bd242be2cc38f" name="a1dac9eb75bce0ab9a46bd242be2cc38f"></a>
 template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a0322247df4ecb62b7b3876b54790a40b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>readEntity</b> (ifstream &amp;file, string &amp;text, vector&lt; T &gt; &amp;entity, vector&lt; int &gt; &amp;entityFlags, const int &amp;numEntity, const int &amp;orderEntity, const string &amp;delimiter, bool isNode=false, int dim=3)</td></tr>
-<tr class="separator:a0322247df4ecb62b7b3876b54790a40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d5f289aee63596f399f2c9c17fc84c" id="r_a14d5f289aee63596f399f2c9c17fc84c"><td class="memTemplParams" colspan="2"><a id="a14d5f289aee63596f399f2c9c17fc84c" name="a14d5f289aee63596f399f2c9c17fc84c"></a>
+<tr class="memitem:a1dac9eb75bce0ab9a46bd242be2cc38f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>readEntity</b> (std::ifstream &amp;file, std::string &amp;text, std::vector&lt; T &gt; &amp;entity, std::vector&lt; int &gt; &amp;entityFlags, const int &amp;numEntity, const int &amp;orderEntity, const std::string &amp;delimiter, bool isNode=false, int dim=3)</td></tr>
+<tr class="separator:a1dac9eb75bce0ab9a46bd242be2cc38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6b042abd794c6fcb05ca25c7158402" id="r_a3c6b042abd794c6fcb05ca25c7158402"><td class="memTemplParams" colspan="2"><a id="a3c6b042abd794c6fcb05ca25c7158402" name="a3c6b042abd794c6fcb05ca25c7158402"></a>
 template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a14d5f289aee63596f399f2c9c17fc84c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>meshReadData</b> (const string &amp;mesh_filename, const string &amp;type, const string &amp;delimiter, const int &amp;dim, const int &amp;numEntity, const int &amp;orderEntity, vector&lt; T &gt; &amp;entity, vector&lt; int &gt; &amp;entityFlag)</td></tr>
-<tr class="separator:a14d5f289aee63596f399f2c9c17fc84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6b042abd794c6fcb05ca25c7158402"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>meshReadData</b> (const std::string &amp;mesh_filename, const std::string &amp;type, const std::string &amp;delimiter, const int &amp;dim, const int &amp;numEntity, const int &amp;orderEntity, std::vector&lt; T &gt; &amp;entity, std::vector&lt; int &gt; &amp;entityFlag)</td></tr>
+<tr class="separator:a3c6b042abd794c6fcb05ca25c7158402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9715efb8a887b93b97e6d5d459f9b163" id="r_a9715efb8a887b93b97e6d5d459f9b163"><td class="memTemplParams" colspan="2"><a id="a9715efb8a887b93b97e6d5d459f9b163" name="a9715efb8a887b93b97e6d5d459f9b163"></a>
 template&lt;class ForwardIt, class GO&gt; </td></tr>
 <tr class="memitem:a9715efb8a887b93b97e6d5d459f9b163"><td class="memTemplItemLeft" align="right" valign="top">ForwardIt&#160;</td><td class="memTemplItemRight" valign="bottom"><b>uniqueWithCombines</b> (ForwardIt first, ForwardIt last, std::vector&lt; std::vector&lt; GO &gt; &gt; &amp;combines)</td></tr>
@@ -663,8 +702,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <p><a class="el" href="classFEDD_1_1MeshStructured.html">MeshStructured</a>.</p>
 <p><a class="el" href="classFEDD_1_1MeshPartitioner.html">MeshPartitioner</a>.</p>
 <p><a class="el" href="classFEDD_1_1MeshInterface.html">MeshInterface</a>.</p>
+<p>MeshFileReader.</p>
+<p>This class reads data from a given .mesh-file.</p>
 <p><a class="el" href="classFEDD_1_1Mesh.html">Mesh</a>.</p>
 <p><a class="el" href="classFEDD_1_1AABBTree.html">AABBTree</a>.</p>
+<p><a class="el" href="classFEDD_1_1MultiVector.html">MultiVector</a>.</p>
+<p><a class="el" href="classFEDD_1_1Matrix.html">Matrix</a>.</p>
+<p><a class="el" href="classFEDD_1_1Map.html">Map</a>.</p>
 <p><a class="el" href="classFEDD_1_1BlockMultiVector.html">BlockMultiVector</a>.</p>
 <p><a class="el" href="classFEDD_1_1BlockMatrix.html">BlockMatrix</a>.</p>
 <p><a class="el" href="classFEDD_1_1BlockMap.html" title="Block Variant of Map class.">BlockMap</a>.</p>
@@ -689,6 +733,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Lea Saßmannshausen </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1ExporterParaViewAMR.html">ExporterParaViewAMR</a></p>
+<dl class="section author"><dt>Author</dt><dd>Lea Saßmannshausen</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1ExporterParaView.html">ExporterParaView</a></p>
 <dl class="section author"><dt>Author</dt><dd>Lea Saßmannshausen</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1RefinementFactory.html">RefinementFactory</a></p>
 <dl class="section author"><dt>Author</dt><dd>Lea Saßmannshausen </dd></dl>
@@ -726,6 +772,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
@@ -747,6 +797,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Moving mesh are possible, here connections are constant but coordinates can be shifted between exports. Use set the following paramter in your parameter list in order to export updated mesh points sublist("Exporter")-&gt;get("Write new mesh") = true</p>
+<p>Definition of <a class="el" href="classFEDD_1_1ExporterParaView.html">ExporterParaView</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1ExporterTxt.html">ExporterTxt</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1ExporterTxt.html">ExporterTxt</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
@@ -754,6 +812,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <p>Exporting a HDF5 file</p>
 <p>Based on Epetra_Ext it is popssible to export a <a class="el" href="classFEDD_1_1MultiVector.html">MultiVector</a> to a HDF5 file with the command 'write'. The use must provide the corresponding writemap, to correctly store the (parallely distributed) vector and the file and variable name to stroe it in.</p>
 <p>The Structure is as follows: The HDF5 file which stores data is set up via Create(filename) -&gt; We have a HDF5 file The file can now contain one or more variables with different MultiVectors, but they all correspond to the same map When we use more than one variable, the different variables can correspond ie. to different time steps -&gt; This can be useful for restarts, where we can then import the different time steps</p>
+<p>Importing a HDF5 file</p>
+<p>Based on Epetra_Ext it is popssible to import a HDF5 file with the command 'read'. The use must provide the corresponding map, to distribute the vector and the correct file and variable name.</p>
 <p>Importing a HDF5 file</p>
 <p>Based on Epetra_Ext it is popssible to import a HDF5 file with the command 'read'. The use must provide the corresponding map, to distribute the vector and the correct file and variable name.</p>
 <p>Declaration of <a class="el" href="classFEDD_1_1SmallMatrix.html" title="This class represents a templated small Matrix of type T. Primarily created for 2x2 and 3x3 matrices....">SmallMatrix</a></p>
@@ -788,7 +848,33 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Declaration of <a class="el" href="classFEDD_1_1Map.html">Map</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Declaration of <a class="el" href="classFEDD_1_1Map.html">Map</a></p>
+<p>June 2024: Transition from XPetra to TPetra. In most instances XPetra interface works through a Factory + Build-call. We replaced this with a direct call to the TPetra functions which can be seen in the corresponding XPetra::Factories.</p>
+<p>Declaration of <a class="el" href="classFEDD_1_1Matrix.html">Matrix</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Defintion of <a class="el" href="classFEDD_1_1Matrix.html">Matrix</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Declaration of <a class="el" href="classFEDD_1_1MultiVector.html">MultiVector</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Defintion of <a class="el" href="classFEDD_1_1MultiVector.html">MultiVector</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1AABBTree.html">AABBTree</a></p>
+<dl class="section author"><dt>Author</dt><dd>Viktor Grimm </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>VG</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1AABBTree.html">AABBTree</a></p>
 <dl class="section author"><dt>Author</dt><dd>Viktor Grimm </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>VG</dd></dl>
@@ -796,11 +882,23 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1Mesh.html">Mesh</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of MeshFileReader</p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Declaration of MeshFileReader</p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1MeshInterface.html">MeshInterface</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
-<p>Defintion of <a class="el" href="classFEDD_1_1MeshPartitioner.html">MeshPartitioner</a></p>
+<p>Definition of <a class="el" href="classFEDD_1_1MeshPartitioner.html">MeshPartitioner</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
@@ -811,12 +909,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <p>Extension of mesh class. In <a class="el" href="classFEDD_1_1MeshStructured.html">MeshStructured</a> meshes are build inside the FEDDLib from scratch and distributed among the processors - structured partition.</p>
 <p>!!! Please note that the P1-P2 node structure differs from the 'buildP2Mesh' process in unstructured meshes !!! (P2 nodes are generally build on top of P1 nodes and added to the P1 element list.)</p>
 <p>Possible FEType are in general P1 or P2. For most cases a Q2-P1 (disc) discretization is available.</p>
+<p>Definition of <a class="el" href="classFEDD_1_1MeshStructured.html">MeshStructured</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1MeshUnstructured.html">MeshUnstructured</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Extension of mesh class. <a class="el" href="classFEDD_1_1MeshUnstructured.html">MeshUnstructured</a> represents meshes that are read through .mesh input file. In contrast to structured meshes which are meshes we build internally. Features functions to read a mesh and extend it to a P2 mesh.</p>
 <p>Declaration of <a class="el" href="classFEDD_1_1LinearProblem.html">LinearProblem</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1LinearProblem.html">LinearProblem</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
@@ -831,6 +937,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1NonLinearProblem.html">NonLinearProblem</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1Problem.html">Problem</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
@@ -839,7 +949,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1TimeProblem.html">TimeProblem</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1DAESolverInTime.html">DAESolverInTime</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1DAESolverInTime.html">DAESolverInTime</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
@@ -852,6 +970,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Declaration of <a class="el" href="classFEDD_1_1NonLinearSolver.html">NonLinearSolver</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1NonLinearSolver.html">NonLinearSolver</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
@@ -884,6 +1006,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>myTPMSingleMat</b> (i
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
 <p>Definition of <a class="el" href="classFEDD_1_1PrecOpFaCSI.html">PrecOpFaCSI</a></p>
+<dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>
+<p>Definition of <a class="el" href="classFEDD_1_1TimeSteppingTools.html">TimeSteppingTools</a></p>
 <dl class="section author"><dt>Author</dt><dd>Christian Hochmuth </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>CH</dd></dl>

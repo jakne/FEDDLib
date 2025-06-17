@@ -336,9 +336,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b8e1447e7b600ba3816c0171ca0a262" id="r_a9b8e1447e7b600ba3816c0171ca0a262"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8e1447e7b600ba3816c0171ca0a262">RefinementFactory</a> (CommConstPtr_Type comm, int volumeID, ParameterListPtr_Type parameterListAll)</td></tr>
 <tr class="memdesc:a9b8e1447e7b600ba3816c0171ca0a262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiating <a class="el" href="classFEDD_1_1RefinementFactory.html">RefinementFactory</a> via <a class="el" href="classFEDD_1_1MeshUnstructured.html">MeshUnstructured</a> with additional information for mesh refinement.  <br /></td></tr>
 <tr class="separator:a9b8e1447e7b600ba3816c0171ca0a262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad005b54bed27c97b4c98e3b1b0c009b0" id="r_ad005b54bed27c97b4c98e3b1b0c009b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad005b54bed27c97b4c98e3b1b0c009b0">refineMesh</a> (MeshUnstrPtr_Type meshP1, int iteration, MeshUnstrPtr_Type outputMesh, string refinementMode)</td></tr>
-<tr class="memdesc:ad005b54bed27c97b4c98e3b1b0c009b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function of <a class="el" href="classFEDD_1_1RefinementFactory.html">RefinementFactory</a>, performs one complete mesh refinement, according to red-green refinement (Verfuerth) or tetrahedral grid refinement (Bey).  <br /></td></tr>
-<tr class="separator:ad005b54bed27c97b4c98e3b1b0c009b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c68743984067f49935e30705e22876" id="r_ae8c68743984067f49935e30705e22876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8c68743984067f49935e30705e22876">refineMesh</a> (MeshUnstrPtr_Type meshP1, int iteration, MeshUnstrPtr_Type outputMesh, std::string refinementMode)</td></tr>
+<tr class="memdesc:ae8c68743984067f49935e30705e22876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function of <a class="el" href="classFEDD_1_1RefinementFactory.html">RefinementFactory</a>, performs one complete mesh refinement, according to red-green refinement (Verfuerth) or tetrahedral grid refinement (Bey).  <br /></td></tr>
+<tr class="separator:ae8c68743984067f49935e30705e22876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a282e75fa4cb2fe0440f3db747b546265" id="r_a282e75fa4cb2fe0440f3db747b546265"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a282e75fa4cb2fe0440f3db747b546265">refineRegular</a> (EdgeElementsPtr_Type edgeElements, ElementsPtr_Type elements, int i, SurfaceElementsPtr_Type surfaceTriangleElements)</td></tr>
 <tr class="memdesc:a282e75fa4cb2fe0440f3db747b546265"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D and 3D regular refinement. Chosen by error estimator or otherwise elements are refined regular by connecting edge midpoints.  <br /></td></tr>
 <tr class="separator:a282e75fa4cb2fe0440f3db747b546265"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -399,9 +399,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setErrorEstimate</b> 
 <tr class="memitem:aecc0c9142abed8227daa43fc5db6ae1c" id="r_aecc0c9142abed8227daa43fc5db6ae1c"><td class="memItemLeft" align="right" valign="top"><a id="aecc0c9142abed8227daa43fc5db6ae1c" name="aecc0c9142abed8227daa43fc5db6ae1c"></a>
 vec_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><b>getErrorEstimate</b> ()</td></tr>
 <tr class="separator:aecc0c9142abed8227daa43fc5db6ae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6fcea7dad92882f91d311de2ed05155" id="r_ab6fcea7dad92882f91d311de2ed05155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6fcea7dad92882f91d311de2ed05155">bisectEdges</a> (EdgeElementsPtr_Type edgeElements, ElementsPtr_Type elements, int indexElement, SurfaceElementsPtr_Type surfaceTriangleElements, string mode=&quot;default&quot;)</td></tr>
-<tr class="memdesc:ab6fcea7dad92882f91d311de2ed05155"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D and 3D that bisects the edges of tagged <a class="el" href="classFEDD_1_1Elements.html">Elements</a>. Chosen by error estimator or otherwise elements are refined regular by connecting edge midpoints.  <br /></td></tr>
-<tr class="separator:ab6fcea7dad92882f91d311de2ed05155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bfecb1360bc7c4ad977174c172330a" id="r_a55bfecb1360bc7c4ad977174c172330a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55bfecb1360bc7c4ad977174c172330a">bisectEdges</a> (EdgeElementsPtr_Type edgeElements, ElementsPtr_Type elements, int indexElement, SurfaceElementsPtr_Type surfaceTriangleElements, std::string mode=&quot;default&quot;)</td></tr>
+<tr class="memdesc:a55bfecb1360bc7c4ad977174c172330a"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D and 3D that bisects the edges of tagged <a class="el" href="classFEDD_1_1Elements.html">Elements</a>. Chosen by error estimator or otherwise elements are refined regular by connecting edge midpoints.  <br /></td></tr>
+<tr class="separator:a55bfecb1360bc7c4ad977174c172330a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a092455b08d3903df72c5f58c28bf4b05" id="r_a092455b08d3903df72c5f58c28bf4b05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a092455b08d3903df72c5f58c28bf4b05">bisectElement3</a> (EdgeElementsPtr_Type edgeElements, ElementsPtr_Type elements, int indexElementp)</td></tr>
 <tr class="memdesc:a092455b08d3903df72c5f58c28bf4b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D refinement by bisection of tagged <a class="el" href="classFEDD_1_1Elements.html">Elements</a> with three tagged Edges.  <br /></td></tr>
 <tr class="separator:a092455b08d3903df72c5f58c28bf4b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -476,13 +476,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>partitionInterface</b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>readMeshSize</b> ()</td></tr>
 <tr class="memdesc:a326ea0c57c466a5e4c8ffdb644980644 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading mesh size. <br /></td></tr>
 <tr class="separator:a326ea0c57c466a5e4c8ffdb644980644 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35afa6346e5a9f09212a960897e556e6 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_a35afa6346e5a9f09212a960897e556e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFEDD_1_1MeshUnstructured.html#a35afa6346e5a9f09212a960897e556e6">readMeshEntity</a> (string entityType)</td></tr>
-<tr class="memdesc:a35afa6346e5a9f09212a960897e556e6 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading the .mesh files entities.  <br /></td></tr>
-<tr class="separator:a35afa6346e5a9f09212a960897e556e6 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb0ecbb839125869e7f1469ce6818eb4 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_aeb0ecbb839125869e7f1469ce6818eb4"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMeshFileName</b> (string meshFileName, string delimiter)</td></tr>
-<tr class="memdesc:aeb0ecbb839125869e7f1469ce6818eb4 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the .mesh file name. <br /></td></tr>
-<tr class="separator:aeb0ecbb839125869e7f1469ce6818eb4 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcfada5573dfbce8fcf9e11d5704a124 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_adcfada5573dfbce8fcf9e11d5704a124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFEDD_1_1MeshUnstructured.html#adcfada5573dfbce8fcf9e11d5704a124">readMeshEntity</a> (std::string entityType)</td></tr>
+<tr class="memdesc:adcfada5573dfbce8fcf9e11d5704a124 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reading the .mesh files entities.  <br /></td></tr>
+<tr class="separator:adcfada5573dfbce8fcf9e11d5704a124 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67cd2bf7307bb68deadb21182a1bbb36 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_a67cd2bf7307bb68deadb21182a1bbb36"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setMeshFileName</b> (std::string meshFileName, std::string delimiter)</td></tr>
+<tr class="memdesc:a67cd2bf7307bb68deadb21182a1bbb36 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the .mesh file name. <br /></td></tr>
+<tr class="separator:a67cd2bf7307bb68deadb21182a1bbb36 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a292f2aa153464a7aaf12047cd5d3b5ce inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_a292f2aa153464a7aaf12047cd5d3b5ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFEDD_1_1MeshUnstructured.html#a292f2aa153464a7aaf12047cd5d3b5ce">getNumGlobalNodes</a> ()</td></tr>
 <tr class="memdesc:a292f2aa153464a7aaf12047cd5d3b5ce inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global number of nodes.  <br /></td></tr>
 <tr class="separator:a292f2aa153464a7aaf12047cd5d3b5ce inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -493,9 +493,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setMeshFileName</b> (
 void&#160;</td><td class="memItemRight" valign="bottom"><b>buildEdgeMap</b> ()</td></tr>
 <tr class="memdesc:a0435ad39c6cfbfcddafeb840aee12e79 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Building an edgemap from scratch when edges are already distributed parallel. <br /></td></tr>
 <tr class="separator:a0435ad39c6cfbfcddafeb840aee12e79 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b6e067e423ae00f6f919684fdb32247 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_a8b6e067e423ae00f6f919684fdb32247"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFEDD_1_1MeshUnstructured.html#a8b6e067e423ae00f6f919684fdb32247">exportMesh</a> (MapConstPtr_Type mapUnique, MapConstPtr_Type mapRep, bool exportEdges=false, bool exportSurface=false, string meshName=&quot;export.mesh&quot;)</td></tr>
-<tr class="memdesc:a8b6e067e423ae00f6f919684fdb32247 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting <a class="el" href="classFEDD_1_1Mesh.html">Mesh</a> as .mesh file. For most detailed export we also write surfaces and edges. This can be useful/necessary.  <br /></td></tr>
-<tr class="separator:a8b6e067e423ae00f6f919684fdb32247 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d37576e5ce8ed904198f96cba5764b1 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_a4d37576e5ce8ed904198f96cba5764b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFEDD_1_1MeshUnstructured.html#a4d37576e5ce8ed904198f96cba5764b1">exportMesh</a> (MapConstPtr_Type mapUnique, MapConstPtr_Type mapRep, bool exportEdges=false, bool exportSurface=false, std::string meshName=&quot;export.mesh&quot;)</td></tr>
+<tr class="memdesc:a4d37576e5ce8ed904198f96cba5764b1 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exporting <a class="el" href="classFEDD_1_1Mesh.html">Mesh</a> as .mesh file. For most detailed export we also write surfaces and edges. This can be useful/necessary.  <br /></td></tr>
+<tr class="separator:a4d37576e5ce8ed904198f96cba5764b1 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf111a6ee1f280409c45eff8fccebd25 inherit pub_methods_classFEDD_1_1MeshUnstructured" id="r_acf111a6ee1f280409c45eff8fccebd25"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>exportNodeFlags</b> ()</td></tr>
 <tr class="separator:acf111a6ee1f280409c45eff8fccebd25 inherit pub_methods_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -615,9 +615,9 @@ vec2D_int_ptr_Type&#160;</td><td class="memItemRight" valign="bottom"><b>getElem
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2dda98963313023311f044d248befd40" id="r_a2dda98963313023311f044d248befd40"><td class="memItemLeft" align="right" valign="top"><a id="a2dda98963313023311f044d248befd40" name="a2dda98963313023311f044d248befd40"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementRestriction_</b> = &quot;none&quot;</td></tr>
-<tr class="separator:a2dda98963313023311f044d248befd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b98c16751b32eea5e453a3c864ae5cf" id="r_a2b98c16751b32eea5e453a3c864ae5cf"><td class="memItemLeft" align="right" valign="top"><a id="a2b98c16751b32eea5e453a3c864ae5cf" name="a2b98c16751b32eea5e453a3c864ae5cf"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementRestriction_</b> = &quot;none&quot;</td></tr>
+<tr class="separator:a2b98c16751b32eea5e453a3c864ae5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d36e02039e041a2db7899c682ec218e" id="r_a5d36e02039e041a2db7899c682ec218e"><td class="memItemLeft" align="right" valign="top"><a id="a5d36e02039e041a2db7899c682ec218e" name="a5d36e02039e041a2db7899c682ec218e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>writeRefinementTime_</b> = &quot;true&quot;</td></tr>
 <tr class="separator:a5d36e02039e041a2db7899c682ec218e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -627,9 +627,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>refinement3DDiagonal_<
 <tr class="memitem:a9101f7f0b23fe2bba6b53bcb71ed4e84" id="r_a9101f7f0b23fe2bba6b53bcb71ed4e84"><td class="memItemLeft" align="right" valign="top"><a id="a9101f7f0b23fe2bba6b53bcb71ed4e84" name="a9101f7f0b23fe2bba6b53bcb71ed4e84"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>currentIter_</b> = 0</td></tr>
 <tr class="separator:a9101f7f0b23fe2bba6b53bcb71ed4e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46bd15f53b1fee950fa22244d86420aa" id="r_a46bd15f53b1fee950fa22244d86420aa"><td class="memItemLeft" align="right" valign="top"><a id="a46bd15f53b1fee950fa22244d86420aa" name="a46bd15f53b1fee950fa22244d86420aa"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementMode_</b> = &quot;Regular&quot;</td></tr>
-<tr class="separator:a46bd15f53b1fee950fa22244d86420aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae278848e4271eef9b888a84345543f70" id="r_ae278848e4271eef9b888a84345543f70"><td class="memItemLeft" align="right" valign="top"><a id="ae278848e4271eef9b888a84345543f70" name="ae278848e4271eef9b888a84345543f70"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementMode_</b> = &quot;Regular&quot;</td></tr>
+<tr class="separator:ae278848e4271eef9b888a84345543f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classFEDD_1_1MeshUnstructured"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classFEDD_1_1MeshUnstructured')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classFEDD_1_1MeshUnstructured.html">FEDD::MeshUnstructured&lt; default_sc, default_lo, default_go, default_no &gt;</a></td></tr>
 <tr class="memitem:a5be7e08457e37a4ec1fa3af914bec79e inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a5be7e08457e37a4ec1fa3af914bec79e"><td class="memItemLeft" align="right" valign="top">
 MeshInterfacePtr_Type&#160;</td><td class="memItemRight" valign="bottom"><b>meshInterface_</b></td></tr>
@@ -646,12 +646,12 @@ ElementsPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceEd
 <tr class="memitem:ace95b6dd5ce1ce64725c47a4547c499e inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_ace95b6dd5ce1ce64725c47a4547c499e"><td class="memItemLeft" align="right" valign="top">
 SurfaceElementsPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><b>surfaceTriangleElements_</b></td></tr>
 <tr class="separator:ace95b6dd5ce1ce64725c47a4547c499e inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a280a789a3001bfcc09b2a17762ba2fcc inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a280a789a3001bfcc09b2a17762ba2fcc"><td class="memItemLeft" align="right" valign="top">
-string&#160;</td><td class="memItemRight" valign="bottom"><b>meshFileName_</b></td></tr>
-<tr class="separator:a280a789a3001bfcc09b2a17762ba2fcc inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8132f67d2c084591d6b8b22a5f5366 inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a8c8132f67d2c084591d6b8b22a5f5366"><td class="memItemLeft" align="right" valign="top">
-string&#160;</td><td class="memItemRight" valign="bottom"><b>delimiter_</b></td></tr>
-<tr class="separator:a8c8132f67d2c084591d6b8b22a5f5366 inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bd73d0caed0f2bceca38eb0bd89bd59 inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a9bd73d0caed0f2bceca38eb0bd89bd59"><td class="memItemLeft" align="right" valign="top">
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>meshFileName_</b></td></tr>
+<tr class="separator:a9bd73d0caed0f2bceca38eb0bd89bd59 inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8315cb42fc2eee00f1aac3963232c99d inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a8315cb42fc2eee00f1aac3963232c99d"><td class="memItemLeft" align="right" valign="top">
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>delimiter_</b></td></tr>
+<tr class="separator:a8315cb42fc2eee00f1aac3963232c99d inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df8d6f6f58e695bb2edc42855930247 inherit pub_attribs_classFEDD_1_1MeshUnstructured" id="r_a8df8d6f6f58e695bb2edc42855930247"><td class="memItemLeft" align="right" valign="top">
 int&#160;</td><td class="memItemRight" valign="bottom"><b>numSurfaces_</b></td></tr>
 <tr class="separator:a8df8d6f6f58e695bb2edc42855930247 inherit pub_attribs_classFEDD_1_1MeshUnstructured"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -861,11 +861,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_af40b1acc9353be1408fed4d6a61ed2ae_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_af40b1acc9353be1408fed4d6a61ed2ae_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_af40b1acc9353be1408fed4d6a61ed2ae_icgraph" id="aclassFEDD_1_1RefinementFactory_af40b1acc9353be1408fed4d6a61ed2ae_icgraph">
 <area shape="rect" title="Adding a Midpoint on an edge." alt="" coords="915,85,1084,126"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,56,867,97"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,56,867,97"/>
 <area shape="poly" title=" " alt="" coords="899,95,867,90,867,85,900,90"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,5,649,46"/>
 <area shape="poly" title=" " alt="" coords="949,80,909,62,866,47,811,36,754,29,650,25,650,20,754,24,812,31,867,42,911,57,951,75"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,88,432,129"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,88,432,129"/>
 <area shape="poly" title=" " alt="" coords="899,111,867,111,433,112,433,106,867,106,899,105"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a282e75fa4cb2fe0440f3db747b546265" title="2D and 3D regular refinement. Chosen by error estimator or otherwise elements are refined regular by ..." alt="" coords="697,171,867,211"/>
 <area shape="poly" title=" " alt="" coords="932,135,837,173,835,168,930,130"/>
@@ -886,8 +886,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab6fcea7dad92882f91d311de2ed05155" name="ab6fcea7dad92882f91d311de2ed05155"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6fcea7dad92882f91d311de2ed05155">&#9670;&#160;</a></span>bisectEdges()</h2>
+<a id="a55bfecb1360bc7c4ad977174c172330a" name="a55bfecb1360bc7c4ad977174c172330a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bfecb1360bc7c4ad977174c172330a">&#9670;&#160;</a></span>bisectEdges()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -917,7 +917,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>mode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;default&quot;</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -935,8 +935,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_cgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_cgraph" id="aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_cgraph">
+<div class="center"><img src="classFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_cgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_cgraph" id="aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_cgraph">
 <area shape="rect" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="5,39,175,79"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#af40b1acc9353be1408fed4d6a61ed2ae" title="Adding a Midpoint on an edge." alt="" coords="223,5,392,46"/>
 <area shape="poly" title=" " alt="" coords="175,43,207,38,208,44,175,49"/>
@@ -947,12 +947,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_icgraph" id="aclassFEDD_1_1RefinementFactory_ab6fcea7dad92882f91d311de2ed05155_icgraph">
+<div class="center"><img src="classFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_icgraph" id="aclassFEDD_1_1RefinementFactory_a55bfecb1360bc7c4ad977174c172330a_icgraph">
 <area shape="rect" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,41,649,82"/>
 <area shape="poly" title=" " alt="" coords="682,80,649,76,650,70,682,75"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="682,96,649,96,480,96,432,96,432,90,480,91,649,91,682,91"/>
 <area shape="poly" title=" " alt="" coords="465,78,433,82,432,77,464,73"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
@@ -1020,7 +1020,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="2D refinement by bisection of tagged Elements with three tagged Edges." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1068,7 +1068,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_a4294d0901e6691203b9043bb2f9c6ac6_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a4294d0901e6691203b9043bb2f9c6ac6_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_a4294d0901e6691203b9043bb2f9c6ac6_icgraph" id="aclassFEDD_1_1RefinementFactory_a4294d0901e6691203b9043bb2f9c6ac6_icgraph">
 <area shape="rect" title="Building edgeMap after refinement." alt="" coords="480,71,649,111"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1144,7 +1144,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_abeca9755a1bd393c36c792a78c6779e9_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_abeca9755a1bd393c36c792a78c6779e9_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_abeca9755a1bd393c36c792a78c6779e9_icgraph" id="aclassFEDD_1_1RefinementFactory_abeca9755a1bd393c36c792a78c6779e9_icgraph">
 <area shape="rect" title="Building nodemap after refinement." alt="" coords="480,71,649,111"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1222,7 +1222,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Building surface triangle elements, as they are not originally part of the mesh information provided ..." alt="" coords="480,39,679,79"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="465,54,215,36,215,30,465,48"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
 <area shape="poly" title=" " alt="" coords="465,76,433,79,432,74,464,70"/>
 <area shape="poly" title=" " alt="" coords="251,65,191,49,192,44,252,60"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#abbff0752b1d6febdb36194e379e8b876" title="Initializing problem if only a certain area should be refined." alt="" coords="5,71,215,111"/>
@@ -1285,7 +1285,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="712,62,680,62,680,56,712,56"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="465,54,215,36,215,30,465,48"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
 <area shape="poly" title=" " alt="" coords="465,76,433,79,432,74,464,70"/>
 <area shape="poly" title=" " alt="" coords="251,65,191,49,192,44,252,60"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#abbff0752b1d6febdb36194e379e8b876" title="Initializing problem if only a certain area should be refined." alt="" coords="5,71,215,111"/>
@@ -1339,14 +1339,14 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_a383adbeffceada793b6805fb02fa5568_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a383adbeffceada793b6805fb02fa5568_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_a383adbeffceada793b6805fb02fa5568_icgraph" id="aclassFEDD_1_1RefinementFactory_a383adbeffceada793b6805fb02fa5568_icgraph">
 <area shape="rect" title="Eetermine longest edge in triangle." alt="" coords="915,68,1084,109"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,68,867,109"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,68,867,109"/>
 <area shape="poly" title=" " alt="" coords="899,91,867,91,867,86,899,86"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,13,649,54"/>
 <area shape="poly" title=" " alt="" coords="906,67,866,59,753,46,649,39,650,34,754,40,867,54,907,61"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a092455b08d3903df72c5f58c28bf4b05" title="2D refinement by bisection of tagged Elements with three tagged Edges." alt="" coords="697,133,867,174"/>
 <area shape="poly" title=" " alt="" coords="916,116,853,135,852,130,915,111"/>
 <area shape="poly" title=" " alt="" coords="683,66,648,57,649,52,684,61"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="682,92,433,93,433,88,682,86"/>
 <area shape="poly" title=" " alt="" coords="472,61,428,73,426,67,470,56"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
@@ -1406,7 +1406,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="2D blue refinement: refining element according to blue refinement scheme &#45; connecting nodes of shorte..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1462,7 +1462,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="2D green refinement: refining the element according to green scheme &#45; connecting node on refined edge..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1560,7 +1560,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Refinement Restrictions." alt="" coords="5,49,175,90"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#af40b1acc9353be1408fed4d6a61ed2ae" title="Adding a Midpoint on an edge." alt="" coords="440,5,609,46"/>
 <area shape="poly" title=" " alt="" coords="166,46,222,35,326,25,424,22,424,27,326,31,223,40,167,51"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="223,49,392,90"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="223,49,392,90"/>
 <area shape="poly" title=" " alt="" coords="175,67,207,67,207,72,175,72"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a383adbeffceada793b6805fb02fa5568" title="Eetermine longest edge in triangle." alt="" coords="440,83,609,123"/>
 <area shape="poly" title=" " alt="" coords="165,88,223,99,326,106,424,106,424,111,326,111,222,104,164,93"/>
@@ -1574,7 +1574,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_a87af199a3fbc9417096cb6a22bb822d5_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a87af199a3fbc9417096cb6a22bb822d5_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_a87af199a3fbc9417096cb6a22bb822d5_icgraph" id="aclassFEDD_1_1RefinementFactory_a87af199a3fbc9417096cb6a22bb822d5_icgraph">
 <area shape="rect" title="Refinement Restrictions." alt="" coords="480,71,649,111"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1587,8 +1587,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ad005b54bed27c97b4c98e3b1b0c009b0" name="ad005b54bed27c97b4c98e3b1b0c009b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad005b54bed27c97b4c98e3b1b0c009b0">&#9670;&#160;</a></span>refineMesh()</h2>
+<a id="ae8c68743984067f49935e30705e22876" name="ae8c68743984067f49935e30705e22876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c68743984067f49935e30705e22876">&#9670;&#160;</a></span>refineMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1613,7 +1613,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>refinementMode</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>refinementMode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1631,12 +1631,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_cgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_cgraph" id="aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_cgraph">
+<div class="center"><img src="classFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_cgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_cgraph" id="aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_cgraph">
 <area shape="rect" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="5,461,175,502"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#af40b1acc9353be1408fed4d6a61ed2ae" title="Adding a Midpoint on an edge." alt="" coords="745,53,915,94"/>
 <area shape="poly" title=" " alt="" coords="89,461,93,388,100,339,111,286,127,231,150,177,181,127,221,85,250,63,282,45,350,19,423,6,497,3,570,8,639,18,754,46,753,51,638,23,569,13,497,8,424,11,352,24,284,49,253,67,224,89,186,131,155,180,132,233,116,287,105,340,98,389,94,461"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="500,85,670,126"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="500,85,670,126"/>
 <area shape="poly" title=" " alt="" coords="89,461,95,394,114,303,131,254,154,207,184,165,221,129,251,110,283,96,352,81,422,78,486,83,485,88,422,83,353,86,285,102,253,115,224,133,188,168,158,210,136,256,120,304,101,395,95,461"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a4294d0901e6691203b9043bb2f9c6ac6" title="Building edgeMap after refinement." alt="" coords="239,461,408,502"/>
 <area shape="poly" title=" " alt="" coords="175,479,224,479,224,484,175,484"/>
@@ -1685,8 +1685,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_icgraph" id="aclassFEDD_1_1RefinementFactory_ad005b54bed27c97b4c98e3b1b0c009b0_icgraph">
+<div class="center"><img src="classFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_icgraph" id="aclassFEDD_1_1RefinementFactory_ae8c68743984067f49935e30705e22876_icgraph">
 <area shape="rect" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1780,7 +1780,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_a3257c3b9d811445955692f40434aeaaa_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a3257c3b9d811445955692f40434aeaaa_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_a3257c3b9d811445955692f40434aeaaa_icgraph" id="aclassFEDD_1_1RefinementFactory_a3257c3b9d811445955692f40434aeaaa_icgraph">
 <area shape="rect" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1891,7 +1891,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="2D and 3D regular refinement. Chosen by error estimator or otherwise elements are refined regular by ..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -1953,7 +1953,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="3D Type(1) refinement as defined in &quot;Tetrahedral Grid Refinement&quot; by J. Bey &#39;Algorithm Regular Refine..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -2015,7 +2015,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="3D Type(2) refinement as defined in &quot;Tetrahedral Grid Refinement&quot; by J. Bey &#39;Algorithm Regular Refine..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -2077,7 +2077,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="3D Type(3) refinement as defined in &quot;Tetrahedral Grid Refinement&quot; by J. Bey &#39;Algorithm Regular Refine..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -2139,7 +2139,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="3D Type(4) refinement as defined in &quot;Tetrahedral Grid Refinement&quot; by J. Bey &#39;Algorithm Regular Refine..." alt="" coords="697,71,867,111"/>
 <area shape="rect" href="classFEDD_1_1RefinementFactory.html#a3257c3b9d811445955692f40434aeaaa" title="Refinement performed according to the set of rules determined by Bey or Verfürth." alt="" coords="480,71,649,111"/>
 <area shape="poly" title=" " alt="" coords="682,94,650,94,650,88,682,88"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="465,94,432,94,432,88,465,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>
@@ -2187,7 +2187,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1RefinementFactory_a2ebf82a5deb92e26a48805fd470f6840_icgraph.png" border="0" usemap="#aclassFEDD_1_1RefinementFactory_a2ebf82a5deb92e26a48805fd470f6840_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1RefinementFactory_a2ebf82a5deb92e26a48805fd470f6840_icgraph" id="aclassFEDD_1_1RefinementFactory_a2ebf82a5deb92e26a48805fd470f6840_icgraph">
 <area shape="rect" title="Updating ElementsOfEdgesLocal and ElementsOfEdgesGlobal." alt="" coords="480,63,682,119"/>
-<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" href="classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" title=" " alt="" coords="464,94,432,94,432,88,464,88"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="256,69,186,49,187,44,258,64"/>

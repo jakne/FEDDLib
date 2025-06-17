@@ -8,9 +8,9 @@
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="123,1141,178,1071,217,1032,261,998,272,992,275,997,264,1003,221,1036,182,1075,127,1144"/>
 <area shape="rect" id="Node000006" href="$classFEDD_1_1AdaptiveMeshRefinement.html#aabc419ce3fcac702ee1b2ce9023e4fef" title="Calculating exact solution for pressure if possible with exactSolPFunc_." alt="" coords="263,1012,472,1053"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="138,1140,193,1102,261,1063,278,1056,280,1061,264,1068,196,1106,141,1144"/>
-<area shape="rect" id="Node000007" href="$classFEDD_1_1ErrorEstimation.html#aaea42bb86ba14cf0adeba6b28ed8f4c0" title="DetermineCoarseningError is the essential part of the mesh coarsening process." alt="" coords="279,1077,456,1118"/>
+<area shape="rect" id="Node000007" href="$classFEDD_1_1ErrorEstimation.html#ad72aae6c736c1d0b3411ec1ad73c6fb2" title="DetermineCoarseningError is the essential part of the mesh coarsening process." alt="" coords="279,1077,456,1118"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="192,1139,269,1120,270,1125,194,1145"/>
-<area shape="rect" id="Node000008" href="$classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="293,1143,442,1183"/>
+<area shape="rect" id="Node000008" href="$classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="293,1143,442,1183"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="215,1160,277,1160,277,1166,215,1166"/>
 <area shape="rect" id="Node000025" href="$classFEDD_1_1AdaptiveMeshRefinement.html#a87f47249e2d8714bd44fe2821e859046" title="ParaViewExporter export of solutions and other error values on current mesh." alt="" coords="263,1208,472,1249"/>
 <area shape="poly" id="edge30_Node000001_Node000025" title=" " alt="" coords="194,1181,270,1201,269,1206,192,1187"/>
@@ -20,9 +20,9 @@
 <area shape="poly" id="edge32_Node000001_Node000027" title=" " alt="" coords="127,1182,182,1251,221,1290,264,1323,275,1329,272,1334,261,1328,217,1294,178,1255,123,1185"/>
 <area shape="rect" id="Node000028" href="$classFEDD_1_1AdaptiveMeshRefinement.html#abad839ae02aaa2a4fe5f2bdb661e4dab" title="ParaViewExporter initiation. ParameterListAll contains most settings for ExporterParaView...." alt="" coords="263,1404,472,1445"/>
 <area shape="poly" id="edge33_Node000001_Node000028" title=" " alt="" coords="122,1183,141,1226,172,1281,213,1339,238,1366,264,1389,272,1394,269,1398,261,1393,234,1369,209,1343,168,1284,137,1228,117,1185"/>
-<area shape="rect" id="Node000029" href="$classFEDD_1_1ErrorEstimation.html#ae06a1a8d7f551986e5d8bcd6a2303455" title="Function that marks the elements for refinement." alt="" coords="293,1469,442,1510"/>
+<area shape="rect" id="Node000029" href="$classFEDD_1_1ErrorEstimation.html#ab31ee40368ae3337862b9dd5f9150012" title="Function that marks the elements for refinement." alt="" coords="293,1469,442,1510"/>
 <area shape="poly" id="edge34_Node000001_Node000029" title=" " alt="" coords="119,1183,135,1237,163,1310,183,1349,206,1388,233,1423,264,1454,280,1465,277,1469,261,1458,229,1427,202,1391,178,1352,158,1313,130,1239,114,1185"/>
-<area shape="rect" id="Node000030" href="$classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="283,505,452,546"/>
+<area shape="rect" id="Node000030" href="$classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="283,505,452,546"/>
 <area shape="poly" id="edge35_Node000001_Node000030" title=" " alt="" coords="117,1141,350,559,355,561,122,1143"/>
 <area shape="rect" id="Node000049" href="$classFEDD_1_1AdaptiveMeshRefinement.html#a7103d3aaea99021774a69bb80a6b0044" title="Writing refinement information at the end of mesh refinement." alt="" coords="263,1535,472,1575"/>
 <area shape="poly" id="edge61_Node000001_Node000049" title=" " alt="" coords="117,1183,129,1248,155,1339,174,1388,199,1436,229,1480,265,1520,270,1524,266,1528,261,1524,224,1484,194,1438,169,1390,150,1341,124,1250,111,1184"/>
@@ -53,9 +53,9 @@
 <area shape="rect" id="Node000024" href="$classFEDD_1_1ErrorEstimation.html#ab4e45f837a9605396828ff330ac53630" title="UpdateElementsOfSurfaceLocalAndGlobal is performed here instead of in meshRefinement,..." alt="" coords="520,1370,731,1426"/>
 <area shape="poly" id="edge29_Node000008_Node000024" title=" " alt="" coords="444,1175,474,1194,489,1215,497,1236,499,1276,501,1316,508,1336,522,1356,523,1357,520,1361,518,1359,503,1338,496,1317,494,1277,492,1237,485,1218,470,1198,441,1179"/>
 <area shape="poly" id="edge14_Node000014_Node000012" title=" " alt="" coords="700,1000,801,984,802,989,701,1006"/>
-<area shape="rect" id="Node000015" href="$classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="817,1017,966,1058"/>
+<area shape="rect" id="Node000015" href="$classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="817,1017,966,1058"/>
 <area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="701,1019,802,1027,801,1033,700,1024"/>
-<area shape="rect" id="Node000016" href="$classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="1063,1021,1212,1062"/>
+<area shape="rect" id="Node000016" href="$classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="1063,1021,1212,1062"/>
 <area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="967,1036,1047,1038,1047,1043,967,1042"/>
 <area shape="rect" id="Node000017" href="$classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="1063,956,1212,997"/>
 <area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="966,1017,1047,996,1049,1001,967,1022"/>
@@ -69,7 +69,7 @@
 <area shape="poly" id="edge43_Node000030_Node000002" title=" " alt="" coords="375,504,417,394,469,245,480,192,482,148,490,107,501,85,518,63,529,53,532,57,522,66,505,88,495,108,487,149,485,193,475,246,422,396,380,506"/>
 <area shape="rect" id="Node000031" href="$classFEDD_1_1RefinementFactory.html#af40b1acc9353be1408fed4d6a61ed2ae" title="Adding a Midpoint on an edge." alt="" coords="1053,479,1222,519"/>
 <area shape="poly" id="edge36_Node000030_Node000031" title=" " alt="" coords="451,511,470,497,487,475,496,453,499,431,498,409,498,361,504,335,518,308,573,232,599,203,626,179,656,158,691,140,778,106,842,84,896,72,922,72,948,77,976,88,1005,106,1045,142,1076,186,1099,235,1116,286,1128,337,1135,385,1140,463,1134,463,1129,386,1122,338,1111,288,1094,237,1071,189,1041,146,1002,110,973,93,947,82,922,77,897,77,844,89,780,111,693,145,659,163,629,183,603,207,577,235,522,311,509,337,504,362,504,408,504,431,501,454,492,478,474,501,454,515"/>
-<area shape="rect" id="Node000032" href="$classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="807,772,976,813"/>
+<area shape="rect" id="Node000032" href="$classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="807,772,976,813"/>
 <area shape="poly" id="edge37_Node000030_Node000032" title=" " alt="" coords="377,546,394,593,423,654,442,686,465,716,492,743,521,765,553,781,586,793,657,807,727,810,791,806,792,811,727,815,656,812,585,798,551,786,519,769,488,747,461,719,438,689,418,657,389,595,372,547"/>
 <area shape="rect" id="Node000034" href="$classFEDD_1_1RefinementFactory.html#a4294d0901e6691203b9043bb2f9c6ac6" title="Building edgeMap after refinement." alt="" coords="541,321,710,362"/>
 <area shape="poly" id="edge40_Node000030_Node000034" title=" " alt="" coords="382,503,438,439,476,404,519,373,530,366,533,371,521,377,479,408,441,443,386,507"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,71,867,111"/>
 <area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,41,649,82"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="682,80,649,76,650,70,682,75"/>
-<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,71,432,111"/>
 <area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="682,96,649,96,480,96,432,96,432,90,480,91,649,91,682,91"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="465,78,433,82,432,77,464,73"/>
 <area shape="rect" id="Node000004" href="$classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>

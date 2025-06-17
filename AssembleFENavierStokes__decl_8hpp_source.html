@@ -165,8 +165,8 @@ $(function(){initNavTree('AssembleFENavierStokes__decl_8hpp_source.html',''); in
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classFEDD_1_1AssembleFENavierStokes.html#a168f5a32fb986964e4b2a126f3a092d5">  110</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="classFEDD_1_1AssembleFENavierStokes.html#a168f5a32fb986964e4b2a126f3a092d5">dofsVelocity_</a>;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">int</span> dofsPressure_;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">string</span> FETypeVelocity_;</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">string</span> FETypePressure_;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    std::string FETypeVelocity_;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    std::string FETypePressure_;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">int</span> numNodesVelocity_;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">int</span> numNodesPressure_;</div>
@@ -187,7 +187,7 @@ $(function(){initNavTree('AssembleFENavierStokes__decl_8hpp_source.html',''); in
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="keywordtype">double</span> viscosity_ ;</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="keywordtype">double</span> density_ ;</div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <span class="keywordtype">string</span> linearization_;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    std::string linearization_;</div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>   <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
@@ -211,8 +211,8 @@ $(function(){initNavTree('AssembleFENavierStokes__decl_8hpp_source.html',''); in
 <div class="ttc" id="aclassFEDD_1_1AssembleFENavierStokes_html_ad6e18c1a1a728f48dd237a7f8a6e99b2"><div class="ttname"><a href="classFEDD_1_1AssembleFENavierStokes.html#ad6e18c1a1a728f48dd237a7f8a6e99b2">FEDD::AssembleFENavierStokes::assemblyLaplacian</a></div><div class="ttdeci">void assemblyLaplacian(SmallMatrixPtr_Type &amp;elementMatrix)</div><div class="ttdoc">Assembly function for vector values laplacian .</div><div class="ttdef"><b>Definition</b> AssembleFENavierStokes_def.hpp:150</div></div>
 <div class="ttc" id="aclassFEDD_1_1AssembleFENavierStokes_html_aedf79466a2c1714d6b3fa8c39087e558"><div class="ttname"><a href="classFEDD_1_1AssembleFENavierStokes.html#aedf79466a2c1714d6b3fa8c39087e558">FEDD::AssembleFENavierStokes::AssembleFENavierStokes</a></div><div class="ttdeci">AssembleFENavierStokes(int flag, vec2D_dbl_Type nodesRefConfig, ParameterListPtr_Type parameters, tuple_disk_vec_ptr_Type tuple)</div><div class="ttdoc">Constructor for AssembleFEAceNavierStokes.</div><div class="ttdef"><b>Definition</b> AssembleFENavierStokes_def.hpp:9</div></div>
 <div class="ttc" id="aclassFEDD_1_1AssembleFE_html_a5ff56b610942ec92cc1b1e0ac1e07ce4"><div class="ttname"><a href="classFEDD_1_1AssembleFE.html#a5ff56b610942ec92cc1b1e0ac1e07ce4">FEDD::AssembleFE&lt; default_sc, default_lo, default_go, default_no &gt;::AssembleFE</a></div><div class="ttdeci">AssembleFE(int flag, vec2D_dbl_Type nodesRefConfig, ParameterListPtr_Type parameters, tuple_disk_vec_ptr_Type tuple)</div><div class="ttdef"><b>Definition</b> AssembleFE_def.hpp:10</div></div>
-<div class="ttc" id="aclassFEDD_1_1Matrix_html"><div class="ttname"><a href="classFEDD_1_1Matrix.html">FEDD::Matrix</a></div><div class="ttdef"><b>Definition</b> Matrix_decl.hpp:33</div></div>
-<div class="ttc" id="aclassFEDD_1_1MultiVector_html"><div class="ttname"><a href="classFEDD_1_1MultiVector.html">FEDD::MultiVector</a></div><div class="ttdef"><b>Definition</b> MultiVector_decl.hpp:37</div></div>
+<div class="ttc" id="aclassFEDD_1_1Matrix_html"><div class="ttname"><a href="classFEDD_1_1Matrix.html">FEDD::Matrix</a></div><div class="ttdef"><b>Definition</b> Matrix_decl.hpp:32</div></div>
+<div class="ttc" id="aclassFEDD_1_1MultiVector_html"><div class="ttname"><a href="classFEDD_1_1MultiVector.html">FEDD::MultiVector</a></div><div class="ttdef"><b>Definition</b> MultiVector_decl.hpp:36</div></div>
 <div class="ttc" id="aclassFEDD_1_1SmallMatrix_html"><div class="ttname"><a href="classFEDD_1_1SmallMatrix.html">FEDD::SmallMatrix</a></div><div class="ttdoc">This class represents a templated small Matrix of type T. Primarily created for 2x2 and 3x3 matrices....</div><div class="ttdef"><b>Definition</b> SmallMatrix.hpp:22</div></div>
 <div class="ttc" id="anamespaceFEDD_html"><div class="ttname"><a href="namespaceFEDD.html">FEDD</a></div><div class="ttdoc">Adaptive Mesh Refinement.</div><div class="ttdef"><b>Definition</b> AdaptiveMeshRefinement.cpp:5</div></div>
 </div><!-- fragment --></div><!-- contents -->

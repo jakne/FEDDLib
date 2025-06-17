@@ -175,21 +175,21 @@ typedef Teuchos::RCP&lt; const <a class="el" href="classFEDD_1_1BlockMultiVector
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa5d32134b673e6e2296c70769c4c9f9a" id="r_aa5d32134b673e6e2296c70769c4c9f9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5d32134b673e6e2296c70769c4c9f9a">ErrorEstimation</a> (int dim, string problemType, bool writeMeshQuality_)</td></tr>
-<tr class="memdesc:aa5d32134b673e6e2296c70769c4c9f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classFEDD_1_1ErrorEstimation.html">ErrorEstimation</a> is initiated with the dimension and problemType, as it is necessary to fit errorEstimation to the problem at hand.  <br /></td></tr>
-<tr class="separator:aa5d32134b673e6e2296c70769c4c9f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2961578854f4f3c90d49e0f153cf379" id="r_ac2961578854f4f3c90d49e0f153cf379"><td class="memItemLeft" align="right" valign="top">MultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2961578854f4f3c90d49e0f153cf379">estimateError</a> (MeshUnstrPtr_Type inputMeshP12, MeshUnstrPtr_Type inputMeshP1, BlockMultiVectorConstPtr_Type valuesSolution, RhsFunc_Type rhsFunc, string FEType)</td></tr>
-<tr class="memdesc:ac2961578854f4f3c90d49e0f153cf379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main Function for a posteriori error estimation.  <br /></td></tr>
-<tr class="separator:ac2961578854f4f3c90d49e0f153cf379"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb9baa7433df312c3120ea85b6450bf" id="r_a5eb9baa7433df312c3120ea85b6450bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eb9baa7433df312c3120ea85b6450bf">ErrorEstimation</a> (int dim, std::string problemType, bool writeMeshQuality_)</td></tr>
+<tr class="memdesc:a5eb9baa7433df312c3120ea85b6450bf"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classFEDD_1_1ErrorEstimation.html">ErrorEstimation</a> is initiated with the dimension and problemType, as it is necessary to fit errorEstimation to the problem at hand.  <br /></td></tr>
+<tr class="separator:a5eb9baa7433df312c3120ea85b6450bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2493a256a95b90eeaea64628421d13f" id="r_af2493a256a95b90eeaea64628421d13f"><td class="memItemLeft" align="right" valign="top">MultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2493a256a95b90eeaea64628421d13f">estimateError</a> (MeshUnstrPtr_Type inputMeshP12, MeshUnstrPtr_Type inputMeshP1, BlockMultiVectorConstPtr_Type valuesSolution, RhsFunc_Type rhsFunc, std::string FEType)</td></tr>
+<tr class="memdesc:af2493a256a95b90eeaea64628421d13f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main Function for a posteriori error estimation.  <br /></td></tr>
+<tr class="separator:af2493a256a95b90eeaea64628421d13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a590f7b920955acbc096854c5de775c58" id="r_a590f7b920955acbc096854c5de775c58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a590f7b920955acbc096854c5de775c58">identifyProblem</a> (BlockMultiVectorConstPtr_Type valuesSolution)</td></tr>
 <tr class="memdesc:a590f7b920955acbc096854c5de775c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifying the problem with respect to the degrees of freedom and whether we calculate pressure. By telling how many block the <a class="el" href="classFEDD_1_1MultiVector.html">MultiVector</a> has, we can tell whether we calculate pressure or not. Depending on the numbers of entries within the solution vector, we can tell how many degreesOfFreedom (dofs) we have.  <br /></td></tr>
 <tr class="separator:a590f7b920955acbc096854c5de775c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afda1d9f1ed233fd231cd68e74a3dfb56" id="r_afda1d9f1ed233fd231cd68e74a3dfb56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afda1d9f1ed233fd231cd68e74a3dfb56">makeRepeatedSolution</a> (BlockMultiVectorConstPtr_Type valuesSolution)</td></tr>
 <tr class="memdesc:afda1d9f1ed233fd231cd68e74a3dfb56"><td class="mdescLeft">&#160;</td><td class="mdescRight">We split the solution from the <a class="el" href="classFEDD_1_1BlockMultiVector.html">BlockMultiVector</a> valuesSolution into one or more seperate blocks, where the blocks represent the different dimensions.  <br /></td></tr>
 <tr class="separator:afda1d9f1ed233fd231cd68e74a3dfb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcf7a4f48e9b1b16b9970d01e3c99fb1" id="r_afcf7a4f48e9b1b16b9970d01e3c99fb1"><td class="memItemLeft" align="right" valign="top">vec3D_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf7a4f48e9b1b16b9970d01e3c99fb1">calcNPhi</a> (string phiDerivative, int dofsSol, string FEType)</td></tr>
-<tr class="memdesc:afcf7a4f48e9b1b16b9970d01e3c99fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that calculates the jump part for nabla u or p.  <br /></td></tr>
-<tr class="separator:afcf7a4f48e9b1b16b9970d01e3c99fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab431a0581511b573822f153900e54ec8" id="r_ab431a0581511b573822f153900e54ec8"><td class="memItemLeft" align="right" valign="top">vec3D_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab431a0581511b573822f153900e54ec8">calcNPhi</a> (std::string phiDerivative, int dofsSol, std::string FEType)</td></tr>
+<tr class="memdesc:ab431a0581511b573822f153900e54ec8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that calculates the jump part for nabla u or p.  <br /></td></tr>
+<tr class="separator:ab431a0581511b573822f153900e54ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d5d3da2a6589350e8c158363d876cdc" id="r_a2d5d3da2a6589350e8c158363d876cdc"><td class="memItemLeft" align="right" valign="top"><a id="a2d5d3da2a6589350e8c158363d876cdc" name="a2d5d3da2a6589350e8c158363d876cdc"></a>
 vec_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><b>calculateJump</b> ()</td></tr>
 <tr class="memdesc:a2d5d3da2a6589350e8c158363d876cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Part of the error estimator that calculates the jump part of the estimation. What kind of jump is calculated depends on the problemType we have at hand. <br /></td></tr>
@@ -200,21 +200,21 @@ vec_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><b>calculateJump
 <tr class="memitem:a54af187cc5c349977b9881507f2c7067" id="r_a54af187cc5c349977b9881507f2c7067"><td class="memItemLeft" align="right" valign="top">vec_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54af187cc5c349977b9881507f2c7067">phi</a> (int dim, int intFE, vec_dbl_Type &amp;p)</td></tr>
 <tr class="memdesc:a54af187cc5c349977b9881507f2c7067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcutlating phi depending on quad points p.  <br /></td></tr>
 <tr class="separator:a54af187cc5c349977b9881507f2c7067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea42bb86ba14cf0adeba6b28ed8f4c0" id="r_aaea42bb86ba14cf0adeba6b28ed8f4c0"><td class="memItemLeft" align="right" valign="top">MultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaea42bb86ba14cf0adeba6b28ed8f4c0">determineCoarseningError</a> (MeshUnstrPtr_Type mesh_k, MeshUnstrPtr_Type mesh_k_m, MultiVectorPtr_Type errorElementMv_k, string distribution, string markingStrategy, double theta)</td></tr>
-<tr class="memdesc:aaea42bb86ba14cf0adeba6b28ed8f4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">DetermineCoarseningError is the essential part of the mesh coarsening process.  <br /></td></tr>
-<tr class="separator:aaea42bb86ba14cf0adeba6b28ed8f4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad72aae6c736c1d0b3411ec1ad73c6fb2" id="r_ad72aae6c736c1d0b3411ec1ad73c6fb2"><td class="memItemLeft" align="right" valign="top">MultiVectorPtr_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad72aae6c736c1d0b3411ec1ad73c6fb2">determineCoarseningError</a> (MeshUnstrPtr_Type mesh_k, MeshUnstrPtr_Type mesh_k_m, MultiVectorPtr_Type errorElementMv_k, std::string distribution, std::string markingStrategy, double theta)</td></tr>
+<tr class="memdesc:ad72aae6c736c1d0b3411ec1ad73c6fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">DetermineCoarseningError is the essential part of the mesh coarsening process.  <br /></td></tr>
+<tr class="separator:ad72aae6c736c1d0b3411ec1ad73c6fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac709ef81edfeb0d91b175ea480570fd2" id="r_ac709ef81edfeb0d91b175ea480570fd2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac709ef81edfeb0d91b175ea480570fd2">determineResElement</a> (<a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a> element, RhsFunc_Type rhsFunc)</td></tr>
 <tr class="memdesc:ac709ef81edfeb0d91b175ea480570fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that that determines ||\Delta u_h + f ||_(L2(T)), || \Delta u_h + f - \nabla p_h ||_T or || \Delta u_h + f - \nabla p_h - (u_h \cdot \nabla)u_h||_T for an Element T.  <br /></td></tr>
 <tr class="separator:ac709ef81edfeb0d91b175ea480570fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ab423f274ba3b7d8c248e57f791f42a" id="r_a2ab423f274ba3b7d8c248e57f791f42a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab423f274ba3b7d8c248e57f791f42a">determineDivU</a> (<a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a> element)</td></tr>
 <tr class="memdesc:a2ab423f274ba3b7d8c248e57f791f42a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that that determines || div(u) ||_T for a Element T.  <br /></td></tr>
 <tr class="separator:a2ab423f274ba3b7d8c248e57f791f42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0574f97709a57c055182e78a2bc703d" id="r_ab0574f97709a57c055182e78a2bc703d"><td class="memItemLeft" align="right" valign="top">vec2D_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0574f97709a57c055182e78a2bc703d">getQuadValues</a> (int dim, string FEType, string Type, vec_dbl_Type &amp;QuadW, <a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a> surface)</td></tr>
-<tr class="memdesc:ab0574f97709a57c055182e78a2bc703d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information.  <br /></td></tr>
-<tr class="separator:ab0574f97709a57c055182e78a2bc703d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06a1a8d7f551986e5d8bcd6a2303455" id="r_ae06a1a8d7f551986e5d8bcd6a2303455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae06a1a8d7f551986e5d8bcd6a2303455">markElements</a> (MultiVectorPtr_Type errorElementMv, double theta, string strategy, MeshUnstrPtr_Type meshUnstr)</td></tr>
-<tr class="memdesc:ae06a1a8d7f551986e5d8bcd6a2303455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that marks the elements for refinement.  <br /></td></tr>
-<tr class="separator:ae06a1a8d7f551986e5d8bcd6a2303455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" id="r_a2539ddd8bc7d4bf1f4bb9889e0fe5dd8"><td class="memItemLeft" align="right" valign="top">vec2D_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8">getQuadValues</a> (int dim, std::string FEType, std::string Type, vec_dbl_Type &amp;QuadW, <a class="el" href="classFEDD_1_1FiniteElement.html">FiniteElement</a> surface)</td></tr>
+<tr class="memdesc:a2539ddd8bc7d4bf1f4bb9889e0fe5dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information.  <br /></td></tr>
+<tr class="separator:a2539ddd8bc7d4bf1f4bb9889e0fe5dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab31ee40368ae3337862b9dd5f9150012" id="r_ab31ee40368ae3337862b9dd5f9150012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31ee40368ae3337862b9dd5f9150012">markElements</a> (MultiVectorPtr_Type errorElementMv, double theta, std::string strategy, MeshUnstrPtr_Type meshUnstr)</td></tr>
+<tr class="memdesc:ab31ee40368ae3337862b9dd5f9150012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that marks the elements for refinement.  <br /></td></tr>
+<tr class="separator:ab31ee40368ae3337862b9dd5f9150012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afabddae3e6bfcd0717df321dca593686" id="r_afabddae3e6bfcd0717df321dca593686"><td class="memItemLeft" align="right" valign="top">vec_dbl_Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afabddae3e6bfcd0717df321dca593686">determineVolTet</a> (ElementsPtr_Type elements, vec2D_dbl_ptr_Type points)</td></tr>
 <tr class="memdesc:afabddae3e6bfcd0717df321dca593686"><td class="mdescLeft">&#160;</td><td class="mdescRight">function, that determines volume of tetrahedra.  <br /></td></tr>
 <tr class="separator:afabddae3e6bfcd0717df321dca593686"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,12 +257,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>tagFlag</b> (MeshUnst
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae187dd8db953862a2395d897e1317117" id="r_ae187dd8db953862a2395d897e1317117"><td class="memItemLeft" align="right" valign="top"><a id="ae187dd8db953862a2395d897e1317117" name="ae187dd8db953862a2395d897e1317117"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementRestriction_</b> = &quot;none&quot;</td></tr>
-<tr class="separator:ae187dd8db953862a2395d897e1317117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a235e923a33a175e7d884e1a2a6e0c7ec" id="r_a235e923a33a175e7d884e1a2a6e0c7ec"><td class="memItemLeft" align="right" valign="top"><a id="a235e923a33a175e7d884e1a2a6e0c7ec" name="a235e923a33a175e7d884e1a2a6e0c7ec"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>markingStrategy_</b> = &quot;Maximum&quot;</td></tr>
-<tr class="separator:a235e923a33a175e7d884e1a2a6e0c7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae297f89ab6fe8423329fc58296b67f89" id="r_ae297f89ab6fe8423329fc58296b67f89"><td class="memItemLeft" align="right" valign="top"><a id="ae297f89ab6fe8423329fc58296b67f89" name="ae297f89ab6fe8423329fc58296b67f89"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>refinementRestriction_</b> = &quot;none&quot;</td></tr>
+<tr class="separator:ae297f89ab6fe8423329fc58296b67f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb74dcb30a8ea97b6e0a9447495d9a10" id="r_aeb74dcb30a8ea97b6e0a9447495d9a10"><td class="memItemLeft" align="right" valign="top"><a id="aeb74dcb30a8ea97b6e0a9447495d9a10" name="aeb74dcb30a8ea97b6e0a9447495d9a10"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>markingStrategy_</b> = &quot;Maximum&quot;</td></tr>
+<tr class="separator:aeb74dcb30a8ea97b6e0a9447495d9a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44fd0e48a1ed6edf6702058b7c43b170" id="r_a44fd0e48a1ed6edf6702058b7c43b170"><td class="memItemLeft" align="right" valign="top"><a id="a44fd0e48a1ed6edf6702058b7c43b170" name="a44fd0e48a1ed6edf6702058b7c43b170"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>theta_</b> = 0.5</td></tr>
 <tr class="separator:a44fd0e48a1ed6edf6702058b7c43b170"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,9 +278,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>refinement3DDiagonal_<
 <tr class="memitem:adb166088e8d3021b4cc2e64b2966a26d" id="r_adb166088e8d3021b4cc2e64b2966a26d"><td class="memItemLeft" align="right" valign="top"><a id="adb166088e8d3021b4cc2e64b2966a26d" name="adb166088e8d3021b4cc2e64b2966a26d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>dim_</b></td></tr>
 <tr class="separator:adb166088e8d3021b4cc2e64b2966a26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc2a8046fe8375f4a0c0ab0e52bc0ffc" id="r_abc2a8046fe8375f4a0c0ab0e52bc0ffc"><td class="memItemLeft" align="right" valign="top"><a id="abc2a8046fe8375f4a0c0ab0e52bc0ffc" name="abc2a8046fe8375f4a0c0ab0e52bc0ffc"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>problemType_</b></td></tr>
-<tr class="separator:abc2a8046fe8375f4a0c0ab0e52bc0ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32fc1759aebeb913bcea9ddc7c53403" id="r_ad32fc1759aebeb913bcea9ddc7c53403"><td class="memItemLeft" align="right" valign="top"><a id="ad32fc1759aebeb913bcea9ddc7c53403" name="ad32fc1759aebeb913bcea9ddc7c53403"></a>
+std::string&#160;</td><td class="memItemRight" valign="bottom"><b>problemType_</b></td></tr>
+<tr class="separator:ad32fc1759aebeb913bcea9ddc7c53403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -310,8 +310,8 @@ BlockMultiVectorConstPtr_Type&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="separator:a253bb0380e34ce735919c79ba9ddd4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa5d32134b673e6e2296c70769c4c9f9a" name="aa5d32134b673e6e2296c70769c4c9f9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5d32134b673e6e2296c70769c4c9f9a">&#9670;&#160;</a></span>ErrorEstimation()</h2>
+<a id="a5eb9baa7433df312c3120ea85b6450bf" name="a5eb9baa7433df312c3120ea85b6450bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb9baa7433df312c3120ea85b6450bf">&#9670;&#160;</a></span>ErrorEstimation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +326,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>problemType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>problemType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -373,7 +373,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a7bf02e0d688631bb71d3263841dd59e0_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a7bf02e0d688631bb71d3263841dd59e0_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a7bf02e0d688631bb71d3263841dd59e0_icgraph" id="aclassFEDD_1_1ErrorEstimation_a7bf02e0d688631bb71d3263841dd59e0_icgraph">
 <area shape="rect" title="Build Surface Map. Contrary to building the edge map, building the surface map is somewhat simpler as..." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -424,7 +424,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a277840a530fa04ab53753080bb44967f_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a277840a530fa04ab53753080bb44967f_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a277840a530fa04ab53753080bb44967f_icgraph" id="aclassFEDD_1_1ErrorEstimation_a277840a530fa04ab53753080bb44967f_icgraph">
 <area shape="rect" title="Calculating the circumdiameter of tetraeder." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -486,7 +486,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_ae4b342270a0aa7fc8f5f989ac7e6a48c_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ae4b342270a0aa7fc8f5f989ac7e6a48c_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_ae4b342270a0aa7fc8f5f989ac7e6a48c_icgraph" id="aclassFEDD_1_1ErrorEstimation_ae4b342270a0aa7fc8f5f989ac7e6a48c_icgraph">
 <area shape="rect" title="Calculating the diameter of triangles." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -548,7 +548,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Calculating the diameter of triangles." alt="" coords="657,35,808,75"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2d5d3da2a6589350e8c158363d876cdc" title="Part of the error estimator that calculates the jump part of the estimation. What kind of jump is cal..." alt="" coords="460,5,609,46"/>
 <area shape="poly" title=" " alt="" coords="641,44,609,39,610,34,642,39"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,35,412,75"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,35,412,75"/>
 <area shape="poly" title=" " alt="" coords="642,60,609,60,460,60,412,60,412,54,460,55,609,55,642,55"/>
 <area shape="poly" title=" " alt="" coords="445,42,413,47,412,41,444,36"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,35,215,75"/>
@@ -558,8 +558,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="afcf7a4f48e9b1b16b9970d01e3c99fb1" name="afcf7a4f48e9b1b16b9970d01e3c99fb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcf7a4f48e9b1b16b9970d01e3c99fb1">&#9670;&#160;</a></span>calcNPhi()</h2>
+<a id="ab431a0581511b573822f153900e54ec8" name="ab431a0581511b573822f153900e54ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab431a0581511b573822f153900e54ec8">&#9670;&#160;</a></span>calcNPhi()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,7 +569,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="memname">vec3D_dbl_Type <a class="el" href="classFEDD_1_1ErrorEstimation.html">FEDD::ErrorEstimation</a>&lt; SC, LO, GO, NO &gt;::calcNPhi </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>phiDerivative</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>phiDerivative</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -579,7 +579,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -596,10 +596,10 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_cgraph" id="aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_cgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_cgraph" id="aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_cgraph">
 <area shape="rect" title="Function that calculates the jump part for nabla u or p." alt="" coords="5,71,155,111"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="214,5,364,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="214,5,364,46"/>
 <area shape="poly" title=" " alt="" coords="146,68,206,49,208,54,148,73"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="214,71,364,111"/>
 <area shape="poly" title=" " alt="" coords="155,88,199,88,199,94,155,94"/>
@@ -610,12 +610,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_icgraph" id="aclassFEDD_1_1ErrorEstimation_afcf7a4f48e9b1b16b9970d01e3c99fb1_icgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_icgraph" id="aclassFEDD_1_1ErrorEstimation_ab431a0581511b573822f153900e54ec8_icgraph">
 <area shape="rect" title="Function that calculates the jump part for nabla u or p." alt="" coords="657,5,807,46"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2d5d3da2a6589350e8c158363d876cdc" title="Part of the error estimator that calculates the jump part of the estimation. What kind of jump is cal..." alt="" coords="460,5,609,46"/>
 <area shape="poly" title=" " alt="" coords="642,28,610,28,610,23,642,23"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -672,7 +672,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_aa58fdeea9d9e98fde8310cc59f84559c_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_aa58fdeea9d9e98fde8310cc59f84559c_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_aa58fdeea9d9e98fde8310cc59f84559c_icgraph" id="aclassFEDD_1_1ErrorEstimation_aa58fdeea9d9e98fde8310cc59f84559c_icgraph">
 <area shape="rect" title="Calcutlating the incircumdiameter of tetrahedra." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -726,8 +726,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 
 </div>
 </div>
-<a id="aaea42bb86ba14cf0adeba6b28ed8f4c0" name="aaea42bb86ba14cf0adeba6b28ed8f4c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaea42bb86ba14cf0adeba6b28ed8f4c0">&#9670;&#160;</a></span>determineCoarseningError()</h2>
+<a id="ad72aae6c736c1d0b3411ec1ad73c6fb2" name="ad72aae6c736c1d0b3411ec1ad73c6fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad72aae6c736c1d0b3411ec1ad73c6fb2">&#9670;&#160;</a></span>determineCoarseningError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -752,12 +752,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>distribution</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>distribution</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>markingStrategy</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>markingStrategy</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -783,8 +783,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_aaea42bb86ba14cf0adeba6b28ed8f4c0_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_aaea42bb86ba14cf0adeba6b28ed8f4c0_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_aaea42bb86ba14cf0adeba6b28ed8f4c0_icgraph" id="aclassFEDD_1_1ErrorEstimation_aaea42bb86ba14cf0adeba6b28ed8f4c0_icgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_ad72aae6c736c1d0b3411ec1ad73c6fb2_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ad72aae6c736c1d0b3411ec1ad73c6fb2_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_ad72aae6c736c1d0b3411ec1ad73c6fb2_icgraph" id="aclassFEDD_1_1ErrorEstimation_ad72aae6c736c1d0b3411ec1ad73c6fb2_icgraph">
 <area shape="rect" title="DetermineCoarseningError is the essential part of the mesh coarsening process." alt="" coords="263,5,439,46"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -824,7 +824,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_cgraph" id="aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_cgraph">
 <area shape="rect" title="Function that that determines || div(u) ||_T for a Element T." alt="" coords="5,39,155,79"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="203,5,352,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="203,5,352,46"/>
 <area shape="poly" title=" " alt="" coords="154,44,187,38,188,44,155,49"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="203,71,352,111"/>
 <area shape="poly" title=" " alt="" coords="155,68,188,74,187,79,154,74"/>
@@ -836,7 +836,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_icgraph" id="aclassFEDD_1_1ErrorEstimation_a2ab423f274ba3b7d8c248e57f791f42a_icgraph">
 <area shape="rect" title="Function that that determines || div(u) ||_T for a Element T." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -881,7 +881,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_cgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_cgraph" id="aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_cgraph">
 <area shape="rect" title="Function that that determines ||\Delta u_h + f ||_(L2(T)), || \Delta u_h + f &#45; \nabla p_h ||_T or || ..." alt="" coords="5,71,160,111"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="219,5,368,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="219,5,368,46"/>
 <area shape="poly" title=" " alt="" coords="150,68,210,49,212,54,151,73"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="219,71,368,111"/>
 <area shape="poly" title=" " alt="" coords="160,88,204,88,204,94,160,94"/>
@@ -895,7 +895,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_icgraph" id="aclassFEDD_1_1ErrorEstimation_ac709ef81edfeb0d91b175ea480570fd2_icgraph">
 <area shape="rect" title="Function that that determines ||\Delta u_h + f ||_(L2(T)), || \Delta u_h + f &#45; \nabla p_h ||_T or || ..." alt="" coords="460,5,614,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="444,28,412,28,412,23,444,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -941,7 +941,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_afabddae3e6bfcd0717df321dca593686_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_afabddae3e6bfcd0717df321dca593686_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_afabddae3e6bfcd0717df321dca593686_icgraph" id="aclassFEDD_1_1ErrorEstimation_afabddae3e6bfcd0717df321dca593686_icgraph">
 <area shape="rect" title="function, that determines volume of tetrahedra." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -950,8 +950,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac2961578854f4f3c90d49e0f153cf379" name="ac2961578854f4f3c90d49e0f153cf379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2961578854f4f3c90d49e0f153cf379">&#9670;&#160;</a></span>estimateError()</h2>
+<a id="af2493a256a95b90eeaea64628421d13f" name="af2493a256a95b90eeaea64628421d13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2493a256a95b90eeaea64628421d13f">&#9670;&#160;</a></span>estimateError()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -981,7 +981,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FETypeV</em></span>&#160;)</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FETypeV</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1001,8 +1001,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_cgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_cgraph" id="aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_cgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_cgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_cgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_cgraph" id="aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_cgraph">
 <area shape="rect" title="Main Function for a posteriori error estimation." alt="" coords="5,331,155,371"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a7bf02e0d688631bb71d3263841dd59e0" title="Build Surface Map. Contrary to building the edge map, building the surface map is somewhat simpler as..." alt="" coords="234,5,383,46"/>
 <area shape="poly" title=" " alt="" coords="81,330,91,276,113,203,128,163,148,125,172,89,201,57,218,45,221,49,204,61,176,92,152,127,133,166,118,204,97,277,87,331"/>
@@ -1029,9 +1029,9 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab4e45f837a9605396828ff330ac53630" title="UpdateElementsOfSurfaceLocalAndGlobal is performed here instead of in meshRefinement,..." alt="" coords="203,676,414,732"/>
 <area shape="poly" title=" " alt="" coords="86,371,96,428,116,506,132,548,151,589,175,628,205,663,207,665,203,669,201,666,171,631,147,592,127,550,111,508,91,429,81,372"/>
 <area shape="poly" title=" " alt="" coords="382,301,448,284,449,289,384,306"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="464,309,614,350"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="464,309,614,350"/>
 <area shape="poly" title=" " alt="" coords="383,322,449,324,449,329,383,327"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="676,312,825,353"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="676,312,825,353"/>
 <area shape="poly" title=" " alt="" coords="614,328,660,329,660,334,614,333"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="676,247,825,287"/>
 <area shape="poly" title=" " alt="" coords="609,306,664,290,666,295,611,311"/>
@@ -1047,8 +1047,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_icgraph" id="aclassFEDD_1_1ErrorEstimation_ac2961578854f4f3c90d49e0f153cf379_icgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_icgraph" id="aclassFEDD_1_1ErrorEstimation_af2493a256a95b90eeaea64628421d13f_icgraph">
 <area shape="rect" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -1057,8 +1057,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab0574f97709a57c055182e78a2bc703d" name="ab0574f97709a57c055182e78a2bc703d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0574f97709a57c055182e78a2bc703d">&#9670;&#160;</a></span>getQuadValues()</h2>
+<a id="a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" name="a2539ddd8bc7d4bf1f4bb9889e0fe5dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8">&#9670;&#160;</a></span>getQuadValues()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1073,12 +1073,12 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>FEType</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>Type</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>Type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1110,10 +1110,10 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_ab0574f97709a57c055182e78a2bc703d_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ab0574f97709a57c055182e78a2bc703d_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_ab0574f97709a57c055182e78a2bc703d_icgraph" id="aclassFEDD_1_1ErrorEstimation_ab0574f97709a57c055182e78a2bc703d_icgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_a2539ddd8bc7d4bf1f4bb9889e0fe5dd8_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a2539ddd8bc7d4bf1f4bb9889e0fe5dd8_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_a2539ddd8bc7d4bf1f4bb9889e0fe5dd8_icgraph" id="aclassFEDD_1_1ErrorEstimation_a2539ddd8bc7d4bf1f4bb9889e0fe5dd8_icgraph">
 <area shape="rect" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="860,71,1009,111"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,5,812,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,5,812,46"/>
 <area shape="poly" title=" " alt="" coords="856,68,800,49,802,44,857,63"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2ab423f274ba3b7d8c248e57f791f42a" title="Function that that determines || div(u) ||_T for a Element T." alt="" coords="662,71,812,111"/>
 <area shape="poly" title=" " alt="" coords="844,94,812,94,812,88,844,88"/>
@@ -1121,7 +1121,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="847,118,812,126,709,140,615,147,615,142,709,134,811,120,846,113"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2d5d3da2a6589350e8c158363d876cdc" title="Part of the error estimator that calculates the jump part of the estimation. What kind of jump is cal..." alt="" coords="462,9,612,50"/>
 <area shape="poly" title=" " alt="" coords="647,30,612,31,612,26,647,25"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,71,412,111"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,71,412,111"/>
 <area shape="poly" title=" " alt="" coords="455,58,407,73,405,68,453,53"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,71,215,111"/>
 <area shape="poly" title=" " alt="" coords="247,94,215,94,215,88,247,88"/>
@@ -1174,7 +1174,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a74e71e6f93d83fba059694630b01fc49_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a74e71e6f93d83fba059694630b01fc49_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a74e71e6f93d83fba059694630b01fc49_icgraph" id="aclassFEDD_1_1ErrorEstimation_a74e71e6f93d83fba059694630b01fc49_icgraph">
 <area shape="rect" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="860,71,1009,111"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,5,812,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,5,812,46"/>
 <area shape="poly" title=" " alt="" coords="856,68,800,49,802,44,857,63"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2ab423f274ba3b7d8c248e57f791f42a" title="Function that that determines || div(u) ||_T for a Element T." alt="" coords="662,71,812,111"/>
 <area shape="poly" title=" " alt="" coords="844,94,812,94,812,88,844,88"/>
@@ -1182,7 +1182,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="847,118,812,126,709,140,615,147,615,142,709,134,811,120,846,113"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2d5d3da2a6589350e8c158363d876cdc" title="Part of the error estimator that calculates the jump part of the estimation. What kind of jump is cal..." alt="" coords="462,9,612,50"/>
 <area shape="poly" title=" " alt="" coords="647,30,612,31,612,26,647,25"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,71,412,111"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,71,412,111"/>
 <area shape="poly" title=" " alt="" coords="455,58,407,73,405,68,453,53"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,71,215,111"/>
 <area shape="poly" title=" " alt="" coords="247,94,215,94,215,88,247,88"/>
@@ -1223,7 +1223,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a590f7b920955acbc096854c5de775c58_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a590f7b920955acbc096854c5de775c58_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a590f7b920955acbc096854c5de775c58_icgraph" id="aclassFEDD_1_1ErrorEstimation_a590f7b920955acbc096854c5de775c58_icgraph">
 <area shape="rect" title="Identifying the problem with respect to the degrees of freedom and whether we calculate pressure...." alt="" coords="460,5,609,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="445,28,412,28,412,23,445,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -1262,7 +1262,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_afda1d9f1ed233fd231cd68e74a3dfb56_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_afda1d9f1ed233fd231cd68e74a3dfb56_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_afda1d9f1ed233fd231cd68e74a3dfb56_icgraph" id="aclassFEDD_1_1ErrorEstimation_afda1d9f1ed233fd231cd68e74a3dfb56_icgraph">
 <area shape="rect" title="We split the solution from the BlockMultiVector valuesSolution into one or more seperate blocks,..." alt="" coords="460,5,621,46"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,5,412,46"/>
 <area shape="poly" title=" " alt="" coords="444,28,412,28,412,23,444,23"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -1271,8 +1271,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae06a1a8d7f551986e5d8bcd6a2303455" name="ae06a1a8d7f551986e5d8bcd6a2303455"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae06a1a8d7f551986e5d8bcd6a2303455">&#9670;&#160;</a></span>markElements()</h2>
+<a id="ab31ee40368ae3337862b9dd5f9150012" name="ab31ee40368ae3337862b9dd5f9150012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31ee40368ae3337862b9dd5f9150012">&#9670;&#160;</a></span>markElements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1292,7 +1292,7 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>strategy</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>strategy</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1316,8 +1316,8 @@ template&lt;class SC, class LO, class GO, class NO&gt; </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classFEDD_1_1ErrorEstimation_ae06a1a8d7f551986e5d8bcd6a2303455_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ae06a1a8d7f551986e5d8bcd6a2303455_icgraph" alt=""/></div>
-<map name="aclassFEDD_1_1ErrorEstimation_ae06a1a8d7f551986e5d8bcd6a2303455_icgraph" id="aclassFEDD_1_1ErrorEstimation_ae06a1a8d7f551986e5d8bcd6a2303455_icgraph">
+<div class="center"><img src="classFEDD_1_1ErrorEstimation_ab31ee40368ae3337862b9dd5f9150012_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ab31ee40368ae3337862b9dd5f9150012_icgraph" alt=""/></div>
+<map name="aclassFEDD_1_1ErrorEstimation_ab31ee40368ae3337862b9dd5f9150012_icgraph" id="aclassFEDD_1_1ErrorEstimation_ab31ee40368ae3337862b9dd5f9150012_icgraph">
 <area shape="rect" title="Function that marks the elements for refinement." alt="" coords="263,5,412,46"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" title=" " alt="" coords="247,28,215,28,215,23,247,23"/>
@@ -1368,13 +1368,13 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_a54af187cc5c349977b9881507f2c7067_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_a54af187cc5c349977b9881507f2c7067_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_a54af187cc5c349977b9881507f2c7067_icgraph" id="aclassFEDD_1_1ErrorEstimation_a54af187cc5c349977b9881507f2c7067_icgraph">
 <area shape="rect" title="Calcutlating phi depending on quad points p." alt="" coords="860,46,1032,72"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,8,812,49"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="662,8,812,49"/>
 <area shape="poly" title=" " alt="" coords="844,47,812,42,812,37,845,41"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac709ef81edfeb0d91b175ea480570fd2" title="Function that that determines ||\Delta u_h + f ||_(L2(T)), || \Delta u_h + f &#45; \nabla p_h ||_T or || ..." alt="" coords="460,71,614,111"/>
 <area shape="poly" title=" " alt="" coords="844,70,615,88,615,82,844,64"/>
 <area shape="rect" href="classFEDD_1_1ErrorEstimation.html#a2d5d3da2a6589350e8c158363d876cdc" title="Part of the error estimator that calculates the jump part of the estimation. What kind of jump is cal..." alt="" coords="462,5,612,46"/>
 <area shape="poly" title=" " alt="" coords="647,30,612,29,612,24,647,24"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,39,412,79"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,39,412,79"/>
 <area shape="poly" title=" " alt="" coords="447,43,413,49,412,44,446,38"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,39,215,79"/>
 <area shape="poly" title=" " alt="" coords="247,62,215,62,215,56,247,56"/>
@@ -1499,7 +1499,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="classFEDD_1_1ErrorEstimation_ab4e45f837a9605396828ff330ac53630_icgraph.png" border="0" usemap="#aclassFEDD_1_1ErrorEstimation_ab4e45f837a9605396828ff330ac53630_icgraph" alt=""/></div>
 <map name="aclassFEDD_1_1ErrorEstimation_ab4e45f837a9605396828ff330ac53630_icgraph" id="aclassFEDD_1_1ErrorEstimation_ab4e45f837a9605396828ff330ac53630_icgraph">
 <area shape="rect" title="UpdateElementsOfSurfaceLocalAndGlobal is performed here instead of in meshRefinement,..." alt="" coords="460,5,671,61"/>
-<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#ac2961578854f4f3c90d49e0f153cf379" title="Main Function for a posteriori error estimation." alt="" coords="263,13,412,54"/>
+<area shape="rect" href="classFEDD_1_1ErrorEstimation.html#af2493a256a95b90eeaea64628421d13f" title="Main Function for a posteriori error estimation." alt="" coords="263,13,412,54"/>
 <area shape="poly" title=" " alt="" coords="444,36,412,36,412,30,444,30"/>
 <area shape="rect" href="classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,13,215,54"/>
 <area shape="poly" title=" " alt="" coords="247,36,215,36,215,30,247,30"/>

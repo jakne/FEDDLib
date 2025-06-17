@@ -198,7 +198,7 @@ $(function(){initNavTree('BlockMatrix__def_8hpp_source.html',''); initResizable(
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keywordtype">void</span> BlockMatrix&lt;SC,LO,GO,NO&gt;::addBlock(<span class="keyword">const</span> MatrixPtr_Type&amp; matrix, <span class="keywordtype">int</span> i, <span class="keywordtype">int</span> j){</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    UN size = blockMatrix_.size();</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordflow">if</span> (i&gt;size-1 || j&gt;size-1)</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        blockMatrix_.resize( max(i,j)+1 );</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        blockMatrix_.resize( std::max(i,j)+1 );</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordflow">if</span> ( blockExists(i,j) )</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        blockMatrix_[i][j].reset();</div>
@@ -513,7 +513,7 @@ $(function(){initNavTree('BlockMatrix__def_8hpp_source.html',''); initResizable(
 <div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;blockMatrix_.size(); i++) {</div>
 <div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0; j&lt;blockMatrix_.size(); j++){</div>
 <div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>            <span class="keywordflow">if</span> (!blockMatrix_[i][j].is_null() ){</div>
-<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>                std::string fileName = fN + to_string(i) + to_string(j) + <span class="stringliteral">&quot;.mm&quot;</span> ;</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>                std::string fileName = fN + std::to_string(i) + std::to_string(j) + <span class="stringliteral">&quot;.mm&quot;</span> ;</div>
 <div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>                blockMatrix_[i][j]-&gt;writeMM(fileName);</div>
 <div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>            }</div>
 <div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span>        }</div>

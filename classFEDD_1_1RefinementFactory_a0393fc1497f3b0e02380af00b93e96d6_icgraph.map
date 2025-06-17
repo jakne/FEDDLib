@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Building surface triangle elements, as they are not originally part of the mesh information provided ..." alt="" coords="480,39,679,79"/>
 <area shape="rect" id="Node000002" href="$classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e" title="Global Algorithm of Mesh Refinement." alt="" coords="5,5,215,46"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,54,215,36,215,30,465,48"/>
-<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
+<area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,67,432,107"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="465,76,433,79,432,74,464,70"/>
 <area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="251,65,191,49,192,44,252,60"/>
 <area shape="rect" id="Node000004" href="$classFEDD_1_1AdaptiveMeshRefinement.html#abbff0752b1d6febdb36194e379e8b876" title="Initializing problem if only a certain area should be refined." alt="" coords="5,71,215,111"/>

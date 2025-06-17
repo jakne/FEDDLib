@@ -153,7 +153,7 @@ $(function(){initNavTree('NonLinElasticity__def_8hpp_source.html',''); initResiz
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        this-&gt;system_-&gt;addBlock( A, 0, 0 );</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordtype">double</span> density = this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;Parameter&quot;</span>).get(<span class="stringliteral">&quot;Density&quot;</span>,1000.);</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordtype">string</span> sourceType =     this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;Parameter&quot;</span>).get(<span class="stringliteral">&quot;Source Type&quot;</span>,<span class="stringliteral">&quot;volume&quot;</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        std::string sourceType =    this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;Parameter&quot;</span>).get(<span class="stringliteral">&quot;Source Type&quot;</span>,<span class="stringliteral">&quot;volume&quot;</span>);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        this-&gt;assembleSourceTerm( 0. );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">if</span>(sourceType == <span class="stringliteral">&quot;volume&quot;</span>)</div>

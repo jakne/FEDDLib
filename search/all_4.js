@@ -5,7 +5,7 @@ var searchData=
   ['deletedata_2',['deleteData',['../classFEDD_1_1Mesh.html#a8a8f39ef6764e5e3094b86ad69fd7b54',1,'FEDD::Mesh']]],
   ['deletesurfaceelements_3',['deleteSurfaceElements',['../classFEDD_1_1Mesh.html#aceb7d97db5c8dbb3f211919870267784',1,'FEDD::Mesh']]],
   ['determineareatriangles_4',['determineAreaTriangles',['../classFEDD_1_1ErrorEstimation.html#a1623aca9e03e8e2dba9ea82ce60152cf',1,'FEDD::ErrorEstimation']]],
-  ['determinecoarseningerror_5',['determineCoarseningError',['../classFEDD_1_1ErrorEstimation.html#aaea42bb86ba14cf0adeba6b28ed8f4c0',1,'FEDD::ErrorEstimation']]],
+  ['determinecoarseningerror_5',['determineCoarseningError',['../classFEDD_1_1ErrorEstimation.html#ad72aae6c736c1d0b3411ec1ad73c6fb2',1,'FEDD::ErrorEstimation']]],
   ['determinedegree_6',['determineDegree',['../classFEDD_1_1Helper.html#a85dd0118ef667862aaa595a41542b2f1',1,'FEDD::Helper']]],
   ['determinedivu_7',['determineDivU',['../classFEDD_1_1ErrorEstimation.html#a2ab423f274ba3b7d8c248e57f791f42a',1,'FEDD::ErrorEstimation']]],
   ['determineflagp2_8',['determineFlagP2',['../classFEDD_1_1MeshUnstructured.html#a59217225e99feb51b0d4fe8258580866',1,'FEDD::MeshUnstructured::determineFlagP2(FiniteElement &amp;fe, LO p1ID, LO p2ID, vec2D_int_Type &amp;permutation)'],['../classFEDD_1_1MeshUnstructured.html#a287002d7c6cdbf0745ea92b227ded1fb',1,'FEDD::MeshUnstructured::determineFlagP2(LO p1ID, LO p2ID, LO localEdgeID, vec2D_LO_Type &amp;markedPoint)']]],

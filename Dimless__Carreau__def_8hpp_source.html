@@ -133,7 +133,7 @@ $(function(){initNavTree('Dimless__Carreau__def_8hpp_source.html',''); initResiz
 <div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classFEDD_1_1Dimless__Carreau.html#ab0d3e0fae1f8a963180c12913c809da8">   29</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="classFEDD_1_1Dimless__Carreau.html#ab0d3e0fae1f8a963180c12913c809da8">Dimless_Carreau&lt;SC,LO,GO,NO&gt;::evaluateMapping</a>(ParameterListPtr_Type params, <span class="keywordtype">double</span> shearRate, <span class="keywordtype">double</span> &amp;viscosity) {</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    viscosity = this-&gt;reference_viscosity*( this-&gt;nu_infty +(this-&gt;nu_0-this-&gt;nu_infty)*(pow(1.0+pow(this-&gt;characteristicTime*shearRate,2.0)    , (this-&gt;fluid_index_n-1.0)/2.0 )));</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    viscosity = this-&gt;reference_viscosity*( this-&gt;nu_infty +(this-&gt;nu_0-this-&gt;nu_infty)*(std::pow(1.0+std::pow(this-&gt;characteristicTime*shearRate,2.0)    , (this-&gt;fluid_index_n-1.0)/2.0 )));</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    this-&gt;viscosity_ = viscosity; <span class="comment">// Multiply with reference viscosity to obtain actual viscosity with dimension of reference viscosity [Pa s]</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>}</div>
 </div>
@@ -146,7 +146,7 @@ $(function(){initNavTree('Dimless__Carreau__def_8hpp_source.html',''); initResiz
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">// The function is composed of d_eta/ d_GammaDot * d_GammaDot/ D_Tau with d_GammaDot * d_GammaDot/ D_Tau= - 2/GammaDot</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// So for a Carreau-like Fluid we do not get the problem that the shear rate is in denominator</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>res = (-2.0)*(this-&gt;nu_0-this-&gt;nu_infty)*(this-&gt;fluid_index_n-1.0)*pow(this-&gt;characteristicTime, 2)*pow(1.0+pow(this-&gt;characteristicTime*shearRate,2.0)    , ((this-&gt;fluid_index_n-3.0)/2.0) );</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>res = (-2.0)*(this-&gt;nu_0-this-&gt;nu_infty)*(this-&gt;fluid_index_n-1.0)*std::pow(this-&gt;characteristicTime, 2)*std::pow(1.0+std::pow(this-&gt;characteristicTime*shearRate,2.0)    , ((this-&gt;fluid_index_n-3.0)/2.0) );</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>res = this-&gt;reference_viscosity*res;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>

@@ -52,7 +52,7 @@ var NAVTREEINDEX =
 "AABBTree_8hpp_source.html",
 "classAssembleFE__SCI__SMC__MLCK.html",
 "classFEDD_1_1BCBuilder.html#a4028cf583fa3693387fe390f51724f94",
-"classFEDD_1_1ErrorEstimation.html#a2ab423f274ba3b7d8c248e57f791f42a",
+"classFEDD_1_1ErrorEstimation.html#a277840a530fa04ab53753080bb44967f",
 "classFEDD_1_1Mesh.html#a53731e7da2a9db541cadbcdf35b83cf2",
 "classFEDD_1_1PreconditionerOperator.html#aab990011035f5a76e127a4d1ae0f5dbe",
 "pfeapb_8h_source.html"

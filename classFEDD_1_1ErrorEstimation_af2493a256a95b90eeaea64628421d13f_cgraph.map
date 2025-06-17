@@ -25,9 +25,9 @@
 <area shape="rect" id="Node000017" href="$classFEDD_1_1ErrorEstimation.html#ab4e45f837a9605396828ff330ac53630" title="UpdateElementsOfSurfaceLocalAndGlobal is performed here instead of in meshRefinement,..." alt="" coords="203,676,414,732"/>
 <area shape="poly" id="edge22_Node000001_Node000017" title=" " alt="" coords="86,371,96,428,116,506,132,548,151,589,175,628,205,663,207,665,203,669,201,666,171,631,147,592,127,550,111,508,91,429,81,372"/>
 <area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="382,301,448,284,449,289,384,306"/>
-<area shape="rect" id="Node000008" href="$classFEDD_1_1ErrorEstimation.html#afcf7a4f48e9b1b16b9970d01e3c99fb1" title="Function that calculates the jump part for nabla u or p." alt="" coords="464,309,614,350"/>
+<area shape="rect" id="Node000008" href="$classFEDD_1_1ErrorEstimation.html#ab431a0581511b573822f153900e54ec8" title="Function that calculates the jump part for nabla u or p." alt="" coords="464,309,614,350"/>
 <area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="383,322,449,324,449,329,383,327"/>
-<area shape="rect" id="Node000009" href="$classFEDD_1_1ErrorEstimation.html#ab0574f97709a57c055182e78a2bc703d" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="676,312,825,353"/>
+<area shape="rect" id="Node000009" href="$classFEDD_1_1ErrorEstimation.html#a2539ddd8bc7d4bf1f4bb9889e0fe5dd8" title="Returns neccesary quadrature Values. Is distinguishes between needing Element or Surface information." alt="" coords="676,312,825,353"/>
 <area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="614,328,660,329,660,334,614,333"/>
 <area shape="rect" id="Node000010" href="$classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49" title="Calcutlating the gradient of phi depending on quad points p." alt="" coords="676,247,825,287"/>
 <area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="609,306,664,290,666,295,611,311"/>

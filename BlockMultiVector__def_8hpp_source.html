@@ -526,7 +526,7 @@ $(function(){initNavTree('BlockMultiVector__def_8hpp_source.html',''); initResiz
 <div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span><span class="keywordtype">void</span> BlockMultiVector&lt;SC,LO,GO,NO&gt;::writeMM(std::string fN)<span class="keyword"> const</span>{</div>
 <div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;size(); i++) {</div>
 <div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>        <span class="keywordflow">if</span> (!blockMultiVector_[i].is_null() ){</div>
-<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>            std::string fileName = fN + to_string(i) + <span class="stringliteral">&quot;.mm&quot;</span> ;</div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>            std::string fileName = fN + std::to_string(i) + <span class="stringliteral">&quot;.mm&quot;</span> ;</div>
 <div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>            blockMultiVector_[i]-&gt;writeMM(fileName);</div>
 <div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>        }</div>
 <div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>    }</div>

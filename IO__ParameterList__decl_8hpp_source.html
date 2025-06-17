@@ -146,44 +146,42 @@ $(function(){initNavTree('IO__ParameterList__decl_8hpp_source.html',''); initRes
 <div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#a00ac7941ed95bea19fbb7f456193d599">   67</a></span>            std::ostream&amp; <a class="code hl_function" href="classFEDD_1_1IO_1_1ParameterList.html#a00ac7941ed95bea19fbb7f456193d599">print</a>(std::ostream &amp;os, <span class="keywordtype">int</span> indent=0, <span class="keywordtype">bool</span> showTypes=<span class="keyword">false</span>, <span class="keywordtype">bool</span> showFlags=<span class="keyword">true</span>, <span class="keywordtype">bool</span> showDefault=<span class="keyword">true</span>)</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            {</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                <span class="keyword">using namespace </span>std;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                os &lt;&lt; <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a> &lt;&lt; endl;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a>.length(); i++)</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                {</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                    os &lt;&lt; <span class="stringliteral">&quot;=&quot;</span>;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                }</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                os &lt;&lt; endl;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>-&gt;print(os,indent,showTypes,showFlags,showDefault);</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            };</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                os &lt;&lt; <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a> &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a>.length(); i++)</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>                {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>                    os &lt;&lt; <span class="stringliteral">&quot;=&quot;</span>;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>                }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                os &lt;&lt; std::endl;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>-&gt;print(os,indent,showTypes,showFlags,showDefault);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>            };</div>
 </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span></div>
-<div class="foldopen" id="foldopen00083" data-start="{" data-end="}">
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">   83</a></span>            ParameterListPtr_Type <a class="code hl_function" href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">operator() </a>()</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            {</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>;</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            };</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span></div>
+<div class="foldopen" id="foldopen00081" data-start="{" data-end="}">
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">   81</a></span>            ParameterListPtr_Type <a class="code hl_function" href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">operator() </a>()</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            };</div>
 </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">   88</a></span>            <span class="keyword">const</span> std::string <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a>; </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            </div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">   90</a></span>            <span class="keyword">const</span> std::string <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">name_</a>; </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">   92</a></span>            ParameterListPtr_Type <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>; </div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        };</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">   90</a></span>            ParameterListPtr_Type <a class="code hl_variable" href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">parameterList_</a>; </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        };</div>
 </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    }</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    }</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a00ac7941ed95bea19fbb7f456193d599"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a00ac7941ed95bea19fbb7f456193d599">FEDD::IO::ParameterList::print</a></div><div class="ttdeci">std::ostream &amp; print(std::ostream &amp;os, int indent=0, bool showTypes=false, bool showFlags=true, bool showDefault=true)</div><div class="ttdoc">Print parameter list.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:67</div></div>
 <div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a0b698cebee0d6fbfa0c3c651fd8b5ecc"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a0b698cebee0d6fbfa0c3c651fd8b5ecc">FEDD::IO::ParameterList::ParameterList</a></div><div class="ttdeci">ParameterList(const std::string &amp;name, ParameterListPtr_Type &amp;parameterList)</div><div class="ttdoc">Construct FEDD::IO::ParameterList from Teuchos::ParameterList.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:56</div></div>
-<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a270eb9f644bf5db1678c3e096e0d4638"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">FEDD::IO::ParameterList::operator()</a></div><div class="ttdeci">ParameterListPtr_Type operator()()</div><div class="ttdoc">Access to the underlying Teuchos::ParamterList.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:83</div></div>
+<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a270eb9f644bf5db1678c3e096e0d4638"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a270eb9f644bf5db1678c3e096e0d4638">FEDD::IO::ParameterList::operator()</a></div><div class="ttdeci">ParameterListPtr_Type operator()()</div><div class="ttdoc">Access to the underlying Teuchos::ParamterList.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:81</div></div>
 <div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a651124625d5f29ca0c1230c7db07e6f9"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a651124625d5f29ca0c1230c7db07e6f9">FEDD::IO::ParameterList::ParameterList</a></div><div class="ttdeci">ParameterList(const std::string &amp;name, const std::string &amp;fileName, const std::string &amp;fileType=&quot;yaml&quot;)</div><div class="ttdoc">Read FEDD::IO::ParameterList from yaml or xml input file.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:41</div></div>
-<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a7a6ed6afd7016cfa4700ce4fa233ccef"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">FEDD::IO::ParameterList::parameterList_</a></div><div class="ttdeci">ParameterListPtr_Type parameterList_</div><div class="ttdoc">Teuchos::RCP of the underlying Teuchos::ParameterList.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:92</div></div>
-<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_ae9c362f5586d686d505875bf8b7853e1"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">FEDD::IO::ParameterList::name_</a></div><div class="ttdeci">const std::string name_</div><div class="ttdoc">Name of the parameter list.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:90</div></div>
+<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_a7a6ed6afd7016cfa4700ce4fa233ccef"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#a7a6ed6afd7016cfa4700ce4fa233ccef">FEDD::IO::ParameterList::parameterList_</a></div><div class="ttdeci">ParameterListPtr_Type parameterList_</div><div class="ttdoc">Teuchos::RCP of the underlying Teuchos::ParameterList.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:90</div></div>
+<div class="ttc" id="aclassFEDD_1_1IO_1_1ParameterList_html_ae9c362f5586d686d505875bf8b7853e1"><div class="ttname"><a href="classFEDD_1_1IO_1_1ParameterList.html#ae9c362f5586d686d505875bf8b7853e1">FEDD::IO::ParameterList::name_</a></div><div class="ttdeci">const std::string name_</div><div class="ttdoc">Name of the parameter list.</div><div class="ttdef"><b>Definition</b> IO_ParameterList_decl.hpp:88</div></div>
 <div class="ttc" id="anamespaceFEDD_html"><div class="ttname"><a href="namespaceFEDD.html">FEDD</a></div><div class="ttdoc">Adaptive Mesh Refinement.</div><div class="ttdef"><b>Definition</b> AdaptiveMeshRefinement.cpp:5</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

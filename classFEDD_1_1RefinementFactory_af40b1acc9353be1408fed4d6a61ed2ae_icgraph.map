@@ -1,10 +1,10 @@
 <map id="FEDD::RefinementFactory::addMidpoint" name="FEDD::RefinementFactory::addMidpoint">
 <area shape="rect" id="Node000001" title="Adding a Midpoint on an edge." alt="" coords="915,85,1084,126"/>
-<area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#ab6fcea7dad92882f91d311de2ed05155" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,56,867,97"/>
+<area shape="rect" id="Node000002" href="$classFEDD_1_1RefinementFactory.html#a55bfecb1360bc7c4ad977174c172330a" title="2D and 3D that bisects the edges of tagged Elements. Chosen by error estimator or otherwise elements ..." alt="" coords="697,56,867,97"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="899,95,867,90,867,85,900,90"/>
 <area shape="rect" id="Node000003" href="$classFEDD_1_1RefinementFactory.html#a87af199a3fbc9417096cb6a22bb822d5" title="Refinement Restrictions." alt="" coords="480,5,649,46"/>
 <area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="949,80,909,62,866,47,811,36,754,29,650,25,650,20,754,24,812,31,867,42,911,57,951,75"/>
-<area shape="rect" id="Node000004" href="$classFEDD_1_1RefinementFactory.html#ad005b54bed27c97b4c98e3b1b0c009b0" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,88,432,129"/>
+<area shape="rect" id="Node000004" href="$classFEDD_1_1RefinementFactory.html#ae8c68743984067f49935e30705e22876" title="Main function of RefinementFactory, performs one complete mesh refinement, according to red&#45;green ref..." alt="" coords="263,88,432,129"/>
 <area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="899,111,867,111,433,112,433,106,867,106,899,105"/>
 <area shape="rect" id="Node000008" href="$classFEDD_1_1RefinementFactory.html#a282e75fa4cb2fe0440f3db747b546265" title="2D and 3D regular refinement. Chosen by error estimator or otherwise elements are refined regular by ..." alt="" coords="697,171,867,211"/>
 <area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="932,135,837,173,835,168,930,130"/>

@@ -157,7 +157,7 @@ $(function(){initNavTree('NavierStokes__def_8hpp_source.html',''); initResizable
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">int</span> back = -1;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordflow">if</span> (domainPressure-&gt;getDimension() == 2) {</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            it = find_if(vectmpPointsPressure-&gt;begin(), vectmpPointsPressure-&gt;end(),</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                    [&amp;] (<span class="keyword">const</span> vector&lt;double&gt;&amp; a){</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                    [&amp;] (<span class="keyword">const</span> std::vector&lt;double&gt;&amp; a){</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                        if (a.at(0) &gt;= 0.15-1.e-12 &amp;&amp; a.at(0) &lt;= 0.15+1.e-12</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>                            &amp;&amp; a.at(1) &gt;= 0.2-1.e-12 &amp;&amp; a.at(1) &lt;= 0.2+1.e-12) {</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                            return true;</div>
@@ -171,7 +171,7 @@ $(function(){initNavTree('NavierStokes__def_8hpp_source.html',''); initResizable
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>                front = distance(vectmpPointsPressure-&gt;begin(),it);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            }</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            it = find_if(vectmpPointsPressure-&gt;begin(), vectmpPointsPressure-&gt;end(),</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                    [&amp;] (<span class="keyword">const</span> vector&lt;double&gt;&amp; a){</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                    [&amp;] (<span class="keyword">const</span> std::vector&lt;double&gt;&amp; a){</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>                        if (a.at(0) &gt;= 0.25-1.e-12 &amp;&amp; a.at(0) &lt;= 0.25+1.e-12</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>                            &amp;&amp; a.at(1) &gt;= 0.2-1.e-12 &amp;&amp; a.at(1) &lt;= 0.2+1.e-12) {</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                            return true;</div>
@@ -268,7 +268,7 @@ $(function(){initNavTree('NavierStokes__def_8hpp_source.html',''); initResizable
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        }</div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    }</div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordtype">string</span> precType = this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;General&quot;</span>).get(<span class="stringliteral">&quot;Preconditioner Method&quot;</span>,<span class="stringliteral">&quot;Monolithic&quot;</span>);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    std::string precType = this-&gt;parameterList_-&gt;sublist(<span class="stringliteral">&quot;General&quot;</span>).get(<span class="stringliteral">&quot;Preconditioner Method&quot;</span>,<span class="stringliteral">&quot;Monolithic&quot;</span>);</div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keywordflow">if</span> ( precType == <span class="stringliteral">&quot;Diagonal&quot;</span> || precType == <span class="stringliteral">&quot;Triangular&quot;</span> ) {</div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        MatrixPtr_Type Mpressure(<span class="keyword">new</span> Matrix_Type( this-&gt;getDomain(1)-&gt;getMapUnique(), this-&gt;getDomain(1)-&gt;getApproxEntriesPerRow() ) );</div>
 <div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        </div>

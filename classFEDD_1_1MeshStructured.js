@@ -15,7 +15,7 @@ var classFEDD_1_1MeshStructured =
     [ "buildP1_Disc_Q2_3DBFS", "classFEDD_1_1MeshStructured.html#a4a45c4a418a5d1429d8005971dab53e4", null ],
     [ "buildP1_Disc_Q2_3DCube", "classFEDD_1_1MeshStructured.html#a7e8c1058ba0893b419bf124186f0af47", null ],
     [ "buildSurfaceLinesSquare", "classFEDD_1_1MeshStructured.html#acdc81ce6f44ced503b727eac302ccdad", null ],
-    [ "buildSurfaceLinesSquareMiniTPM", "classFEDD_1_1MeshStructured.html#ad129fdae48f363a994039b4b7a45e7fd", null ],
-    [ "buildSurfaces", "classFEDD_1_1MeshStructured.html#ab977157a85c51fddeb85e9757c58a400", null ],
-    [ "setStructuredMeshFlags", "classFEDD_1_1MeshStructured.html#afbb54034745a907dc56b1cf820d7d48b", null ]
+    [ "buildSurfaceLinesSquareMiniTPM", "classFEDD_1_1MeshStructured.html#a1ed654dd6f586f5ebf96d7a718bdfccb", null ],
+    [ "buildSurfaces", "classFEDD_1_1MeshStructured.html#acabb53798fda1faf3d7a9bd94dbd1fb4", null ],
+    [ "setStructuredMeshFlags", "classFEDD_1_1MeshStructured.html#ad2423f3945b43adc51b62a070a41fbc2", null ]
 ];

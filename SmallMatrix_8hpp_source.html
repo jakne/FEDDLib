@@ -463,14 +463,14 @@ $(function(){initNavTree('SmallMatrix_8hpp_source.html',''); initResizable(true)
 <div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    </div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    <span class="keywordtype">double</span> scaling;</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>    <span class="keywordflow">if</span> (size_==2)</div>
-<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        scaling = sqrt( values_[0][0] * values_[0][0] + values_[1][0] * values_[1][0] );</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>        scaling = std::sqrt( values_[0][0] * values_[0][0] + values_[1][0] * values_[1][0] );</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(size_==3){</div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>        </div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>        <span class="keywordtype">double</span> c1 = ( values_[1][0] * values_[2][1] - values_[2][0] * values_[1][1] );</div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>        <span class="keywordtype">double</span> c2 = ( values_[2][0] * values_[0][1] - values_[0][0] * values_[2][1] );</div>
 <div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>        <span class="keywordtype">double</span> c3 = ( values_[0][0] * values_[1][1] - values_[1][0] * values_[0][1] );</div>
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>        </div>
-<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>        scaling = sqrt( c1*c1 + c2*c2 + c3*c3 );</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>        scaling = std::sqrt( c1*c1 + c2*c2 + c3*c3 );</div>
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>    }</div>
 <div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>    <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>        TEUCHOS_TEST_FOR_EXCEPTION(<span class="keyword">true</span>,std::logic_error,<span class="stringliteral">&quot;Matrix size is not 2 or 3.&quot;</span>);</div>
