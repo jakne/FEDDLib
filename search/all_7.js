@@ -82,6 +82,5 @@ var searchData=
   ['gettupleelement_79',['getTupleElement',['../classFEDD_1_1AssembleFE.html#a4d5d128fbd72747e01af917b16cee6f6',1,'FEDD::AssembleFE']]],
   ['getviscosity_80',['getViscosity',['../classFEDD_1_1CarreauYasuda.html#aa40a0ae9d2fbd4474d0b6825c73f1f6a',1,'FEDD::CarreauYasuda::getViscosity()'],['../classFEDD_1_1Dimless__Carreau.html#a0b36efb45c8d9af406c2122e20c00547',1,'FEDD::Dimless_Carreau::getViscosity()']]],
   ['globalalgorithm_81',['globalAlgorithm',['../classFEDD_1_1AdaptiveMeshRefinement.html#a10f773edf498ea2bcc21c5b1dc36a32e',1,'FEDD::AdaptiveMeshRefinement']]],
-  ['grad_82',['Grad',['../classFEDD_1_1Helper.html#a9cb6017aaedca354e0402b8ff3b70844a1b2c0b407eeb884b3d1f6e4cdbd354d5',1,'FEDD::Helper']]],
-  ['gradphi_83',['gradPhi',['../classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49',1,'FEDD::ErrorEstimation::gradPhi()'],['../classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37',1,'FEDD::Helper::gradPhi()']]]
+  ['gradphi_82',['gradPhi',['../classFEDD_1_1ErrorEstimation.html#a74e71e6f93d83fba059694630b01fc49',1,'FEDD::ErrorEstimation::gradPhi()'],['../classFEDD_1_1Helper.html#a86db0eff29bd3d7e6d7853436a9e5e37',1,'FEDD::Helper::gradPhi()']]]
 ];

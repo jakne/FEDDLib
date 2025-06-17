@@ -109,8 +109,8 @@ $(function(){initNavTree('classFEDD_1_1Helper.html',''); initResizable(true); })
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9cb6017aaedca354e0402b8ff3b70844" id="r_a9cb6017aaedca354e0402b8ff3b70844"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844">VarType</a> { <a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844ad1258f74a7555232acfcffd74b5b0b6c">Std</a> = 0
-, <a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844a1b2c0b407eeb884b3d1f6e4cdbd354d5">Grad</a> = 1
+<tr class="memitem:a9cb6017aaedca354e0402b8ff3b70844" id="r_a9cb6017aaedca354e0402b8ff3b70844"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844">VarType</a> { <a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844a5a431b8442b3aaf9c0abe9dd0cea388b">Deriv0</a> = 0
+, <a class="el" href="#a9cb6017aaedca354e0402b8ff3b70844acb222fb4340b7d80e7f541bbb9d93cc8">Deriv1</a> = 1
  }</td></tr>
 <tr class="memdesc:a9cb6017aaedca354e0402b8ff3b70844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Order of derivative of a function.  <a href="#a9cb6017aaedca354e0402b8ff3b70844">More...</a><br /></td></tr>
 <tr class="separator:a9cb6017aaedca354e0402b8ff3b70844"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,9 +182,9 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>getPhiGlobal</b
 
 <p>Order of derivative of a function. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9cb6017aaedca354e0402b8ff3b70844ad1258f74a7555232acfcffd74b5b0b6c" name="a9cb6017aaedca354e0402b8ff3b70844ad1258f74a7555232acfcffd74b5b0b6c"></a>Std&#160;</td><td class="fielddoc"><p>order 0, f(x) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9cb6017aaedca354e0402b8ff3b70844a5a431b8442b3aaf9c0abe9dd0cea388b" name="a9cb6017aaedca354e0402b8ff3b70844a5a431b8442b3aaf9c0abe9dd0cea388b"></a>Deriv0&#160;</td><td class="fielddoc"><p>order 0, f(x) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9cb6017aaedca354e0402b8ff3b70844a1b2c0b407eeb884b3d1f6e4cdbd354d5" name="a9cb6017aaedca354e0402b8ff3b70844a1b2c0b407eeb884b3d1f6e4cdbd354d5"></a>Grad&#160;</td><td class="fielddoc"><p>order 1, gradient(f(x)) </p>
+<tr><td class="fieldname"><a id="a9cb6017aaedca354e0402b8ff3b70844acb222fb4340b7d80e7f541bbb9d93cc8" name="a9cb6017aaedca354e0402b8ff3b70844acb222fb4340b7d80e7f541bbb9d93cc8"></a>Deriv1&#160;</td><td class="fielddoc"><p>order 1, gradient(f(x)) </p>
 </td></tr>
 </table>
 
@@ -580,7 +580,7 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">dim</td><td>Dimension of the domain. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">FEType</td><td>Finite element type, e.g., "P1", "Q2" etc. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">orderOfDerivative</td><td>{Std,Grad} Order of the derivative: order=0 (type=Std) is the original function, order=1 (type=Grad) is the gradient, i.e., the first derivative.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">orderOfDerivative</td><td>{Deriv0,Deriv1} Order of the derivative: order=0 (type=Deriv0) is the original function, order=1 (type=Deriv1) is the gradient, i.e., the first derivative.</td></tr>
   </table>
   </dd>
 </dl>

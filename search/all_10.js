@@ -40,8 +40,7 @@ var searchData=
   ['smallmatrix_3c_20sc_20_3e_37',['SmallMatrix&lt; SC &gt;',['../classFEDD_1_1SmallMatrix.html',1,'FEDD']]],
   ['smtstructure_38',['SMTStructure',['../structSMTStructure.html',1,'']]],
   ['sourceterm_5f_39',['sourceTerm_',['../classFEDD_1_1Problem.html#a8ab364ed3f0be15fcd70cb39c36f169e',1,'FEDD::Problem']]],
-  ['std_40',['Std',['../classFEDD_1_1Helper.html#a9cb6017aaedca354e0402b8ff3b70844ad1258f74a7555232acfcffd74b5b0b6c',1,'FEDD::Helper']]],
-  ['stokes_41',['Stokes',['../classFEDD_1_1Stokes.html',1,'FEDD']]],
-  ['sumintoglobalvalue_42',['sumIntoGlobalValue',['../classFEDD_1_1MultiVector.html#a8b6e3c804e9f8bedbb3339f2b762b53a',1,'FEDD::MultiVector']]],
-  ['surfaceelements_43',['SurfaceElements',['../classFEDD_1_1SurfaceElements.html',1,'FEDD']]]
+  ['stokes_40',['Stokes',['../classFEDD_1_1Stokes.html',1,'FEDD']]],
+  ['sumintoglobalvalue_41',['sumIntoGlobalValue',['../classFEDD_1_1MultiVector.html#a8b6e3c804e9f8bedbb3339f2b762b53a',1,'FEDD::MultiVector']]],
+  ['surfaceelements_42',['SurfaceElements',['../classFEDD_1_1SurfaceElements.html',1,'FEDD']]]
 ];
