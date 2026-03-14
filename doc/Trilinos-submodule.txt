@@ -4,6 +4,9 @@ You can find the URL to the referenced repository in the root folder in .gitmodu
    git submodule update --init -- trilinos
 If you simply want to find the commit that is referenced, use
    git submodule status
+If you want to deinitialize the submodule (that is, remove the files but not the submodule), run the following two commands
+   git submodule deinit -f -- trilinos
+   rm -rf .git/modules/trilinos
 
 Updating the reference:
 As a rule, we reference a release version of Trilinos, for example, trilinos-release-17-0-branch. As releases come out regularly, or may contain bugs that affect us, we deviate from the rule in these cases and select another, working commit (cf. the discussion at PR #129: https://github.com/FEDDLib/FEDDLib/pull/129).
