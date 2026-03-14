@@ -4,3 +4,15 @@ You can find the URL to the referenced repository in the root folder in .gitmodu
    git submodule update --init -- trilinos
 If you simply want to find the commit that is referenced, use
    git submodule status
+
+Updating the reference:
+As a rule, we reference a release version of Trilinos, for example, trilinos-release-17-0-branch. As releases come out regularly, or may contain bugs that affect us, we deviate from the rule in these cases and select another, working commit (cf. the discussion at PR #129: https://github.com/FEDDLib/FEDDLib/pull/129).
+To update the submodule's referenced commit, you can either (not the preferred method) check it out (you need to download the Trilinos repository into the submodule folder; see above), change the commit, and push that change, or (without pulling the repository):
+   git update-index --cacheinfo <mode>,<trilinos-commit-hash>,<trilinos-submodule-path>
+   <mode> is an identifier for the type of path. A normal file has the mode 100644, a directory 040000, a submodule 160000 etc.
+   <trilinos-commit-hash> Use "git log" to find the commit hash (may also be the shortened hash that GitHub displays)
+   <trilinos-submodule-path> This is "trilinos", i.e., the folder "trilinos" in the root folder of FEDDLib's repository
+For example:
+   git update-index --cacheinfo 160000,17c413db2b0bd43ff9e1d8d6c4f4aafde7da3b80,trilinos
+Then commit this change as you would any other change.
+
